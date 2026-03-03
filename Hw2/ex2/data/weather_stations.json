@@ -1,0 +1,66 @@
+{
+  "records": {
+    "Station": [
+      {
+        "StationName": "台北",
+        "StationId": "466920",
+        "GeoInfo": {
+          "County": "臺北市",
+          "Town": "中正區"
+        },
+        "GeoInfoCoordinates": [
+          {
+            "CoordinateName": "WGS84",
+            "Latitude": 25.0375,
+            "Longitude": 121.5625
+          },
+          {
+            "CoordinateName": "TWD97",
+            "Latitude": 2769940.45,
+            "Longitude": 307785.67
+          }
+        ]
+      },
+      {
+        "StationName": "台中",
+        "StationId": "467490",
+        "GeoInfo": {
+          "County": "臺中市",
+          "Town": "西區"
+        },
+        "GeoInfoCoordinates": [
+          {
+            "CoordinateName": "WGS84",
+            "Latitude": 24.1477,
+            "Longitude": 120.6736
+          },
+          {
+            "CoordinateName": "TWD97",
+            "Latitude": 2674053.78,
+            "Longitude": 231409.43
+          }
+        ]
+      },
+      {
+        "StationName": "高雄",
+        "StationId": "467440",
+        "GeoInfo": {
+          "County": "高雄市",
+          "Town": "前金區"
+        },
+        "GeoInfoCoordinates": [
+          {
+            "CoordinateName": "WGS84",
+            "Latitude": 22.6273,
+            "Longitude": 120.3014
+          },
+          {
+            "CoordinateName": "TWD97",
+            "Latitude": 2508463.12,
+            "Longitude": 138179.78
+          }
+        ]
+      }
+    ]
+  }
+}
