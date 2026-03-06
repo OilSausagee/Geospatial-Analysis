@@ -10,7 +10,9 @@
 📂 aqi-analysis/
 ├── 📂 data/
 │   ├── shelters_cleaned.csv              # 原始避難所資料
-│   └── shelters_wgs84.csv              # CRS 轉換後資料
+│   ├── shelters_wgs84.csv              # CRS 轉換後資料
+│   ├── simulated_aqi_stations.csv       # 模擬 AQI 資料
+│   └── 避難收容處所_增強版.csv        # 增強版資料
 ├── 📂 scripts/
 │   ├── shelter_aqi_analysis.py           # 主要分析腳本
 │   └── crs_conversion.py               # CRS 轉換工具
@@ -18,11 +20,13 @@
     ├── shelter_aqi_analysis.csv           # 完整分析結果
     ├── shelter_aqi_risk_analysis.png      # 風險分析視覺化
     ├── shelter_aqi_risk_report.html      # 詳細分析報告
+    ├── shelter_spatial_audit_report.html  # 空間審計報告
+    ├── shelter_spatial_audit_visualization.png  # 審計視覺化
+    ├── spatial_overlay_analysis_report.html  # 疊圖分析報告
+    ├── spatial_overlay_map.html          # 互動式空間疊圖
     ├── audit_report.md                   # 空間審計報告
     └── reflection.md                     # 深度反思報告
 ```
-
-**歷史開發目錄**: `Week 2/Hw2/` (包含原始開發檔案)
 
 ## 🎯 分析任務
 
