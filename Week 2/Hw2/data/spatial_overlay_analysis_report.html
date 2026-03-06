@@ -1,0 +1,80 @@
+
+        <!DOCTYPE html>
+        <html lang="zh-TW">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>空間疊圖分析報告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                .header { background-color: #f4f4f4; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+                .section { margin-bottom: 30px; }
+                .summary { background-color: #e8f5e8; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                .warning { background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                .error { background-color: #f8d7da; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .status-good { color: #28a745; font-weight: bold; }
+                .status-warning { color: #ffc107; font-weight: bold; }
+                .status-error { color: #dc3545; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🗺️ 空間疊圖分析報告</h1>
+                <p>AQI 測站與避難收容處所空間關係分析</p>
+                <p>分析時間: 2026-03-06 16:32:24</p>
+            </div>
+            
+            <div class="section">
+                <h2>📊 資料概覽</h2>
+                <div class="summary">
+                    <p><strong>AQI 測站數量:</strong> 84</p>
+                    <p><strong>避難所數量:</strong> 5973</p>
+                    <p><strong>有效座標避難所:</strong> 5878</p>
+                    <p><strong>無效座標避難所:</strong> 95</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🔍 座標驗證結果</h2>
+                <div class="warning">
+                    <h3>AQI 測站</h3>
+                    <p><strong>有效座標:</strong> 82</p>
+                    <p><strong>無效座標:</strong> 2</p>
+                    
+                    <h3>避難收容處所</h3>
+                    <p><strong>有效座標:</strong> 5878</p>
+                    <p><strong>無效座標:</strong> 95</p>
+                    
+                    <div class="error"><p><strong>⚠️ 警告:</strong> 發現 95 個座標異常的避難所</p></div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📏 鄰近性分析</h2>
+                <div class="summary">
+                    <p><strong>分析總數:</strong> 84</p>
+                    <p><strong>平均距離:</strong> 487.19 公尺</p>
+                    <p><strong>中位數距離:</strong> 157.75 公尺</p>
+                    <p><strong>距離範圍:</strong> 15.45 - 5806.77 公尺</p>
+                    <p><strong>1公里內有避難所:</strong> 75 個測站</p>
+                    <p><strong>5公里內有避難所:</strong> 82 個測站</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>💡 分析結論</h2>
+                <div class="summary">
+                    <ul>
+                        <li>空間疊圖成功整合 AQI 測站與避難所資料</li>
+                        <li>地圖提供互動式圖層控制功能</li>
+                        <li>鄰近性分析顯示測站與避難所的空間關係</li>
+                        <li>座標驗證確保資料品質</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+        </html>
+        
