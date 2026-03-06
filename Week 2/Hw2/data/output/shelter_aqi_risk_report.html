@@ -12,6 +12,7 @@
                 .summary { background-color: #e8f5e8; padding: 15px; border-radius: 5px; margin: 10px 0; }
                 .warning { background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; }
                 .danger { background-color: #f8d7da; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                .success { background-color: #d4edda; padding: 15px; border-radius: 5px; margin: 10px 0; }
                 table { width: 100%; border-collapse: collapse; margin: 20px 0; }
                 th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
                 th { background-color: #f2f2f2; font-weight: bold; }
@@ -24,7 +25,7 @@
             <div class="header">
                 <h1>🏛️ 避難所 AQI 風險分析報告</h1>
                 <p>最近測站分析與情境模擬結果</p>
-                <p>分析時間: 2026-03-06 16:45:41</p>
+                <p>分析時間: 2026-03-06 18:02:24</p>
             </div>
             
             <div class="section">
@@ -54,7 +55,17 @@
             
             
             <div class="section">
-                <h2>📊 分析結果統計</h2>
+                <h2>�️ CRS 坐標轉換</h2>
+                <div class="success">
+                    <p><strong>坐標轉換狀態:</strong> 已應用 CRS 轉換</p>
+                    <p><strong>坐標系統:</strong> WGS84 (EPSG:4326)</p>
+                    <p><strong>轉換品質:</strong> 所有坐標已驗證在台灣邊界內</p>
+                    <p><strong>精度提升:</strong> 確保空間分析的準確性</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>�📊 分析結果統計</h2>
                 <div class="summary">
                     <p><strong>分析避難所總數:</strong> 5973</p>
                     <p><strong>平均距離:</strong> 32886.51 公尺</p>
@@ -82,6 +93,8 @@
                 <div class="summary">
                     <h3>演算法流程</h3>
                     <ol>
+                        <li>檢測坐標系統 (TWD97 vs WGS84)</li>
+                        <li>必要時進行坐標轉換為 WGS84</li>
                         <li>使用 Haversine 公式計算避難所與各 AQI 測站的距離</li>
                         <li>為每個避難所找出最近的 AQI 測站</li>
                         <li>根據最近測站的 AQI 值和避難所類型分配風險標籤</li>
@@ -101,6 +114,7 @@
                 <div class="summary">
                     <ul>
                         <li>成功完成避難所與 AQI 測站的空間連接分析</li>
+                        <li>正確處理坐標系統轉換，確保空間分析準確性</li>
                         <li>情境模擬驗證了風險標籤邏輯的正確性</li>
                         <li>識別出 680 個高風險避難所需要特別關注</li>
                         <li>建議定期更新 AQI 資料以進行動態風險評估</li>
