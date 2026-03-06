@@ -1,0 +1,112 @@
+
+        <!DOCTYPE html>
+        <html lang="zh-TW">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>避難所 AQI 風險分析報告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                .header { background-color: #f4f4f4; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+                .section { margin-bottom: 30px; }
+                .summary { background-color: #e8f5e8; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                .warning { background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                .danger { background-color: #f8d7da; padding: 15px; border-radius: 5px; margin: 10px 0; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .risk-high { color: #dc3545; font-weight: bold; }
+                .risk-warning { color: #ffc107; font-weight: bold; }
+                .risk-safe { color: #28a745; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🏛️ 避難所 AQI 風險分析報告</h1>
+                <p>最近測站分析與情境模擬結果</p>
+                <p>分析時間: 2026-03-06 16:45:41</p>
+            </div>
+            
+            <div class="section">
+                <h2>🌍 空氣品質狀況</h2>
+                <div class="warning">
+                    <p><strong>總測站數:</strong> 12</p>
+                    <p><strong>AQI 範圍:</strong> 28 - 45</p>
+                    <p><strong>平均 AQI:</strong> 35.8</p>
+                    <p><strong>AQI < 50:</strong> 12 個測站</p>
+                    <p><strong>AQI ≥ 50:</strong> 0 個測站</p>
+                    <p><strong>AQI ≥ 100:</strong> 0 個測站</p>
+                    
+                    <div class="warning"><p><strong>⚠️ 情境模擬:</strong> 由於全台空氣品質良好，已進行情境注入測試</p></div>
+                </div>
+            </div>
+            
+            
+            <div class="section">
+                <h2>🎯 情境模擬詳情</h2>
+                <div class="warning">
+                    <p><strong>目標測站:</strong> 高雄</p>
+                    <p><strong>測站位置:</strong> 高雄市</p>
+                    <p><strong>AQI 變更:</strong> 33 → 150</p>
+                    <p><strong>新的等級:</strong> 對敏感族群不健康</p>
+                </div>
+            </div>
+            
+            
+            <div class="section">
+                <h2>📊 分析結果統計</h2>
+                <div class="summary">
+                    <p><strong>分析避難所總數:</strong> 5973</p>
+                    <p><strong>平均距離:</strong> 32886.51 公尺</p>
+                    <p><strong>距離範圍:</strong> 40.05 - 11737956.77 公尺</p>
+                </div>
+                
+                <h3>風險分佈</h3>
+                <table>
+                    <tr><th>風險等級</th><th>數量</th><th>百分比</th></tr>
+                    <tr><td class="risk-high">High Risk</td><td>680</td><td>11.4%</td></tr>
+                    <tr><td class="risk-warning">Warning</td><td>0</td><td>0.0%</td></tr>
+                    <tr><td class="risk-safe">Safe</td><td>5293</td><td>88.6%</td></tr>
+                </table>
+                
+                <h3>室內/室外分佈</h3>
+                <table>
+                    <tr><th>類型</th><th>數量</th></tr>
+                    <tr><td>室內避難所</td><td>5973</td></tr>
+                    <tr><td>室外避難所</td><td>0</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>🔍 分析方法</h2>
+                <div class="summary">
+                    <h3>演算法流程</h3>
+                    <ol>
+                        <li>使用 Haversine 公式計算避難所與各 AQI 測站的距離</li>
+                        <li>為每個避難所找出最近的 AQI 測站</li>
+                        <li>根據最近測站的 AQI 值和避難所類型分配風險標籤</li>
+                    </ol>
+                    
+                    <h3>風險標籤規則</h3>
+                    <ul>
+                        <li><strong>High Risk:</strong> 最近 AQI 測站 > 100</li>
+                        <li><strong>Warning:</strong> 最近 AQI 測站 > 50 且避難所為室外</li>
+                        <li><strong>Safe:</strong> 其他情況</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>💡 結論與建議</h2>
+                <div class="summary">
+                    <ul>
+                        <li>成功完成避難所與 AQI 測站的空間連接分析</li>
+                        <li>情境模擬驗證了風險標籤邏輯的正確性</li>
+                        <li>識別出 680 個高風險避難所需要特別關注</li>
+                        <li>建議定期更新 AQI 資料以進行動態風險評估</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+        </html>
+        
