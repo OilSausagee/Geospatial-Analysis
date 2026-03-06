@@ -6,20 +6,41 @@
 
 ## 🗂️ 專案結構
 
+### 主要分析目錄
 ```
-Week 2/
-└── Hw2/
-    ├── data/
-    │   └── 避難收容處所點位檔案v9.csv          # 原始避難所資料
-    ├── scripts/
-    │   ├── shelter_spatial_audit.py           # 空間審計工具
-    │   └── spatial_overlay_analysis.py       # 空間疊圖分析
-    └── output/
-        ├── spatial_overlay_map.html          # 互動式空間疊圖
-        ├── spatial_overlay_analysis_report.html  # 疊圖分析報告
-        ├── shelter_spatial_audit_report.html    # 空間審計報告
-        ├── shelter_spatial_audit_visualization.png  # 審計視覺化
-        └── 避難收容處所_增強版.csv              # 增強版資料
+📂 aqi-analysis/
+├── 📂 data/
+│   ├── shelters_cleaned.csv              # 原始避難所資料
+│   └── shelters_wgs84.csv              # CRS 轉換後資料
+├── 📂 scripts/
+│   ├── shelter_aqi_analysis.py           # 主要分析腳本
+│   └── crs_conversion.py               # CRS 轉換工具
+└── 📂 outputs/
+    ├── shelter_aqi_analysis.csv           # 完整分析結果
+    ├── shelter_aqi_risk_analysis.png      # 風險分析視覺化
+    ├── shelter_aqi_risk_report.html      # 詳細分析報告
+    ├── audit_report.md                   # 空間審計報告
+    └── reflection.md                     # 深度反思報告
+```
+
+### 歷史開發目錄 (Week 2/Hw2/)
+```
+📂 Week 2/Hw2/
+├── 📂 data/
+│   ├── 避難收容處所點位檔案v9.csv    # 原始避難所資料
+│   └── shelters_wgs84.csv              # CRS 轉換後資料
+├── 📂 scripts/
+│   ├── shelter_spatial_audit.py           # 空間審計工具
+│   ├── spatial_overlay_analysis.py       # 空間疊圖分析
+│   └── nearest_neighbor_analysis.py      # 最近測站分析
+└── 📂 output/
+    ├── spatial_overlay_map.html          # 互動式空間疊圖
+    ├── spatial_overlay_analysis_report.html  # 疊圖分析報告
+    ├── shelter_spatial_audit_report.html    # 空間審計報告
+    ├── shelter_spatial_audit_visualization.png  # 審計視覺化
+    ├── simulated_aqi_stations.csv       # 模擬 AQI 資料
+    ├── 避難收容處所_增強版.csv        # 增強版資料
+    └── shelter_aqi_risk_analysis.png      # 風險分析視覺化
 ```
 
 ## 🎯 分析任務
