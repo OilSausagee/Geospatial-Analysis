@@ -33,10 +33,10 @@ class CRSTransformer:
         is_wgs84 = True
         reasons = []
         
-        # 檢查經緯度範圍是否符合 WGS84
-        if (lon_range[0] >= 119.0 and lon_range[1] <= 122.5 and
-            lat_range[0] >= 21.0 and lat_range[1] <= 25.5):
-            reasons.append("坐標範圍符合台灣 WGS84 範圍")
+        # 檢查經緯度範圍是否符合 WGS84（包含離島）
+        if (lon_range[0] >= 118.0 and lon_range[1] <= 123.0 and
+            lat_range[0] >= 21.0 and lat_range[1] <= 27.0):
+            reasons.append("坐標範圍符合台灣地區 WGS84 範圍（包含離島）")
             is_wgs84 = True
         else:
             reasons.append("坐標範圍超出標準 WGS84 範圍")
@@ -72,8 +72,10 @@ class CRSTransformer:
             self.conversion_applied = True
             print("✅ 坐標轉換完成")
         else:
-            print("✅ 坐標已為 WGS84，無需轉換")
+            print("✅ 坐標已為 WGS84，進行驗證...")
+            df = self.convert_to_wgs84(df)  # 仍然執行驗證
             self.conversion_applied = False
+            print("✅ 坐標驗證完成")
         
         return df
     
@@ -85,20 +87,64 @@ class CRSTransformer:
         # 過濾並驗證坐標
         valid_coords = df.dropna(subset=['經度', '緯度'])
         
-        # 台灣邊界
+        # 台灣地區邊界（包含離島）
         taiwan_bounds = {
-            'min_lat': 21.0, 'max_lat': 25.5,
-            'min_lon': 119.0, 'max_lon': 122.5
+            'min_lat': 21.0, 'max_lat': 27.0,    # 擴大緯度範圍
+            'min_lon': 118.0, 'max_lon': 123.0    # 包含金門、馬祖
         }
         
-        # 標記異常坐標
+        # 明確定義離島地區的邊界
+        outlying_islands = {
+            'kinmen': {'min_lat': 24.0, 'max_lat': 24.5, 'min_lon': 118.0, 'max_lon': 118.5},
+            'matsu': {'min_lat': 25.9, 'max_lat': 26.5, 'min_lon': 119.8, 'max_lon': 120.5}
+        }
+        
+        # 標記異常坐標並分類
+        mainland_count = 0
+        island_count = 0
+        invalid_count = 0
+        invalid_indices = []
+        
         for idx, row in valid_coords.iterrows():
             lat, lon = row['緯度'], row['經度']
             
-            # 檢查是否在合理範圍內
-            if not (taiwan_bounds['min_lat'] <= lat <= taiwan_bounds['max_lat'] and
-                   taiwan_bounds['min_lon'] <= lon <= taiwan_bounds['max_lon']):
+            # 檢查是否完全無效
+            if lat == 0.0 or lon == 0.0:
+                print(f"❌ 無效坐標 {idx}: {row['避難收容處所名稱']} ({lat}, {lon})")
+                invalid_count += 1
+                invalid_indices.append(idx)
+                continue
+            
+            # 檢查是否在台灣地區範圍內
+            if (taiwan_bounds['min_lat'] <= lat <= taiwan_bounds['max_lat'] and
+                taiwan_bounds['min_lon'] <= lon <= taiwan_bounds['max_lon']):
+                
+                # 檢查是否為離島地區
+                is_island = False
+                for island_name, bounds in outlying_islands.items():
+                    if (bounds['min_lat'] <= lat <= bounds['max_lat'] and
+                        bounds['min_lon'] <= lon <= bounds['max_lon']):
+                        island_count += 1
+                        is_island = True
+                        break
+                
+                if not is_island:
+                    mainland_count += 1
+            else:
                 print(f"⚠️ 異常坐標 {idx}: {row['避難收容處所名稱']} ({lat}, {lon})")
+                invalid_count += 1
+                invalid_indices.append(idx)
+        
+        print(f"\n📊 坐標統計:")
+        print(f"  台灣本島: {mainland_count} 個")
+        print(f"  離島地區: {island_count} 個")
+        print(f"  無效坐標: {invalid_count} 個")
+        
+        # 移除無效坐標的資料
+        if invalid_indices:
+            print(f"\n🗑️ 移除 {len(invalid_indices)} 個無效坐標...")
+            df = df.drop(invalid_indices)
+            print(f"✅ 剩餘有效避難所: {len(df)} 個")
         
         return df
 
@@ -691,15 +737,15 @@ def main():
     }
     
     aqi_df = pd.DataFrame(aqi_data)
-    aqi_file = Path("/Users/youchangxin/Desktop/class/01_analy/Week 2/Hw2/output") / "simulated_aqi_stations.csv"
+    aqi_file = Path("/Users/youchangxin/Desktop/class/01_analy/aqi-analysis/data") / "simulated_aqi_stations.csv"
     aqi_file.parent.mkdir(parents=True, exist_ok=True)
     aqi_df.to_csv(aqi_file, index=False, encoding='utf-8-sig')
     
-    shelter_file = "/Users/youchangxin/Desktop/class/01_analy/Week 2/Hw2/data/避難收容處所_增強版.csv"
+    shelter_file = "/Users/youchangxin/Desktop/class/01_analy/aqi-analysis/data/避難收容處所_增強版.csv"
     
     # 如果增強版檔案不存在，使用原始檔案
     if not Path(shelter_file).exists():
-        shelter_file = "/Users/youchangxin/Desktop/class/01_analy/Week 2/Hw2/data/避難收容處所點位檔案v9.csv"
+        shelter_file = "/Users/youchangxin/Desktop/class/01_analy/aqi-analysis/data/shelters_cleaned.csv"
     
     analyzer = NearestNeighborAnalysis(str(aqi_file), shelter_file)
     results = analyzer.run_complete_analysis()
