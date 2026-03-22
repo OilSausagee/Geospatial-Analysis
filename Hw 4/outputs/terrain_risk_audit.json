@@ -1,0 +1,142 @@
+[
+  {
+    "shelter_id": "0",
+    "name": "花蓮市避難所_01",
+    "risk_level": "極高風險",
+    "mean_elevation": 45.2,
+    "max_slope": 35.8,
+    "std_elevation": 12.5,
+    "river_distance": 280.5,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 255000.0,
+      "y": 2655000.0
+    }
+  },
+  {
+    "shelter_id": "1",
+    "name": "吉安鄉避難所_02",
+    "risk_level": "高風險",
+    "mean_elevation": 78.6,
+    "max_slope": 32.1,
+    "std_elevation": 18.3,
+    "river_distance": 680.3,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 258000.0,
+      "y": 2658000.0
+    }
+  },
+  {
+    "shelter_id": "2",
+    "name": "壽豐鄉避難所_03",
+    "risk_level": "高風險",
+    "mean_elevation": 125.4,
+    "max_slope": 31.5,
+    "std_elevation": 22.7,
+    "river_distance": 1200.8,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 262000.0,
+      "y": 2662000.0
+    }
+  },
+  {
+    "shelter_id": "3",
+    "name": "新城鄉避難所_04",
+    "risk_level": "中風險",
+    "mean_elevation": 35.8,
+    "max_slope": 15.2,
+    "std_elevation": 8.9,
+    "river_distance": 850.6,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 252000.0,
+      "y": 2652000.0
+    }
+  },
+  {
+    "shelter_id": "4",
+    "name": "秀林鄉避難所_05",
+    "risk_level": "中風險",
+    "mean_elevation": 42.1,
+    "max_slope": 18.7,
+    "std_elevation": 15.4,
+    "river_distance": 920.3,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 265000.0,
+      "y": 2665000.0
+    }
+  },
+  {
+    "shelter_id": "5",
+    "name": "鳳林鎮避難所_06",
+    "risk_level": "低風險",
+    "mean_elevation": 156.8,
+    "max_slope": 12.3,
+    "std_elevation": 25.1,
+    "river_distance": 1850.7,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 268000.0,
+      "y": 2668000.0
+    }
+  },
+  {
+    "shelter_id": "6",
+    "name": "光復鄉避難所_07",
+    "risk_level": "低風險",
+    "mean_elevation": 189.4,
+    "max_slope": 8.9,
+    "std_elevation": 28.6,
+    "river_distance": 2100.2,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 271000.0,
+      "y": 2670000.0
+    }
+  },
+  {
+    "shelter_id": "7",
+    "name": "瑞穗鄉避難所_08",
+    "risk_level": "低風險",
+    "mean_elevation": 203.7,
+    "max_slope": 14.6,
+    "std_elevation": 31.2,
+    "river_distance": 1680.9,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 269000.0,
+      "y": 2672000.0
+    }
+  },
+  {
+    "shelter_id": "8",
+    "name": "玉里鎮避難所_09",
+    "risk_level": "中風險",
+    "mean_elevation": 28.5,
+    "max_slope": 22.4,
+    "std_elevation": 11.8,
+    "river_distance": 780.4,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 256000.0,
+      "y": 2656000.0
+    }
+  },
+  {
+    "shelter_id": "9",
+    "name": "富里鄉避難所_10",
+    "risk_level": "低風險",
+    "mean_elevation": 267.3,
+    "max_slope": 19.8,
+    "std_elevation": 35.7,
+    "river_distance": 2450.1,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 273000.0,
+      "y": 2674000.0
+    }
+  }
+]
