@@ -39,7 +39,10 @@ pip install rioxarray rasterstats geopandas python-dotenv matplotlib numpy panda
 ### 資料需求
 - **向量資料**：水利署河川面 Shapefile、消防署避難收容所 CSV、國土測繪中心鄉鎮界
 - **網格資料**：內政部地政司 20m DEM (GeoTIFF)
-- **坐標系統**：EPSG:3826 (TWD97/TM2)
+  - **真實資料**：`dem/不分幅_全台20MDEM(2025)/DEM_tawiwan_V2025.tif` (722MB)
+  - **坐標系統**：EPSG:3826 (TWD97/TM2)
+  - **解析度**：20m × 20m
+  - **處理方式**：自動裁切至目標縣市範圍
 
 ---
 
@@ -54,13 +57,14 @@ BUFFER_HIGH=500
 # 目標分析區域
 TARGET_COUNTY=花蓮縣
 
-# 資料路徑（Colab 環境）
-DEM_PATH=/content/drive/MyDrive/GIS_data/dem_20m_hualien.tif
+# 資料路徑（本地環境 - 使用真實 DEM）
+DEM_PATH=./dem/不分幅_全台20MDEM(2025)/DEM_tawiwan_V2025.tif
+OUTPUT_PATH=./outputs/
 ```
 
 ---
 
-### 🚀 使用方法
+### 使用方法
 
 ### 1. 本地開發
 ```bash
@@ -68,14 +72,22 @@ DEM_PATH=/content/drive/MyDrive/GIS_data/dem_20m_hualien.tif
 git clone <repository-url>
 cd Hw\ 4
 
+# 確保 DEM 資料存在
+ls dem/不分幅_全台20MDEM(2025)/DEM_tawiwan_V2025.tif
+
 # 安裝套件
-pip install -r requirements.txt
+pip install rioxarray rasterstats geopandas python-dotenv matplotlib numpy pandas scipy
 
 # 執行分析
 jupyter notebook ARIA_v2.ipynb
 ```
 
-### 2. Google Colab
+### 2. 資料準備
+- **DEM 資料**：確保 `dem/不分幅_全台20MDEM(2025)/DEM_tawiwan_V2025.tif` 存在
+- **記憶體需求**：建議至少 8GB RAM（DEM 檔案較大）
+- **處理時間**：完整分析約需 5-10 分鐘（依電腦效能而定）
+
+### 3. Google Colab
 1. 上傳 `ARIA_v2.ipynb` 到 Google Colab
 2. 將 DEM 檔案放置於 Google Drive
 3. 修改 `.env` 中的路徑設定
@@ -118,30 +130,26 @@ shelters_in_county['mean_elevation'] = shelters_in_county['mean_elevation'].fill
 
 ---
 
-#### 💾 問題 2: DEM 記憶體管理
-
-**症狀**：
-- 全台 DEM 檔案 (>500MB) 導致 Colab 記憶體不足
-- 大範圍處理造成系統崩潰
-
-**診斷過程**：
-1. 監控記憶體使用 - 發現 DEM 載入後記憶體使用率 > 90%
-2. 分析處理範圍 - 確認只需目標縣市 + 緩衝區
-3. 測試裁切策略 - 驗證不同裁切方法的記憶體效率
-
+#### 💾 問題 2: 大範圍 DEM 記憶體管理
+**症狀**：全台 DEM 檔案 (722MB) 導致記憶體不足和處理緩慢
+**原因**：完整載入全台灣 20m DEM 超出一般電腦記憶體容量
 **解決方案**：
+- 使用 `dem.rio.clip()` 預先裁切至目標縣市 + 1000m 緩衝區
+- 建立帶緩衝區的裁切邊界確保避難所 500m 緩衝區完整覆蓋
+- 添加記憶體使用監控和效能警告
+- 實作自動降採樣機制（當記憶體使用過高時）
+- **關鍵學習**：「先裁切，後分析」是大範圍 DEM 處理的黃金法則
+
 ```python
 # 預先裁切至目標區域 + 1000m 緩衝區
 clip_boundary = county_boundary.buffer(1000)
 dem_clipped = dem.rio.clip(clip_boundary.geometry[0], county_boundary.crs)
 
-# 本地開發使用模擬 DEM
-if not os.path.exists(dem_path):
-    # 建立模擬地形資料
-    x = np.linspace(250000, 270000, 100)
-    y = np.linspace(2650000, 2670000, 100)
-    xx, yy = np.meshgrid(x, y)
-    elevation = 100 + 500 * np.exp(-((xx-260000)**2 + (yy-2660000)**2) / 1e8)
+# 記憶體使用檢查
+dem_memory_mb = dem_clipped.nbytes / 1024 / 1024
+if dem_memory_mb > 500:
+    print(f"⚠️ 警告：DEM 記憶體使用 {dem_memory_mb:.1f} MB")
+    print("💡 建議：考慮降採樣或分區處理")
 ```
 
 **學習重點**：大範圍 DEM 處理必須採用「先裁切，後分析」的策略，避免不必要的記憶體消耗。
