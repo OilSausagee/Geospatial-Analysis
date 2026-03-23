@@ -1,0 +1,242 @@
+[
+  {
+    "shelter_id": "S_001",
+    "name": "避難收容所_1",
+    "risk_level": "高風險",
+    "mean_elevation": 162.33,
+    "max_slope": 43.03,
+    "std_elevation": 37.94,
+    "river_distance": 1836.11,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.48727005942368,
+      "y": 23.628383156897403
+    },
+    "capacity": 356,
+    "address": "花蓮縣XX鄉鎮1號"
+  },
+  {
+    "shelter_id": "S_003",
+    "name": "避難收容所_3",
+    "risk_level": "高風險",
+    "mean_elevation": 248.42,
+    "max_slope": 33.32,
+    "std_elevation": 5.93,
+    "river_distance": 2912.74,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.6659969709057,
+      "y": 23.867329502142567
+    },
+    "capacity": 70,
+    "address": "花蓮縣XX鄉鎮3號"
+  },
+  {
+    "shelter_id": "S_007",
+    "name": "避難收容所_7",
+    "risk_level": "高風險",
+    "mean_elevation": 193.31,
+    "max_slope": 36.41,
+    "std_elevation": 13.99,
+    "river_distance": 1591.28,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.32904180608409,
+      "y": 23.59764570245643
+    },
+    "capacity": 437,
+    "address": "花蓮縣XX鄉鎮7號"
+  },
+  {
+    "shelter_id": "S_009",
+    "name": "避難收容所_9",
+    "risk_level": "高風險",
+    "mean_elevation": 44.72,
+    "max_slope": 42.96,
+    "std_elevation": 48.45,
+    "river_distance": 2444.35,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.6005575058716,
+      "y": 23.756453290305583
+    },
+    "capacity": 365,
+    "address": "花蓮縣XX鄉鎮9號"
+  },
+  {
+    "shelter_id": "S_012",
+    "name": "避難收容所_12",
+    "risk_level": "高風險",
+    "mean_elevation": 118.34,
+    "max_slope": 31.5,
+    "std_elevation": 19.03,
+    "river_distance": 1608.2,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.784954926081,
+      "y": 23.63977164751085
+    },
+    "capacity": 314,
+    "address": "花蓮縣XX鄉鎮12號"
+  },
+  {
+    "shelter_id": "S_014",
+    "name": "避難收容所_14",
+    "risk_level": "高風險",
+    "mean_elevation": 377.01,
+    "max_slope": 40.79,
+    "std_elevation": 31.91,
+    "river_distance": 2773.44,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.40616955533913,
+      "y": 23.91469019820343
+    },
+    "capacity": 102,
+    "address": "花蓮縣XX鄉鎮14號"
+  },
+  {
+    "shelter_id": "S_002",
+    "name": "避難收容所_2",
+    "risk_level": "低風險",
+    "mean_elevation": 79.29,
+    "max_slope": 11.24,
+    "std_elevation": 7.61,
+    "river_distance": 2611.91,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.77535715320495,
+      "y": 23.712969570071674
+    },
+    "capacity": 184,
+    "address": "花蓮縣XX鄉鎮2號"
+  },
+  {
+    "shelter_id": "S_004",
+    "name": "避難收容所_4",
+    "risk_level": "低風險",
+    "mean_elevation": 336.33,
+    "max_slope": 13.49,
+    "std_elevation": 13.18,
+    "river_distance": 631.87,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 121.59932924209852,
+      "y": 23.80236151304948
+    },
+    "capacity": 378,
+    "address": "花蓮縣XX鄉鎮4號"
+  },
+  {
+    "shelter_id": "S_005",
+    "name": "避難收容所_5",
+    "risk_level": "低風險",
+    "mean_elevation": 135.61,
+    "max_slope": 25.99,
+    "std_elevation": 24.44,
+    "river_distance": 944.56,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 121.37800932022121,
+      "y": 23.70386039813863
+    },
+    "capacity": 216,
+    "address": "花蓮縣XX鄉鎮5號"
+  },
+  {
+    "shelter_id": "S_006",
+    "name": "避難收容所_6",
+    "risk_level": "低風險",
+    "mean_elevation": 252.5,
+    "max_slope": 10.58,
+    "std_elevation": 18.15,
+    "river_distance": 1162.45,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.3779972601681,
+      "y": 23.928297026305664
+    },
+    "capacity": 323,
+    "address": "花蓮縣XX鄉鎮6號"
+  },
+  {
+    "shelter_id": "S_008",
+    "name": "避難收容所_8",
+    "risk_level": "低風險",
+    "mean_elevation": 245.12,
+    "max_slope": 6.86,
+    "std_elevation": 32.34,
+    "river_distance": 594.52,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 121.73308807288747,
+      "y": 23.70450125397465
+    },
+    "capacity": 138,
+    "address": "花蓮縣XX鄉鎮8號"
+  },
+  {
+    "shelter_id": "S_010",
+    "name": "避難收容所_10",
+    "risk_level": "低風險",
+    "mean_elevation": 135.75,
+    "max_slope": 8.91,
+    "std_elevation": 35.79,
+    "river_distance": 1376.44,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.65403628889803,
+      "y": 23.819248988951927
+    },
+    "capacity": 63,
+    "address": "花蓮縣XX鄉鎮10號"
+  },
+  {
+    "shelter_id": "S_011",
+    "name": "避難收容所_11",
+    "risk_level": "低風險",
+    "mean_elevation": 66.37,
+    "max_slope": 24.81,
+    "std_elevation": 6.55,
+    "river_distance": 2737.03,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.3102922471479,
+      "y": 24.04962317297511
+    },
+    "capacity": 291,
+    "address": "花蓮縣XX鄉鎮11號"
+  },
+  {
+    "shelter_id": "S_013",
+    "name": "避難收容所_13",
+    "risk_level": "低風險",
+    "mean_elevation": 227.75,
+    "max_slope": 12.39,
+    "std_elevation": 48.63,
+    "river_distance": 2347.89,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.71622132040021,
+      "y": 23.859964106889528
+    },
+    "capacity": 395,
+    "address": "花蓮縣XX鄉鎮13號"
+  },
+  {
+    "shelter_id": "S_015",
+    "name": "避難收容所_15",
+    "risk_level": "低風險",
+    "mean_elevation": 53.63,
+    "max_slope": 12.84,
+    "std_elevation": 7.04,
+    "river_distance": 1043.46,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 121.39091248360354,
+      "y": 23.532515288903998
+    },
+    "capacity": 435,
+    "address": "花蓮縣XX鄉鎮15號"
+  }
+]
