@@ -69,6 +69,10 @@ TARGET_COUNTY=花蓮縣
 # 資料路徑（本地環境 - 使用真實 DEM）
 DEM_PATH=./dem/不分幅_全台20MDEM(2025)/DEM_tawiwan_V2025.tif
 OUTPUT_PATH=./outputs/
+
+# Google Colab 環境路徑範例
+# DEM_PATH=/content/drive/MyDrive/DEM_tawiwan_V2025.tif
+# OUTPUT_PATH=/content/drive/MyDrive/ARIA_v2_outputs/
 ```
 
 ---
@@ -99,8 +103,10 @@ jupyter notebook ARIA_v2.ipynb
 
 ### 3. Google Colab
 1. 上傳 `ARIA_v2.ipynb` 到 Google Colab
-2. 將 DEM 檔案放置於 Google Drive
-3. 修改 `.env` 中的路徑設定
+2. 從 Google Drive 存取 DEM 檔案：
+   - **Drive 連結**: https://drive.google.com/drive/folders/1_-ZZoMaTZDr0O_0Y4gHmtZyEnVvxaCeP?usp=share_link
+   - 包含真實的台灣 20m DEM 資料 (722MB)
+3. 修改 `.env` 中的路徑設定為 Google Drive 路徑
 4. 依序執行所有 cells
 
 ---
