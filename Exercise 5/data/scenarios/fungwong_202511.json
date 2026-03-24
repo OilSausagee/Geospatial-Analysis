@@ -1,0 +1,267 @@
+{
+  "success": "true",
+  "records": {
+    "Station": [
+      {
+        "StationName": "蘇澳",
+        "StationId": "C0V460",
+        "GeoInfo": {
+          "CountyName": "宜蘭縣",
+          "TownName": "蘇澳鎮"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "24.5956",
+            "StationLongitude": "121.8345"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "24.5956",
+            "StationLongitude": "121.8345"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "130.5",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "花蓮",
+        "StationId": "C0V470",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "花蓮市"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.9821",
+            "StationLongitude": "121.5578"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.9821",
+            "StationLongitude": "121.5578"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "85.2",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "吉安",
+        "StationId": "C0V471",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "吉安鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.9614",
+            "StationLongitude": "121.5452"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.9614",
+            "StationLongitude": "121.5452"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "65.8",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "壽豐",
+        "StationId": "C0V472",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "壽豐鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.8789",
+            "StationLongitude": "121.4821"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.8789",
+            "StationLongitude": "121.4821"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "45.3",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "玉里",
+        "StationId": "C0V473",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "玉里鎮"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.3356",
+            "StationLongitude": "121.3524"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.3356",
+            "StationLongitude": "121.3524"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "38.7",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "瑞穗",
+        "StationId": "C0V474",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "瑞穗鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.5642",
+            "StationLongitude": "121.4123"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.5642",
+            "StationLongitude": "121.4123"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "42.1",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "光復",
+        "StationId": "C0V475",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "光復鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.6654",
+            "StationLongitude": "121.4321"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.6654",
+            "StationLongitude": "121.4321"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "28.9",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "豐濱",
+        "StationId": "C0V476",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "豐濱鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "23.7856",
+            "StationLongitude": "121.5234"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "23.7856",
+            "StationLongitude": "121.5234"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "55.6",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "新城",
+        "StationId": "C0V477",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "新城乡"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "24.0234",
+            "StationLongitude": "121.6123"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "24.0234",
+            "StationLongitude": "121.6123"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "72.4",
+            "Unit": "mm/hr"
+          }
+        ]
+      },
+      {
+        "StationName": "太魯閣",
+        "StationId": "C0V478",
+        "GeoInfo": {
+          "CountyName": "花蓮縣",
+          "TownName": "秀林鄉"
+        },
+        "Coordinates": [
+          {
+            "CoordinateName": "TWD67",
+            "StationLatitude": "24.1456",
+            "StationLongitude": "121.6345"
+          },
+          {
+            "CoordinateName": "WGS84",
+            "StationLatitude": "24.1456",
+            "StationLongitude": "121.6345"
+          }
+        ],
+        "Precipitation": [
+          {
+            "Precipitation": "95.8",
+            "Unit": "mm/hr"
+          }
+        ]
+      }
+    ]
+  }
+}

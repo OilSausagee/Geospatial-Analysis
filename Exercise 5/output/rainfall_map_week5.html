@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_81e784fcfc9a4795de8ce7181c00cdcc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_81e784fcfc9a4795de8ce7181c00cdcc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_81e784fcfc9a4795de8ce7181c00cdcc = L.map(
+                "map_81e784fcfc9a4795de8ce7181c00cdcc",
+                {
+                    center: [23.98, 121.55],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_15053d377a5c6722039711c36349120b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_15053d377a5c6722039711c36349120b.addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var circle_marker_8d8b11182a245a76a318f415bb591a08 = L.circleMarker(
+                [24.5956, 121.8345],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.1, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_2315c26e80c8a4edd886672f444cf234 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1a8c73c521c79b75ae22fc637700633 = $(`<div id="html_b1a8c73c521c79b75ae22fc637700633" style="width: 100.0%; height: 100.0%;"><b>蘇澳</b><br>Rainfall: 130.5 mm/hr</div>`)[0];
+                popup_2315c26e80c8a4edd886672f444cf234.setContent(html_b1a8c73c521c79b75ae22fc637700633);
+            
+        
+
+        circle_marker_8d8b11182a245a76a318f415bb591a08.bindPopup(popup_2315c26e80c8a4edd886672f444cf234)
+        ;
+
+        
+    
+    
+            circle_marker_8d8b11182a245a76a318f415bb591a08.bindTooltip(
+                `<div>
+                     蘇澳: 130.5 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2aed5dbc65d5aaea6bff0870a823e545 = L.circleMarker(
+                [23.9821, 121.5578],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.04, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_af855d378be8194e55126da5ca285118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cc8d92b28f89c13715a69223bf92bf7 = $(`<div id="html_6cc8d92b28f89c13715a69223bf92bf7" style="width: 100.0%; height: 100.0%;"><b>花蓮</b><br>Rainfall: 85.2 mm/hr</div>`)[0];
+                popup_af855d378be8194e55126da5ca285118.setContent(html_6cc8d92b28f89c13715a69223bf92bf7);
+            
+        
+
+        circle_marker_2aed5dbc65d5aaea6bff0870a823e545.bindPopup(popup_af855d378be8194e55126da5ca285118)
+        ;
+
+        
+    
+    
+            circle_marker_2aed5dbc65d5aaea6bff0870a823e545.bindTooltip(
+                `<div>
+                     花蓮: 85.2 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7da430f6d26a7f3b75b4269f3062161d = L.circleMarker(
+                [23.9614, 121.5452],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.16, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_774b0f1f770f7beb1c72846cf860f3ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c200b0f8aae1ff9af3d326113866ff70 = $(`<div id="html_c200b0f8aae1ff9af3d326113866ff70" style="width: 100.0%; height: 100.0%;"><b>吉安</b><br>Rainfall: 65.8 mm/hr</div>`)[0];
+                popup_774b0f1f770f7beb1c72846cf860f3ee.setContent(html_c200b0f8aae1ff9af3d326113866ff70);
+            
+        
+
+        circle_marker_7da430f6d26a7f3b75b4269f3062161d.bindPopup(popup_774b0f1f770f7beb1c72846cf860f3ee)
+        ;
+
+        
+    
+    
+            circle_marker_7da430f6d26a7f3b75b4269f3062161d.bindTooltip(
+                `<div>
+                     吉安: 65.8 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a72541a3016721e62cb83a4db8e84b60 = L.circleMarker(
+                [23.8789, 121.4821],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.059999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_f4f22e7c4238a8da5ce9efd5bf9e2613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b65965cafbe336a4fd31b51e4fa785ff = $(`<div id="html_b65965cafbe336a4fd31b51e4fa785ff" style="width: 100.0%; height: 100.0%;"><b>壽豐</b><br>Rainfall: 45.3 mm/hr</div>`)[0];
+                popup_f4f22e7c4238a8da5ce9efd5bf9e2613.setContent(html_b65965cafbe336a4fd31b51e4fa785ff);
+            
+        
+
+        circle_marker_a72541a3016721e62cb83a4db8e84b60.bindPopup(popup_f4f22e7c4238a8da5ce9efd5bf9e2613)
+        ;
+
+        
+    
+    
+            circle_marker_a72541a3016721e62cb83a4db8e84b60.bindTooltip(
+                `<div>
+                     壽豐: 45.3 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac646e13b77952f5b7e75f76baa23758 = L.circleMarker(
+                [23.3356, 121.3524],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.74, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_a7e36b880694214c535418195f48f2cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fbd5df19370f2b497404135084ba9b2 = $(`<div id="html_7fbd5df19370f2b497404135084ba9b2" style="width: 100.0%; height: 100.0%;"><b>玉里</b><br>Rainfall: 38.7 mm/hr</div>`)[0];
+                popup_a7e36b880694214c535418195f48f2cf.setContent(html_7fbd5df19370f2b497404135084ba9b2);
+            
+        
+
+        circle_marker_ac646e13b77952f5b7e75f76baa23758.bindPopup(popup_a7e36b880694214c535418195f48f2cf)
+        ;
+
+        
+    
+    
+            circle_marker_ac646e13b77952f5b7e75f76baa23758.bindTooltip(
+                `<div>
+                     玉里: 38.7 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cc0cec7b21ba959dedef5ad91a85a5c = L.circleMarker(
+                [23.5642, 121.4123],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.42, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_1d7a0aee2c22a6c5c0fc102b326a7a27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5eb13eb6a082bfe23557580adc4a6f6 = $(`<div id="html_c5eb13eb6a082bfe23557580adc4a6f6" style="width: 100.0%; height: 100.0%;"><b>瑞穗</b><br>Rainfall: 42.1 mm/hr</div>`)[0];
+                popup_1d7a0aee2c22a6c5c0fc102b326a7a27.setContent(html_c5eb13eb6a082bfe23557580adc4a6f6);
+            
+        
+
+        circle_marker_6cc0cec7b21ba959dedef5ad91a85a5c.bindPopup(popup_1d7a0aee2c22a6c5c0fc102b326a7a27)
+        ;
+
+        
+    
+    
+            circle_marker_6cc0cec7b21ba959dedef5ad91a85a5c.bindTooltip(
+                `<div>
+                     瑞穗: 42.1 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_af06d14be3dc33eaccf40a52f72a7775 = L.circleMarker(
+                [23.6654, 121.4321],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.779999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_fbbf0399003b39c83b566e02571389f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_605ce92f37cb0d4f6c90d59a98a8746f = $(`<div id="html_605ce92f37cb0d4f6c90d59a98a8746f" style="width: 100.0%; height: 100.0%;"><b>光復</b><br>Rainfall: 28.9 mm/hr</div>`)[0];
+                popup_fbbf0399003b39c83b566e02571389f4.setContent(html_605ce92f37cb0d4f6c90d59a98a8746f);
+            
+        
+
+        circle_marker_af06d14be3dc33eaccf40a52f72a7775.bindPopup(popup_fbbf0399003b39c83b566e02571389f4)
+        ;
+
+        
+    
+    
+            circle_marker_af06d14be3dc33eaccf40a52f72a7775.bindTooltip(
+                `<div>
+                     光復: 28.9 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1210297b5e7435099f1fde7746a041b = L.circleMarker(
+                [23.7856, 121.5234],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.120000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_567e55ea34ef8200d834a7d683689259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a86bf32384713fc2f1c54357066d2702 = $(`<div id="html_a86bf32384713fc2f1c54357066d2702" style="width: 100.0%; height: 100.0%;"><b>豐濱</b><br>Rainfall: 55.6 mm/hr</div>`)[0];
+                popup_567e55ea34ef8200d834a7d683689259.setContent(html_a86bf32384713fc2f1c54357066d2702);
+            
+        
+
+        circle_marker_e1210297b5e7435099f1fde7746a041b.bindPopup(popup_567e55ea34ef8200d834a7d683689259)
+        ;
+
+        
+    
+    
+            circle_marker_e1210297b5e7435099f1fde7746a041b.bindTooltip(
+                `<div>
+                     豐濱: 55.6 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b3d7c946b029d77a2a1040669629e6b = L.circleMarker(
+                [24.0234, 121.6123],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.48, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_66396f5b00eae9acf8be20d79eb3c351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4004201cada06ad7e217d9f06cbf4d5f = $(`<div id="html_4004201cada06ad7e217d9f06cbf4d5f" style="width: 100.0%; height: 100.0%;"><b>新城</b><br>Rainfall: 72.4 mm/hr</div>`)[0];
+                popup_66396f5b00eae9acf8be20d79eb3c351.setContent(html_4004201cada06ad7e217d9f06cbf4d5f);
+            
+        
+
+        circle_marker_0b3d7c946b029d77a2a1040669629e6b.bindPopup(popup_66396f5b00eae9acf8be20d79eb3c351)
+        ;
+
+        
+    
+    
+            circle_marker_0b3d7c946b029d77a2a1040669629e6b.bindTooltip(
+                `<div>
+                     新城: 72.4 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6e11df816bdb3247ef96312981c1a71 = L.circleMarker(
+                [24.1456, 121.6345],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.16, "stroke": true, "weight": 1}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+        var popup_56b75b0a991f436e84d4045be3e4e269 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cccf06ff1a0fda60dd3cb69a5f828b7d = $(`<div id="html_cccf06ff1a0fda60dd3cb69a5f828b7d" style="width: 100.0%; height: 100.0%;"><b>太魯閣</b><br>Rainfall: 95.8 mm/hr</div>`)[0];
+                popup_56b75b0a991f436e84d4045be3e4e269.setContent(html_cccf06ff1a0fda60dd3cb69a5f828b7d);
+            
+        
+
+        circle_marker_c6e11df816bdb3247ef96312981c1a71.bindPopup(popup_56b75b0a991f436e84d4045be3e4e269)
+        ;
+
+        
+    
+    
+            circle_marker_c6e11df816bdb3247ef96312981c1a71.bindTooltip(
+                `<div>
+                     太魯閣: 95.8 mm/hr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var heat_map_7dbbe9fc0f55568ecd259ff624f7d767 = L.heatLayer(
+                [[24.5956, 121.8345, 130.5], [23.9821, 121.5578, 85.2], [23.9614, 121.5452, 65.8], [23.8789, 121.4821, 45.3], [23.3356, 121.3524, 38.7], [23.5642, 121.4123, 42.1], [23.6654, 121.4321, 28.9], [23.7856, 121.5234, 55.6], [24.0234, 121.6123, 72.4], [24.1456, 121.6345, 95.8]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 15,
+  "blur": 10,
+  "gradient": {
+  0.0: "green",
+  0.25: "gold",
+  0.5: "orange",
+  0.75: "red",
+  1.0: "darkred",
+},
+}
+            );
+        
+    
+            var layer_control_99eca72fa4070bccf22315a9e759db05_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_15053d377a5c6722039711c36349120b,
+                },
+                overlays :  {
+                    "Rainfall Heatmap" : heat_map_7dbbe9fc0f55568ecd259ff624f7d767,
+                },
+            };
+            let layer_control_99eca72fa4070bccf22315a9e759db05 = L.control.layers(
+                layer_control_99eca72fa4070bccf22315a9e759db05_layers.base_layers,
+                layer_control_99eca72fa4070bccf22315a9e759db05_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+
+        
+    
+            var marker_dff8cfacc7f03a6236838fae85afbbf2 = L.marker(
+                [23.982100000000003, 121.5578],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_1948f0d3f55de7230bff5166ec0027c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76d512fd1f2623c52f8b07f127dd5022 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bb671f9f72361270b45d56e612ab3fbf = $(`<div id="html_bb671f9f72361270b45d56e612ab3fbf" style="width: 100.0%; height: 100.0%;">     <b>花蓮市第一避難所</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 25.5m<br>     Max Slope: 5.2°<br>     Location: 花蓮市     </div>`)[0];
+                popup_76d512fd1f2623c52f8b07f127dd5022.setContent(html_bb671f9f72361270b45d56e612ab3fbf);
+            
+        
+
+        marker_dff8cfacc7f03a6236838fae85afbbf2.bindPopup(popup_76d512fd1f2623c52f8b07f127dd5022)
+        ;
+
+        
+    
+    
+            marker_dff8cfacc7f03a6236838fae85afbbf2.bindTooltip(
+                `<div>
+                     花蓮市第一避難所
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dff8cfacc7f03a6236838fae85afbbf2.setIcon(icon_1948f0d3f55de7230bff5166ec0027c2);
+            
+    
+            var marker_f42f4903f21a77467cffcb2d422f7df4 = L.marker(
+                [23.9614, 121.5452],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_d3c8b710f2c316d043dfc5f096fb6601 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c932047768ebc9b99dda01d1620f5ec = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_510010be123a63ce79e4ff692bfc99ca = $(`<div id="html_510010be123a63ce79e4ff692bfc99ca" style="width: 100.0%; height: 100.0%;">     <b>吉安鄉避難中心</b><br>     Risk Level: low<br>     Terrain Risk: LOW<br>     Elevation: 35.2m<br>     Max Slope: 8.5°<br>     Location: 吉安鄉     </div>`)[0];
+                popup_5c932047768ebc9b99dda01d1620f5ec.setContent(html_510010be123a63ce79e4ff692bfc99ca);
+            
+        
+
+        marker_f42f4903f21a77467cffcb2d422f7df4.bindPopup(popup_5c932047768ebc9b99dda01d1620f5ec)
+        ;
+
+        
+    
+    
+            marker_f42f4903f21a77467cffcb2d422f7df4.bindTooltip(
+                `<div>
+                     吉安鄉避難中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f42f4903f21a77467cffcb2d422f7df4.setIcon(icon_d3c8b710f2c316d043dfc5f096fb6601);
+            
+    
+            var marker_b0c3618ae5f92a6168635045f8a222a7 = L.marker(
+                [23.8789, 121.4821],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_3838139dbe9a1caaddddc23e13d8ed3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_103b9f3989ed8b0507aa9d512aa0ea28 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e835f4cae8c2b30bc1e5b6d5c6d8be44 = $(`<div id="html_e835f4cae8c2b30bc1e5b6d5c6d8be44" style="width: 100.0%; height: 100.0%;">     <b>壽豐鄉體育館</b><br>     Risk Level: low<br>     Terrain Risk: LOW<br>     Elevation: 45.8m<br>     Max Slope: 12.3°<br>     Location: 壽豐鄉     </div>`)[0];
+                popup_103b9f3989ed8b0507aa9d512aa0ea28.setContent(html_e835f4cae8c2b30bc1e5b6d5c6d8be44);
+            
+        
+
+        marker_b0c3618ae5f92a6168635045f8a222a7.bindPopup(popup_103b9f3989ed8b0507aa9d512aa0ea28)
+        ;
+
+        
+    
+    
+            marker_b0c3618ae5f92a6168635045f8a222a7.bindTooltip(
+                `<div>
+                     壽豐鄉體育館
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b0c3618ae5f92a6168635045f8a222a7.setIcon(icon_3838139dbe9a1caaddddc23e13d8ed3b);
+            
+    
+            var marker_b0bed5f2a90f19401d0caa2a3a78f31f = L.marker(
+                [23.335599999999996, 121.3524],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_7d81aba905a7144a8b737831dd2621f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d315e2a1820f8be7a3ad579ebce3216a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a4aa30283fb8852de675a4a74dd4cb89 = $(`<div id="html_a4aa30283fb8852de675a4a74dd4cb89" style="width: 100.0%; height: 100.0%;">     <b>玉里鎮活動中心</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 125.3m<br>     Max Slope: 15.6°<br>     Location: 玉里鎮     </div>`)[0];
+                popup_d315e2a1820f8be7a3ad579ebce3216a.setContent(html_a4aa30283fb8852de675a4a74dd4cb89);
+            
+        
+
+        marker_b0bed5f2a90f19401d0caa2a3a78f31f.bindPopup(popup_d315e2a1820f8be7a3ad579ebce3216a)
+        ;
+
+        
+    
+    
+            marker_b0bed5f2a90f19401d0caa2a3a78f31f.bindTooltip(
+                `<div>
+                     玉里鎮活動中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b0bed5f2a90f19401d0caa2a3a78f31f.setIcon(icon_7d81aba905a7144a8b737831dd2621f2);
+            
+    
+            var marker_1ffe2b55487f9730edf2007588e16284 = L.marker(
+                [23.564199999999992, 121.41230000000002],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_63732b8c3a61102743e69a4258d3c79c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_405ab788350a2875ca066982b2a1b4a4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e919354e5d256ef42c3dd64f2ac8cddc = $(`<div id="html_e919354e5d256ef42c3dd64f2ac8cddc" style="width: 100.0%; height: 100.0%;">     <b>瑞穗鄉文化中心</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 85.6m<br>     Max Slope: 18.9°<br>     Location: 瑞穗鄉     </div>`)[0];
+                popup_405ab788350a2875ca066982b2a1b4a4.setContent(html_e919354e5d256ef42c3dd64f2ac8cddc);
+            
+        
+
+        marker_1ffe2b55487f9730edf2007588e16284.bindPopup(popup_405ab788350a2875ca066982b2a1b4a4)
+        ;
+
+        
+    
+    
+            marker_1ffe2b55487f9730edf2007588e16284.bindTooltip(
+                `<div>
+                     瑞穗鄉文化中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ffe2b55487f9730edf2007588e16284.setIcon(icon_63732b8c3a61102743e69a4258d3c79c);
+            
+    
+            var marker_90e7c3472838ae695d524042321329b0 = L.marker(
+                [23.665399999999998, 121.4321],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_59342c4837e44a37fe7e139393fce9bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ddf1ac3709626bad0779b86e88271ea = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f270592348008d9299ba5e93b8ce4678 = $(`<div id="html_f270592348008d9299ba5e93b8ce4678" style="width: 100.0%; height: 100.0%;">     <b>光復鄉國小</b><br>     Risk Level: low<br>     Terrain Risk: LOW<br>     Elevation: 95.4m<br>     Max Slope: 22.1°<br>     Location: 光復鄉     </div>`)[0];
+                popup_8ddf1ac3709626bad0779b86e88271ea.setContent(html_f270592348008d9299ba5e93b8ce4678);
+            
+        
+
+        marker_90e7c3472838ae695d524042321329b0.bindPopup(popup_8ddf1ac3709626bad0779b86e88271ea)
+        ;
+
+        
+    
+    
+            marker_90e7c3472838ae695d524042321329b0.bindTooltip(
+                `<div>
+                     光復鄉國小
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_90e7c3472838ae695d524042321329b0.setIcon(icon_59342c4837e44a37fe7e139393fce9bf);
+            
+    
+            var marker_72dba0f7504a8edc568fa6eb3b5d50a8 = L.marker(
+                [23.785600000000002, 121.52340000000001],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_4c2410acd139fe84b80dd11d69cd27a2 = L.AwesomeMarkers.icon(
+                {
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eebe54bd1649f20c9e1e460239df26c0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b40318b7e6253c1d99f1aa8f52026f6c = $(`<div id="html_b40318b7e6253c1d99f1aa8f52026f6c" style="width: 100.0%; height: 100.0%;">     <b>豐濱鄉社區中心</b><br>     Risk Level: high<br>     Terrain Risk: HIGH<br>     Elevation: 15.7m<br>     Max Slope: 28.5°<br>     Location: 豐濱鄉     </div>`)[0];
+                popup_eebe54bd1649f20c9e1e460239df26c0.setContent(html_b40318b7e6253c1d99f1aa8f52026f6c);
+            
+        
+
+        marker_72dba0f7504a8edc568fa6eb3b5d50a8.bindPopup(popup_eebe54bd1649f20c9e1e460239df26c0)
+        ;
+
+        
+    
+    
+            marker_72dba0f7504a8edc568fa6eb3b5d50a8.bindTooltip(
+                `<div>
+                     豐濱鄉社區中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72dba0f7504a8edc568fa6eb3b5d50a8.setIcon(icon_4c2410acd139fe84b80dd11d69cd27a2);
+            
+    
+            var marker_95b89e0a028a9f6a78cc6fbba4fd021e = L.marker(
+                [24.0234, 121.6123],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_098d1535e64969d13734fb91b27753c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2380d062b4d98319018268856eb46136 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_87c289136eae3d1f2f668962b35ab413 = $(`<div id="html_87c289136eae3d1f2f668962b35ab413" style="width: 100.0%; height: 100.0%;">     <b>新城乡公所</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 55.9m<br>     Max Slope: 10.4°<br>     Location: 新城乡     </div>`)[0];
+                popup_2380d062b4d98319018268856eb46136.setContent(html_87c289136eae3d1f2f668962b35ab413);
+            
+        
+
+        marker_95b89e0a028a9f6a78cc6fbba4fd021e.bindPopup(popup_2380d062b4d98319018268856eb46136)
+        ;
+
+        
+    
+    
+            marker_95b89e0a028a9f6a78cc6fbba4fd021e.bindTooltip(
+                `<div>
+                     新城乡公所
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_95b89e0a028a9f6a78cc6fbba4fd021e.setIcon(icon_098d1535e64969d13734fb91b27753c3);
+            
+    
+            var marker_f9267c2a7c6535cb30013a890e654392 = L.marker(
+                [24.145599999999998, 121.6345],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_2db371a4ddee60de23f0ac6ead88204b = L.AwesomeMarkers.icon(
+                {
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51ea966fe49985c7f12983b17957a246 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_84234639a9eb17c465d69e01fe84e478 = $(`<div id="html_84234639a9eb17c465d69e01fe84e478" style="width: 100.0%; height: 100.0%;">     <b>秀林鄉太魯閣避難所</b><br>     Risk Level: high<br>     Terrain Risk: HIGH<br>     Elevation: 285.7m<br>     Max Slope: 35.7°<br>     Location: 秀林鄉     </div>`)[0];
+                popup_51ea966fe49985c7f12983b17957a246.setContent(html_84234639a9eb17c465d69e01fe84e478);
+            
+        
+
+        marker_f9267c2a7c6535cb30013a890e654392.bindPopup(popup_51ea966fe49985c7f12983b17957a246)
+        ;
+
+        
+    
+    
+            marker_f9267c2a7c6535cb30013a890e654392.bindTooltip(
+                `<div>
+                     秀林鄉太魯閣避難所
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f9267c2a7c6535cb30013a890e654392.setIcon(icon_2db371a4ddee60de23f0ac6ead88204b);
+            
+    
+            var marker_373f6480b3f112acf782ca7e5376733e = L.marker(
+                [23.754300000000004, 121.37210000000002],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_1232d74a9fe8de278ba9dd20ebcad07b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e003748bda32dcaa88c774cb1ca18bcc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0ba8c278a1294db5f91bf96537b89ff7 = $(`<div id="html_0ba8c278a1294db5f91bf96537b89ff7" style="width: 100.0%; height: 100.0%;">     <b>鳳林鎮體育館</b><br>     Risk Level: low<br>     Terrain Risk: LOW<br>     Elevation: 65.2m<br>     Max Slope: 7.8°<br>     Location: 鳳林鎮     </div>`)[0];
+                popup_e003748bda32dcaa88c774cb1ca18bcc.setContent(html_0ba8c278a1294db5f91bf96537b89ff7);
+            
+        
+
+        marker_373f6480b3f112acf782ca7e5376733e.bindPopup(popup_e003748bda32dcaa88c774cb1ca18bcc)
+        ;
+
+        
+    
+    
+            marker_373f6480b3f112acf782ca7e5376733e.bindTooltip(
+                `<div>
+                     鳳林鎮體育館
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_373f6480b3f112acf782ca7e5376733e.setIcon(icon_1232d74a9fe8de278ba9dd20ebcad07b);
+            
+    
+            var marker_9eb35fae76dd189692108df74bbcfa51 = L.marker(
+                [23.452100000000005, 121.2834],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_10839e339766623df90a375a29ddc68f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cb36fe09ca724529f65ce9e107b479d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6ea9f10504a396464f21add616c334a6 = $(`<div id="html_6ea9f10504a396464f21add616c334a6" style="width: 100.0%; height: 100.0%;">     <b>萬榮鄉活動中心</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 145.8m<br>     Max Slope: 25.3°<br>     Location: 萬榮鄉     </div>`)[0];
+                popup_0cb36fe09ca724529f65ce9e107b479d.setContent(html_6ea9f10504a396464f21add616c334a6);
+            
+        
+
+        marker_9eb35fae76dd189692108df74bbcfa51.bindPopup(popup_0cb36fe09ca724529f65ce9e107b479d)
+        ;
+
+        
+    
+    
+            marker_9eb35fae76dd189692108df74bbcfa51.bindTooltip(
+                `<div>
+                     萬榮鄉活動中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9eb35fae76dd189692108df74bbcfa51.setIcon(icon_10839e339766623df90a375a29ddc68f);
+            
+    
+            var marker_957057a8be5a8096cbed5ad7b2b69dc1 = L.marker(
+                [23.234499999999993, 121.3123],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_69061ee0a7fea9aa6f8c3ffafe661a48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_802621b9ffdb82a6a73d4dd443051b82 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee2b80ff079917bbad72022df34994db = $(`<div id="html_ee2b80ff079917bbad72022df34994db" style="width: 100.0%; height: 100.0%;">     <b>卓溪鄉社區中心</b><br>     Risk Level: low<br>     Terrain Risk: LOW<br>     Elevation: 185.4m<br>     Max Slope: 30.1°<br>     Location: 卓溪鄉     </div>`)[0];
+                popup_802621b9ffdb82a6a73d4dd443051b82.setContent(html_ee2b80ff079917bbad72022df34994db);
+            
+        
+
+        marker_957057a8be5a8096cbed5ad7b2b69dc1.bindPopup(popup_802621b9ffdb82a6a73d4dd443051b82)
+        ;
+
+        
+    
+    
+            marker_957057a8be5a8096cbed5ad7b2b69dc1.bindTooltip(
+                `<div>
+                     卓溪鄉社區中心
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_957057a8be5a8096cbed5ad7b2b69dc1.setIcon(icon_69061ee0a7fea9aa6f8c3ffafe661a48);
+            
+    
+            var marker_c7fb6d3534e3d8c9d38c7660da1bd293 = L.marker(
+                [23.123400000000004, 121.2345],
+                {
+}
+            ).addTo(map_81e784fcfc9a4795de8ce7181c00cdcc);
+        
+    
+            var icon_e7d927b5fc613d9a2dd85af3b358711c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b9f2f572c7e94e50fbb990606f0d130 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_125af38487663e0f2eff0710229b5dd7 = $(`<div id="html_125af38487663e0f2eff0710229b5dd7" style="width: 100.0%; height: 100.0%;">     <b>富里鄉避難所</b><br>     Risk Level: medium<br>     Terrain Risk: MEDIUM<br>     Elevation: 165.3m<br>     Max Slope: 20.8°<br>     Location: 富里鄉     </div>`)[0];
+                popup_5b9f2f572c7e94e50fbb990606f0d130.setContent(html_125af38487663e0f2eff0710229b5dd7);
+            
+        
+
+        marker_c7fb6d3534e3d8c9d38c7660da1bd293.bindPopup(popup_5b9f2f572c7e94e50fbb990606f0d130)
+        ;
+
+        
+    
+    
+            marker_c7fb6d3534e3d8c9d38c7660da1bd293.bindTooltip(
+                `<div>
+                     富里鄉避難所
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c7fb6d3534e3d8c9d38c7660da1bd293.setIcon(icon_e7d927b5fc613d9a2dd85af3b358711c);
+            
+</script>
+</html>

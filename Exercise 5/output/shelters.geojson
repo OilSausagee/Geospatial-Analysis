@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "shelters",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3826" } },
+"features": [
+{ "type": "Feature", "properties": { "shelter_id": 1, "name": "花蓮市第一避難所", "TOWNNAME": "花蓮市", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 25.5, "max_slope": 5.2 }, "geometry": { "type": "Point", "coordinates": [ 306759.915885349328164, 2653153.054845744743943 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 2, "name": "吉安鄉避難中心", "TOWNNAME": "吉安鄉", "risk_level": "low", "terrain_risk": "LOW", "mean_elevation": 35.2, "max_slope": 8.5 }, "geometry": { "type": "Point", "coordinates": [ 305486.617675649933517, 2650855.51106187235564 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 3, "name": "壽豐鄉體育館", "TOWNNAME": "壽豐鄉", "risk_level": "low", "terrain_risk": "LOW", "mean_elevation": 45.8, "max_slope": 12.3 }, "geometry": { "type": "Point", "coordinates": [ 299095.807223897543736, 2641695.366149775218219 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 4, "name": "玉里鎮活動中心", "TOWNNAME": "玉里鎮", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 125.3, "max_slope": 15.6 }, "geometry": { "type": "Point", "coordinates": [ 286035.560206511232536, 2581489.78518987307325 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 5, "name": "瑞穗鄉文化中心", "TOWNNAME": "瑞穗鄉", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 85.6, "max_slope": 18.9 }, "geometry": { "type": "Point", "coordinates": [ 292088.359984773385804, 2606821.425173754338175 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 6, "name": "光復鄉國小", "TOWNNAME": "光復鄉", "risk_level": "low", "terrain_risk": "LOW", "mean_elevation": 95.4, "max_slope": 22.1 }, "geometry": { "type": "Point", "coordinates": [ 294075.748596959514543, 2618034.649000057019293 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 7, "name": "豐濱鄉社區中心", "TOWNNAME": "豐濱鄉", "risk_level": "high", "terrain_risk": "HIGH", "mean_elevation": 15.7, "max_slope": 28.5 }, "geometry": { "type": "Point", "coordinates": [ 303339.908137905236799, 2631377.530721923336387 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 8, "name": "新城乡公所", "TOWNNAME": "新城乡", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 55.9, "max_slope": 10.4 }, "geometry": { "type": "Point", "coordinates": [ 312285.910201632941607, 2657750.107313971500844 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 9, "name": "秀林鄉太魯閣避難所", "TOWNNAME": "秀林鄉", "risk_level": "high", "terrain_risk": "HIGH", "mean_elevation": 285.7, "max_slope": 35.7 }, "geometry": { "type": "Point", "coordinates": [ 314483.090207223547623, 2671294.118667002301663 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 10, "name": "鳳林鎮體育館", "TOWNNAME": "鳳林鎮", "risk_level": "low", "terrain_risk": "LOW", "mean_elevation": 65.2, "max_slope": 7.8 }, "geometry": { "type": "Point", "coordinates": [ 287929.759809548442718, 2627862.599792481865734 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 11, "name": "萬榮鄉活動中心", "TOWNNAME": "萬榮鄉", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 145.8, "max_slope": 25.3 }, "geometry": { "type": "Point", "coordinates": [ 278954.407843398745172, 2594375.418863288126886 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 12, "name": "卓溪鄉社區中心", "TOWNNAME": "卓溪鄉", "risk_level": "low", "terrain_risk": "LOW", "mean_elevation": 185.4, "max_slope": 30.1 }, "geometry": { "type": "Point", "coordinates": [ 281959.125843475572765, 2570284.743677005637437 ] } },
+{ "type": "Feature", "properties": { "shelter_id": 13, "name": "富里鄉避難所", "TOWNNAME": "富里鄉", "risk_level": "medium", "terrain_risk": "MEDIUM", "mean_elevation": 165.3, "max_slope": 20.8 }, "geometry": { "type": "Point", "coordinates": [ 274017.269652558490634, 2557966.976951851509511 ] } }
+]
+}
