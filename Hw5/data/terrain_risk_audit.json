@@ -1,0 +1,6232 @@
+[
+  {
+    "shelter_id": "1305",
+    "name": "豐南社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 299.7,
+    "max_slope": 41.05,
+    "std_elevation": 13.27,
+    "river_distance": 53.52,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277505.77888307045,
+      "y": 2560143.4173066015
+    }
+  },
+  {
+    "shelter_id": "1341",
+    "name": "永豐社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 258.24,
+    "max_slope": 32.29,
+    "std_elevation": 23.65,
+    "river_distance": 342.79,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 276261.14500782464,
+      "y": 2563286.085502477
+    }
+  },
+  {
+    "shelter_id": "1349",
+    "name": "富里老人文康中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 237.57,
+    "max_slope": 30.53,
+    "std_elevation": 17.8,
+    "river_distance": 294.44,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 275351.8038632076,
+      "y": 2563630.7841072325
+    }
+  },
+  {
+    "shelter_id": "1352",
+    "name": "石平社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 264.28,
+    "max_slope": 49.3,
+    "std_elevation": 54.15,
+    "river_distance": 201.08,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 274150.7981701222,
+      "y": 2564057.671704444
+    }
+  },
+  {
+    "shelter_id": "1388",
+    "name": "羅山縱管處",
+    "risk_level": "極高風險",
+    "mean_elevation": 222.54,
+    "max_slope": 30.43,
+    "std_elevation": 11.36,
+    "river_distance": 194.4,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 278414.9445840459,
+      "y": 2566689.6566519653
+    }
+  },
+  {
+    "shelter_id": "1421",
+    "name": "古風國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 211.28,
+    "max_slope": 41.94,
+    "std_elevation": 14.69,
+    "river_distance": 344.39,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277070.58563948737,
+      "y": 2568580.7551621683
+    }
+  },
+  {
+    "shelter_id": "1425",
+    "name": "崙天社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 212.06,
+    "max_slope": 43.37,
+    "std_elevation": 18.84,
+    "river_distance": 461.38,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277111.3224926542,
+      "y": 2568691.566565574
+    }
+  },
+  {
+    "shelter_id": "1494",
+    "name": "長良社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 168.98,
+    "max_slope": 38.44,
+    "std_elevation": 8.56,
+    "river_distance": 329.79,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 279442.6203889155,
+      "y": 2574963.759793107
+    }
+  },
+  {
+    "shelter_id": "1499",
+    "name": "清水社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 254.7,
+    "max_slope": 53.46,
+    "std_elevation": 69.66,
+    "river_distance": 195.43,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277877.2401246508,
+      "y": 2575038.2517809747
+    }
+  },
+  {
+    "shelter_id": "1500",
+    "name": "吳江社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 168.83,
+    "max_slope": 41.89,
+    "std_elevation": 28.7,
+    "river_distance": 103.77,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 283012.5293120928,
+      "y": 2575181.678996982
+    }
+  },
+  {
+    "shelter_id": "1527",
+    "name": "卓樂社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 232.01,
+    "max_slope": 57.18,
+    "std_elevation": 59.95,
+    "river_distance": 406.43,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277648.4368213559,
+      "y": 2577042.184860856
+    }
+  },
+  {
+    "shelter_id": "1554",
+    "name": "樂合社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 186.67,
+    "max_slope": 60.37,
+    "std_elevation": 51.22,
+    "river_distance": 205.64,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 285283.41587970103,
+      "y": 2579572.17767045
+    }
+  },
+  {
+    "shelter_id": "1558",
+    "name": "源城社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 174.94,
+    "max_slope": 42.56,
+    "std_elevation": 22.59,
+    "river_distance": 27.76,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 280721.2810330754,
+      "y": 2579960.6669677724
+    }
+  },
+  {
+    "shelter_id": "1600",
+    "name": "卓溪多功能活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 190.76,
+    "max_slope": 46.31,
+    "std_elevation": 35.5,
+    "river_distance": 213.02,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 281063.45893644233,
+      "y": 2582596.973889334
+    }
+  },
+  {
+    "shelter_id": "1661",
+    "name": "觀音社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 109.26,
+    "max_slope": 51.49,
+    "std_elevation": 24.49,
+    "river_distance": 295.2,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 286520.330666637,
+      "y": 2588080.0181540754
+    }
+  },
+  {
+    "shelter_id": "1671",
+    "name": "太平國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 171.97,
+    "max_slope": 45.33,
+    "std_elevation": 58.52,
+    "river_distance": 416.48,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 282756.2205599075,
+      "y": 2589278.2472599335
+    }
+  },
+  {
+    "shelter_id": "1672",
+    "name": "太平社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 129.25,
+    "max_slope": 45.64,
+    "std_elevation": 19.26,
+    "river_distance": 147.86,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 282357.3567144898,
+      "y": 2589399.1807223
+    }
+  },
+  {
+    "shelter_id": "1705",
+    "name": "松浦社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 95.89,
+    "max_slope": 40.42,
+    "std_elevation": 17.75,
+    "river_distance": 145.45,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 288186.80739425856,
+      "y": 2591871.5844627414
+    }
+  },
+  {
+    "shelter_id": "1710",
+    "name": "三民社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 97.01,
+    "max_slope": 42.16,
+    "std_elevation": 14.48,
+    "river_distance": 147.06,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 285743.79407397145,
+      "y": 2592175.5263855937
+    }
+  },
+  {
+    "shelter_id": "1717",
+    "name": "古楓社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 209.62,
+    "max_slope": 43.29,
+    "std_elevation": 44.9,
+    "river_distance": 268.94,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 283923.84125764057,
+      "y": 2592636.3321968913
+    }
+  },
+  {
+    "shelter_id": "1718",
+    "name": "立山社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 209.62,
+    "max_slope": 43.29,
+    "std_elevation": 44.9,
+    "river_distance": 268.94,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 283923.84125764057,
+      "y": 2592636.3321968913
+    }
+  },
+  {
+    "shelter_id": "1777",
+    "name": "靜浦國小大禮堂",
+    "risk_level": "極高風險",
+    "mean_elevation": 18.02,
+    "max_slope": 54.61,
+    "std_elevation": 15.67,
+    "river_distance": 201.16,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 300610.73035367875,
+      "y": 2595474.982674871
+    }
+  },
+  {
+    "shelter_id": "1795",
+    "name": "德武里原住民多功能活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 147.63,
+    "max_slope": 43.67,
+    "std_elevation": 30.59,
+    "river_distance": 333.39,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 291618.7234219533,
+      "y": 2596044.786101967
+    }
+  },
+  {
+    "shelter_id": "1882",
+    "name": "奇美社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 63.75,
+    "max_slope": 66.63,
+    "std_elevation": 32.42,
+    "river_distance": 188.39,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 295624.1517318791,
+      "y": 2599079.9597866456
+    }
+  },
+  {
+    "shelter_id": "1900",
+    "name": "瑞祥社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 146.7,
+    "max_slope": 44.25,
+    "std_elevation": 27.5,
+    "river_distance": 106.03,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 286644.75834634044,
+      "y": 2599674.952930818
+    }
+  },
+  {
+    "shelter_id": "1922",
+    "name": "鶴岡社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 91.02,
+    "max_slope": 33.49,
+    "std_elevation": 10.35,
+    "river_distance": 471.76,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 289940.65267850796,
+      "y": 2600779.9052905478
+    }
+  },
+  {
+    "shelter_id": "2046",
+    "name": "八里灣基督長老教會",
+    "risk_level": "極高風險",
+    "mean_elevation": 108.88,
+    "max_slope": 54.04,
+    "std_elevation": 33.25,
+    "river_distance": 131.81,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 299600.2361294331,
+      "y": 2607276.869381559
+    }
+  },
+  {
+    "shelter_id": "2068",
+    "name": "馬遠社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 191.1,
+    "max_slope": 39.04,
+    "std_elevation": 25.81,
+    "river_distance": 127.97,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 287006.4934511435,
+      "y": 2608210.4723571897
+    }
+  },
+  {
+    "shelter_id": "2069",
+    "name": "馬遠國民小學",
+    "risk_level": "極高風險",
+    "mean_elevation": 199.89,
+    "max_slope": 37.67,
+    "std_elevation": 35.73,
+    "river_distance": 190.9,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 286943.3089360346,
+      "y": 2608210.866290246
+    }
+  },
+  {
+    "shelter_id": "2121",
+    "name": "花東山琉璃禪寺",
+    "risk_level": "極高風險",
+    "mean_elevation": 252.0,
+    "max_slope": 38.22,
+    "std_elevation": 31.79,
+    "river_distance": 466.89,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 292475.2200848478,
+      "y": 2610698.585957413
+    }
+  },
+  {
+    "shelter_id": "2129",
+    "name": "豐濱國中禮堂",
+    "risk_level": "極高風險",
+    "mean_elevation": 35.94,
+    "max_slope": 57.26,
+    "std_elevation": 35.36,
+    "river_distance": 135.14,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 303251.58573936316,
+      "y": 2610955.3925612294
+    }
+  },
+  {
+    "shelter_id": "2179",
+    "name": "大興活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 161.99,
+    "max_slope": 31.54,
+    "std_elevation": 13.27,
+    "river_distance": 286.92,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 290219.4275554622,
+      "y": 2614523.9518644437
+    }
+  },
+  {
+    "shelter_id": "2201",
+    "name": "砂荖活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 133.46,
+    "max_slope": 32.32,
+    "std_elevation": 10.93,
+    "river_distance": 440.21,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 296032.2666470357,
+      "y": 2615438.1811606777
+    }
+  },
+  {
+    "shelter_id": "2276",
+    "name": "東富國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 118.03,
+    "max_slope": 32.4,
+    "std_elevation": 24.78,
+    "river_distance": 271.88,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 299209.65497167263,
+      "y": 2620166.3521283255
+    }
+  },
+  {
+    "shelter_id": "2332",
+    "name": "磯崎村辦公處活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 83.51,
+    "max_slope": 63.65,
+    "std_elevation": 42.14,
+    "river_distance": 90.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 305257.8102029216,
+      "y": 2622846.0159003804
+    }
+  },
+  {
+    "shelter_id": "2356",
+    "name": "森榮里辦公處",
+    "risk_level": "極高風險",
+    "mean_elevation": 209.68,
+    "max_slope": 59.21,
+    "std_elevation": 59.89,
+    "river_distance": 101.69,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 290499.6797959527,
+      "y": 2623805.1716799494
+    }
+  },
+  {
+    "shelter_id": "2505",
+    "name": "水璉活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 125.76,
+    "max_slope": 43.37,
+    "std_elevation": 46.51,
+    "river_distance": 348.3,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 305767.0884772712,
+      "y": 2630954.7554167504
+    }
+  },
+  {
+    "shelter_id": "2628",
+    "name": "樹湖活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 153.3,
+    "max_slope": 40.16,
+    "std_elevation": 53.95,
+    "river_distance": 41.64,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 297796.098682604,
+      "y": 2637460.391403408
+    }
+  },
+  {
+    "shelter_id": "2687",
+    "name": "月眉國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 48.06,
+    "max_slope": 33.33,
+    "std_elevation": 11.73,
+    "river_distance": 112.99,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 306665.6051548732,
+      "y": 2640512.302322019
+    }
+  },
+  {
+    "shelter_id": "2688",
+    "name": "月眉國小-米棧分校",
+    "risk_level": "極高風險",
+    "mean_elevation": 47.94,
+    "max_slope": 30.07,
+    "std_elevation": 11.5,
+    "river_distance": 125.84,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 306667.17684902204,
+      "y": 2640527.0383128384
+    }
+  },
+  {
+    "shelter_id": "2696",
+    "name": "壽豐鄉公所",
+    "risk_level": "極高風險",
+    "mean_elevation": 34.92,
+    "max_slope": 32.05,
+    "std_elevation": 2.82,
+    "river_distance": 190.02,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 301848.8500125954,
+      "y": 2640763.633800793
+    }
+  },
+  {
+    "shelter_id": "2697",
+    "name": "文化中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 34.92,
+    "max_slope": 32.05,
+    "std_elevation": 2.82,
+    "river_distance": 190.02,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 301848.8500125954,
+      "y": 2640763.633800793
+    }
+  },
+  {
+    "shelter_id": "2721",
+    "name": "光榮活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 44.11,
+    "max_slope": 32.66,
+    "std_elevation": 6.69,
+    "river_distance": 288.29,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 302373.90217500215,
+      "y": 2642017.0045123184
+    }
+  },
+  {
+    "shelter_id": "2726",
+    "name": "平和活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 45.31,
+    "max_slope": 38.01,
+    "std_elevation": 6.17,
+    "river_distance": 257.84,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 302923.00959655177,
+      "y": 2642240.5105561838
+    }
+  },
+  {
+    "shelter_id": "2847",
+    "name": "池南活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 165.53,
+    "max_slope": 43.22,
+    "std_elevation": 43.42,
+    "river_distance": 97.66,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 301513.5956254703,
+      "y": 2646222.405616564
+    }
+  },
+  {
+    "shelter_id": "2902",
+    "name": "文蘭活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 145.82,
+    "max_slope": 47.99,
+    "std_elevation": 39.52,
+    "river_distance": 229.36,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 301583.83422271855,
+      "y": 2649345.822536975
+    }
+  },
+  {
+    "shelter_id": "2949",
+    "name": "銅門收容所",
+    "risk_level": "極高風險",
+    "mean_elevation": 178.88,
+    "max_slope": 63.15,
+    "std_elevation": 51.95,
+    "river_distance": 190.71,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 300315.06295355764,
+      "y": 2651235.1593152615
+    }
+  },
+  {
+    "shelter_id": "2998",
+    "name": "中正體育館",
+    "risk_level": "極高風險",
+    "mean_elevation": -56.29,
+    "max_slope": 89.95,
+    "std_elevation": 1464.34,
+    "river_distance": 163.58,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 312501.11646667315,
+      "y": 2652722.8341255947
+    }
+  },
+  {
+    "shelter_id": "3054",
+    "name": "中華國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 9.52,
+    "max_slope": 31.59,
+    "std_elevation": 5.1,
+    "river_distance": 125.87,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311761.74687167053,
+      "y": 2654270.1764648557
+    }
+  },
+  {
+    "shelter_id": "3095",
+    "name": "水源收容所",
+    "risk_level": "極高風險",
+    "mean_elevation": 97.44,
+    "max_slope": 38.97,
+    "std_elevation": 33.07,
+    "river_distance": 306.6,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 306363.78277644544,
+      "y": 2655554.816426962
+    }
+  },
+  {
+    "shelter_id": "3148",
+    "name": "七星潭社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -5720.04,
+    "max_slope": 89.95,
+    "std_elevation": 12456.92,
+    "river_distance": 104.63,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 314064.30253843375,
+      "y": 2658167.7458737963
+    }
+  },
+  {
+    "shelter_id": "3436",
+    "name": "富世活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 87.61,
+    "max_slope": 68.63,
+    "std_elevation": 52.3,
+    "river_distance": 300.93,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 313791.1560261814,
+      "y": 2671479.2860324727
+    }
+  },
+  {
+    "shelter_id": "3804",
+    "name": "南澳高中",
+    "risk_level": "極高風險",
+    "mean_elevation": 93.22,
+    "max_slope": 63.73,
+    "std_elevation": 55.25,
+    "river_distance": 425.56,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325613.2156771795,
+      "y": 2692016.7077042055
+    }
+  },
+  {
+    "shelter_id": "3868",
+    "name": "鄉立武塔村幼兒園",
+    "risk_level": "極高風險",
+    "mean_elevation": 141.37,
+    "max_slope": 71.95,
+    "std_elevation": 49.35,
+    "river_distance": 250.73,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325983.424877568,
+      "y": 2702397.1105302414
+    }
+  },
+  {
+    "shelter_id": "3887",
+    "name": "金岳國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 111.25,
+    "max_slope": 71.55,
+    "std_elevation": 88.42,
+    "river_distance": 34.83,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327989.3626458369,
+      "y": 2704590.1432415503
+    }
+  },
+  {
+    "shelter_id": "3888",
+    "name": "武塔國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 57.44,
+    "max_slope": 67.14,
+    "std_elevation": 55.57,
+    "river_distance": 423.88,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 328840.93937833747,
+      "y": 2704600.9924686346
+    }
+  },
+  {
+    "shelter_id": "3891",
+    "name": "南澳村辦公處",
+    "risk_level": "極高風險",
+    "mean_elevation": 57.4,
+    "max_slope": 65.39,
+    "std_elevation": 47.69,
+    "river_distance": 184.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 328859.3624857385,
+      "y": 2704949.4484221167
+    }
+  },
+  {
+    "shelter_id": "3899",
+    "name": "朝陽社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -289.79,
+    "max_slope": 89.95,
+    "std_elevation": 3264.27,
+    "river_distance": 296.14,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332703.9718394928,
+      "y": 2706378.2933226805
+    }
+  },
+  {
+    "shelter_id": "3902",
+    "name": "南強社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 19.32,
+    "max_slope": 37.01,
+    "std_elevation": 6.36,
+    "river_distance": 154.4,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331698.9976579407,
+      "y": 2706593.9334911783
+    }
+  },
+  {
+    "shelter_id": "3906",
+    "name": "蓬萊國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 24.39,
+    "max_slope": 37.01,
+    "std_elevation": 9.78,
+    "river_distance": 402.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331404.2227429978,
+      "y": 2706725.1372682713
+    }
+  },
+  {
+    "shelter_id": "3908",
+    "name": "南澳鄉公所二樓",
+    "risk_level": "極高風險",
+    "mean_elevation": 31.77,
+    "max_slope": 42.91,
+    "std_elevation": 18.89,
+    "river_distance": 470.3,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331467.6177861327,
+      "y": 2706876.9209459573
+    }
+  },
+  {
+    "shelter_id": "3915",
+    "name": "碧候國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 47.99,
+    "max_slope": 50.33,
+    "std_elevation": 26.6,
+    "river_distance": 30.2,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 329545.0883431155,
+      "y": 2707793.646895748
+    }
+  },
+  {
+    "shelter_id": "3927",
+    "name": "四季活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 829.67,
+    "max_slope": 65.37,
+    "std_elevation": 113.55,
+    "river_distance": 431.46,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 292385.96586929995,
+      "y": 2709344.015723628
+    }
+  },
+  {
+    "shelter_id": "3937",
+    "name": "東澳社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 14.25,
+    "max_slope": 34.66,
+    "std_elevation": 9.56,
+    "river_distance": 169.75,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334573.51042450836,
+      "y": 2712426.191241845
+    }
+  },
+  {
+    "shelter_id": "3938",
+    "name": "東澳國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 26.96,
+    "max_slope": 50.5,
+    "std_elevation": 18.69,
+    "river_distance": 98.06,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334377.40677450126,
+      "y": 2713032.007339923
+    }
+  },
+  {
+    "shelter_id": "3939",
+    "name": "東岳村災民收容中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 27.07,
+    "max_slope": 50.93,
+    "std_elevation": 21.66,
+    "river_distance": 79.26,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334407.6255797479,
+      "y": 2713045.48164042
+    }
+  },
+  {
+    "shelter_id": "3944",
+    "name": "茂安活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 628.15,
+    "max_slope": 58.91,
+    "std_elevation": 83.82,
+    "river_distance": 202.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 295756.1455815386,
+      "y": 2713962.152475596
+    }
+  },
+  {
+    "shelter_id": "3981",
+    "name": "南安國中",
+    "risk_level": "極高風險",
+    "mean_elevation": -9628.18,
+    "max_slope": 89.95,
+    "std_elevation": 14967.86,
+    "river_distance": 157.45,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 338007.57376463857,
+      "y": 2719093.4439461855
+    }
+  },
+  {
+    "shelter_id": "3982",
+    "name": "永樂社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 76.15,
+    "max_slope": 52.23,
+    "std_elevation": 47.87,
+    "river_distance": 212.26,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335221.93408873375,
+      "y": 2719098.3046345958
+    }
+  },
+  {
+    "shelter_id": "3987",
+    "name": "永樂國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 52.42,
+    "max_slope": 49.46,
+    "std_elevation": 44.01,
+    "river_distance": 356.03,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335696.36755594093,
+      "y": 2719367.0530266264
+    }
+  },
+  {
+    "shelter_id": "3988",
+    "name": "南安國小",
+    "risk_level": "極高風險",
+    "mean_elevation": -3416.53,
+    "max_slope": 89.95,
+    "std_elevation": 10053.13,
+    "river_distance": 67.32,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 337954.9030424055,
+      "y": 2719414.3399959407
+    }
+  },
+  {
+    "shelter_id": "3992",
+    "name": "南興社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 37.3,
+    "max_slope": 52.29,
+    "std_elevation": 45.14,
+    "river_distance": 187.78,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 337741.56925592385,
+      "y": 2719512.6880854066
+    }
+  },
+  {
+    "shelter_id": "3995",
+    "name": "南寧社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -807.36,
+    "max_slope": 89.95,
+    "std_elevation": 5117.67,
+    "river_distance": 66.04,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 338064.71263090626,
+      "y": 2719669.8000901877
+    }
+  },
+  {
+    "shelter_id": "3996",
+    "name": "白米社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 53.76,
+    "max_slope": 47.32,
+    "std_elevation": 46.8,
+    "river_distance": 451.08,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335622.7458590849,
+      "y": 2719809.671845816
+    }
+  },
+  {
+    "shelter_id": "3997",
+    "name": "南成社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 46.84,
+    "max_slope": 54.21,
+    "std_elevation": 58.97,
+    "river_distance": 172.7,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 337506.38285833516,
+      "y": 2719865.669266702
+    }
+  },
+  {
+    "shelter_id": "4001",
+    "name": "士敏國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 15.1,
+    "max_slope": 41.09,
+    "std_elevation": 16.44,
+    "river_distance": 102.91,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336456.75548007624,
+      "y": 2720889.2665758566
+    }
+  },
+  {
+    "shelter_id": "4002",
+    "name": "長安社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 14.8,
+    "max_slope": 42.14,
+    "std_elevation": 17.33,
+    "river_distance": 34.41,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336496.9230551246,
+      "y": 2720944.8997913827
+    }
+  },
+  {
+    "shelter_id": "4003",
+    "name": "蘇西社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 20.46,
+    "max_slope": 44.86,
+    "std_elevation": 19.89,
+    "river_distance": 95.98,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335189.69980884064,
+      "y": 2721058.6953691323
+    }
+  },
+  {
+    "shelter_id": "4004",
+    "name": "永光社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 10.84,
+    "max_slope": 42.35,
+    "std_elevation": 12.41,
+    "river_distance": 161.71,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336293.5452964223,
+      "y": 2721076.561195399
+    }
+  },
+  {
+    "shelter_id": "4005",
+    "name": "蘇澳海事",
+    "risk_level": "極高風險",
+    "mean_elevation": 17.88,
+    "max_slope": 47.03,
+    "std_elevation": 20.81,
+    "river_distance": 63.38,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335635.18016542983,
+      "y": 2721083.5782848867
+    }
+  },
+  {
+    "shelter_id": "4007",
+    "name": "蘇澳鎮公所",
+    "risk_level": "極高風險",
+    "mean_elevation": 20.85,
+    "max_slope": 44.86,
+    "std_elevation": 21.85,
+    "river_distance": 61.07,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335290.637412733,
+      "y": 2721114.6964499154
+    }
+  },
+  {
+    "shelter_id": "4010",
+    "name": "蘇澳國中",
+    "risk_level": "極高風險",
+    "mean_elevation": 31.21,
+    "max_slope": 44.91,
+    "std_elevation": 18.35,
+    "river_distance": 439.47,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334601.3557549096,
+      "y": 2721210.187261361
+    }
+  },
+  {
+    "shelter_id": "4011",
+    "name": "蘇東社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 9.56,
+    "max_slope": 45.68,
+    "std_elevation": 14.17,
+    "river_distance": 51.67,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336525.3813725036,
+      "y": 2721255.227273191
+    }
+  },
+  {
+    "shelter_id": "4012",
+    "name": "蘇澳國小",
+    "risk_level": "極高風險",
+    "mean_elevation": 49.65,
+    "max_slope": 44.86,
+    "std_elevation": 52.25,
+    "river_distance": 195.82,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335197.93195112504,
+      "y": 2721368.895558736
+    }
+  },
+  {
+    "shelter_id": "4013",
+    "name": "蘇北社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 15.53,
+    "max_slope": 48.02,
+    "std_elevation": 25.16,
+    "river_distance": 48.54,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336129.5866259403,
+      "y": 2721385.69788853
+    }
+  },
+  {
+    "shelter_id": "4017",
+    "name": "蘇南社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 15.82,
+    "max_slope": 46.96,
+    "std_elevation": 29.37,
+    "river_distance": 10.72,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 336342.0567588346,
+      "y": 2721420.242807868
+    }
+  },
+  {
+    "shelter_id": "4020",
+    "name": "龍德社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 247.29,
+    "max_slope": 57.91,
+    "std_elevation": 79.24,
+    "river_distance": 480.32,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331013.19840813335,
+      "y": 2721709.4763416634
+    }
+  },
+  {
+    "shelter_id": "4026",
+    "name": "寒溪活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 263.46,
+    "max_slope": 49.95,
+    "std_elevation": 56.96,
+    "river_distance": 28.26,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 318642.14281157573,
+      "y": 2722861.458598691
+    }
+  },
+  {
+    "shelter_id": "4061",
+    "name": "復興活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 226.22,
+    "max_slope": 56.92,
+    "std_elevation": 47.59,
+    "river_distance": 317.53,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311391.9178898154,
+      "y": 2725131.4781748406
+    }
+  },
+  {
+    "shelter_id": "4064",
+    "name": "太和社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 5.01,
+    "max_slope": 38.18,
+    "std_elevation": 3.06,
+    "river_distance": 49.89,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 328299.03400622203,
+      "y": 2725316.02070528
+    }
+  },
+  {
+    "shelter_id": "4071",
+    "name": "八寶社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 6.69,
+    "max_slope": 31.64,
+    "std_elevation": 3.35,
+    "river_distance": 101.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327698.416189987,
+      "y": 2725899.7161907353
+    }
+  },
+  {
+    "shelter_id": "4076",
+    "name": "丸山社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 8.81,
+    "max_slope": 40.47,
+    "std_elevation": 7.27,
+    "river_distance": 43.78,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327564.0254877224,
+      "y": 2726397.4152505165
+    }
+  },
+  {
+    "shelter_id": "4096",
+    "name": "松羅活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 220.56,
+    "max_slope": 53.25,
+    "std_elevation": 40.7,
+    "river_distance": 84.5,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 308596.64876148227,
+      "y": 2727755.568782116
+    }
+  },
+  {
+    "shelter_id": "4111",
+    "name": "大義社區臨時收容站",
+    "risk_level": "極高風險",
+    "mean_elevation": 143.82,
+    "max_slope": 62.45,
+    "std_elevation": 7.65,
+    "river_distance": 254.78,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311771.21522397804,
+      "y": 2728633.2641883055
+    }
+  },
+  {
+    "shelter_id": "4115",
+    "name": "二次收容 三星鄉公所臨時辦公處原三星社區",
+    "risk_level": "極高風險",
+    "mean_elevation": 88.28,
+    "max_slope": 41.4,
+    "std_elevation": 3.56,
+    "river_distance": 376.83,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 316173.1127452181,
+      "y": 2728875.0559943346
+    }
+  },
+  {
+    "shelter_id": "4116",
+    "name": "三星國中臨時收容站",
+    "risk_level": "極高風險",
+    "mean_elevation": 88.28,
+    "max_slope": 41.4,
+    "std_elevation": 3.56,
+    "river_distance": 376.83,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 316173.1127452181,
+      "y": 2728875.0559943346
+    }
+  },
+  {
+    "shelter_id": "4238",
+    "name": "中華村集會所",
+    "risk_level": "極高風險",
+    "mean_elevation": 95.5,
+    "max_slope": 59.16,
+    "std_elevation": 23.89,
+    "river_distance": 202.16,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 315424.7258162341,
+      "y": 2733744.9180933596
+    }
+  },
+  {
+    "shelter_id": "4240",
+    "name": "內城國民中小學化育分校",
+    "risk_level": "極高風險",
+    "mean_elevation": 106.26,
+    "max_slope": 63.31,
+    "std_elevation": 40.45,
+    "river_distance": 194.7,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 316033.2384742926,
+      "y": 2733957.369211441
+    }
+  },
+  {
+    "shelter_id": "4287",
+    "name": "老人文康中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 10.93,
+    "max_slope": 41.27,
+    "std_elevation": 3.53,
+    "river_distance": 230.18,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323119.11417640274,
+      "y": 2737753.894306996
+    }
+  },
+  {
+    "shelter_id": "4290",
+    "name": "湖東社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 11.84,
+    "max_slope": 43.1,
+    "std_elevation": 1.98,
+    "river_distance": 326.95,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 321700.8190033544,
+      "y": 2737832.098844072
+    }
+  },
+  {
+    "shelter_id": "4294",
+    "name": "雙湖社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 33.37,
+    "max_slope": 42.29,
+    "std_elevation": 8.38,
+    "river_distance": 373.7,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 319332.71856447845,
+      "y": 2738071.364666233
+    }
+  },
+  {
+    "shelter_id": "4299",
+    "name": "永和社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 16.66,
+    "max_slope": 45.79,
+    "std_elevation": 13.99,
+    "river_distance": 33.43,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 321922.27510980377,
+      "y": 2738215.83553979
+    }
+  },
+  {
+    "shelter_id": "4383",
+    "name": "龍潭國小匏崙分校",
+    "risk_level": "極高風險",
+    "mean_elevation": 60.46,
+    "max_slope": 54.64,
+    "std_elevation": 11.15,
+    "river_distance": 265.73,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323750.1616623654,
+      "y": 2742980.5886805076
+    }
+  },
+  {
+    "shelter_id": "4438",
+    "name": "竹安里-竹安國小五育樓",
+    "risk_level": "極高風險",
+    "mean_elevation": -5305.59,
+    "max_slope": 89.95,
+    "std_elevation": 12074.2,
+    "river_distance": 141.69,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332950.01370900427,
+      "y": 2746666.0347373094
+    }
+  },
+  {
+    "shelter_id": "4478",
+    "name": "金盈里-金盈社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 16.2,
+    "max_slope": 40.55,
+    "std_elevation": 15.95,
+    "river_distance": 423.48,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330509.58384664514,
+      "y": 2749099.59473931
+    }
+  },
+  {
+    "shelter_id": "4494",
+    "name": "大坑里-協天宮",
+    "risk_level": "極高風險",
+    "mean_elevation": -9893.34,
+    "max_slope": 89.95,
+    "std_elevation": 15045.67,
+    "river_distance": 322.68,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334030.2741463334,
+      "y": 2750217.250575405
+    }
+  },
+  {
+    "shelter_id": "4504",
+    "name": "福成里-福成社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": 72.09,
+    "max_slope": 53.08,
+    "std_elevation": 58.81,
+    "river_distance": 391.42,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331359.19925888034,
+      "y": 2750710.7590338746
+    }
+  },
+  {
+    "shelter_id": "4532",
+    "name": "港口里-港口社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -6838.11,
+    "max_slope": 89.95,
+    "std_elevation": 13328.13,
+    "river_distance": 98.27,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 334906.6513480665,
+      "y": 2752327.289177708
+    }
+  },
+  {
+    "shelter_id": "4545",
+    "name": "外澳里-外澳社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -10681.31,
+    "max_slope": 89.95,
+    "std_elevation": 15394.98,
+    "river_distance": 170.92,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 335457.53076386964,
+      "y": 2753117.181271789
+    }
+  },
+  {
+    "shelter_id": "4580",
+    "name": "更新里-更新漁民活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -7916.94,
+    "max_slope": 89.95,
+    "std_elevation": 14041.09,
+    "river_distance": 116.75,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 337222.59761218325,
+      "y": 2755221.865710741
+    }
+  },
+  {
+    "shelter_id": "4696",
+    "name": "大溪里-大溪社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -11397.04,
+    "max_slope": 89.95,
+    "std_elevation": 15646.9,
+    "river_distance": 198.14,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 340205.2725631693,
+      "y": 2759494.844085738
+    }
+  },
+  {
+    "shelter_id": "4705",
+    "name": "龜山里-龜山社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -8520.88,
+    "max_slope": 89.95,
+    "std_elevation": 14409.28,
+    "river_distance": 206.61,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 340910.780119298,
+      "y": 2759721.0497243353
+    }
+  },
+  {
+    "shelter_id": "4831",
+    "name": "大里里-大里社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -6049.95,
+    "max_slope": 89.95,
+    "std_elevation": 12771.31,
+    "river_distance": 212.67,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 342894.49893229676,
+      "y": 2762093.854945656
+    }
+  },
+  {
+    "shelter_id": "4905",
+    "name": "石城里-石城社區活動中心",
+    "risk_level": "極高風險",
+    "mean_elevation": -12500.42,
+    "max_slope": 89.95,
+    "std_elevation": 15967.62,
+    "river_distance": 46.53,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 345891.2440522349,
+      "y": 2763886.9196213693
+    }
+  },
+  {
+    "shelter_id": "45",
+    "name": "和平國小",
+    "risk_level": "高風險",
+    "mean_elevation": 26.79,
+    "max_slope": 45.47,
+    "std_elevation": 17.02,
+    "river_distance": 865.67,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 326011.1106517919,
+      "y": 2689346.507640283
+    }
+  },
+  {
+    "shelter_id": "1331",
+    "name": "玉寶宮",
+    "risk_level": "高風險",
+    "mean_elevation": 240.74,
+    "max_slope": 29.89,
+    "std_elevation": 7.97,
+    "river_distance": 277.18,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 274563.44670147065,
+      "y": 2562153.6819431
+    }
+  },
+  {
+    "shelter_id": "1354",
+    "name": "富里鄉公所2樓",
+    "risk_level": "高風險",
+    "mean_elevation": 245.92,
+    "max_slope": 32.62,
+    "std_elevation": 27.95,
+    "river_distance": 724.87,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 275624.82774788066,
+      "y": 2564181.9434700813
+    }
+  },
+  {
+    "shelter_id": "1378",
+    "name": "石牌社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 217.4,
+    "max_slope": 25.37,
+    "std_elevation": 12.27,
+    "river_distance": 157.99,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 277055.4301602519,
+      "y": 2565657.2705883333
+    }
+  },
+  {
+    "shelter_id": "1385",
+    "name": "明里社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 223.92,
+    "max_slope": 45.13,
+    "std_elevation": 22.34,
+    "river_distance": 823.2,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 275815.44751660543,
+      "y": 2566430.2268911717
+    }
+  },
+  {
+    "shelter_id": "1588",
+    "name": "東豐社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 137.54,
+    "max_slope": 26.64,
+    "std_elevation": 26.9,
+    "river_distance": 487.26,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 284756.47147926094,
+      "y": 2581852.164964978
+    }
+  },
+  {
+    "shelter_id": "1644",
+    "name": "大禹社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 103.55,
+    "max_slope": 32.44,
+    "std_elevation": 3.29,
+    "river_distance": 1016.61,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 283621.172458223,
+      "y": 2586456.3170071105
+    }
+  },
+  {
+    "shelter_id": "1725",
+    "name": "崙山國小",
+    "risk_level": "高風險",
+    "mean_elevation": 163.21,
+    "max_slope": 45.66,
+    "std_elevation": 30.19,
+    "river_distance": 1082.72,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 285179.92736320186,
+      "y": 2592949.355744656
+    }
+  },
+  {
+    "shelter_id": "1726",
+    "name": "崙山社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 169.42,
+    "max_slope": 45.81,
+    "std_elevation": 30.54,
+    "river_distance": 1128.81,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 285128.7850155104,
+      "y": 2592971.3818110665
+    }
+  },
+  {
+    "shelter_id": "1756",
+    "name": "春日社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 93.29,
+    "max_slope": 14.87,
+    "std_elevation": 4.69,
+    "river_distance": 239.57,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 290529.26498876244,
+      "y": 2594723.910683724
+    }
+  },
+  {
+    "shelter_id": "1770",
+    "name": "舞鶴社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 229.89,
+    "max_slope": 49.8,
+    "std_elevation": 6.92,
+    "river_distance": 1262.93,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 286124.45349233074,
+      "y": 2595288.286988056
+    }
+  },
+  {
+    "shelter_id": "1828",
+    "name": "港口活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -2326.77,
+    "max_slope": 89.95,
+    "std_elevation": 8478.95,
+    "river_distance": 791.13,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 301514.935988238,
+      "y": 2596917.793065065
+    }
+  },
+  {
+    "shelter_id": "1867",
+    "name": "瑞穗青蓮寺",
+    "risk_level": "高風險",
+    "mean_elevation": 81.98,
+    "max_slope": 18.64,
+    "std_elevation": 3.13,
+    "river_distance": 157.09,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 289874.8219615798,
+      "y": 2598697.765898353
+    }
+  },
+  {
+    "shelter_id": "1869",
+    "name": "花蓮縣鶴岡國民小學",
+    "risk_level": "高風險",
+    "mean_elevation": 82.45,
+    "max_slope": 10.23,
+    "std_elevation": 3.09,
+    "river_distance": 137.85,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 289833.84598867106,
+      "y": 2598741.9516362557
+    }
+  },
+  {
+    "shelter_id": "1873",
+    "name": "瑞良社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 77.02,
+    "max_slope": 28.9,
+    "std_elevation": 5.09,
+    "river_distance": 305.19,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 290242.0687373084,
+      "y": 2598864.8816854246
+    }
+  },
+  {
+    "shelter_id": "1877",
+    "name": "花蓮縣瑞穗鄉瑞美國民小學",
+    "risk_level": "高風險",
+    "mean_elevation": 79.1,
+    "max_slope": 10.67,
+    "std_elevation": 4.69,
+    "river_distance": 91.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 289996.7255470237,
+      "y": 2598941.7309236997
+    }
+  },
+  {
+    "shelter_id": "1879",
+    "name": "瑞美社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 78.9,
+    "max_slope": 10.08,
+    "std_elevation": 4.73,
+    "river_distance": 136.93,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 289955.6895822354,
+      "y": 2599008.0646618977
+    }
+  },
+  {
+    "shelter_id": "1890",
+    "name": "紅葉社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 206.34,
+    "max_slope": 45.97,
+    "std_elevation": 47.75,
+    "river_distance": 535.49,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 285195.6482051058,
+      "y": 2599184.141320586
+    }
+  },
+  {
+    "shelter_id": "1912",
+    "name": "豐裡活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 842.45,
+    "max_slope": 52.54,
+    "std_elevation": 97.09,
+    "river_distance": 1611.59,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 280853.02750800713,
+      "y": 2600060.3030322096
+    }
+  },
+  {
+    "shelter_id": "1956",
+    "name": "瑞北社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 99.42,
+    "max_slope": 15.1,
+    "std_elevation": 4.21,
+    "river_distance": 353.93,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 288444.6923102805,
+      "y": 2602658.533045999
+    }
+  },
+  {
+    "shelter_id": "2116",
+    "name": "光復自強外役監獄",
+    "risk_level": "高風險",
+    "mean_elevation": 231.24,
+    "max_slope": 42.59,
+    "std_elevation": 31.65,
+    "river_distance": 841.76,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 292097.9957521698,
+      "y": 2610564.6006944324
+    }
+  },
+  {
+    "shelter_id": "2176",
+    "name": "大興國小",
+    "risk_level": "高風險",
+    "mean_elevation": 150.99,
+    "max_slope": 8.84,
+    "std_elevation": 4.26,
+    "river_distance": 442.12,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 290628.00673629454,
+      "y": 2614358.967687572
+    }
+  },
+  {
+    "shelter_id": "2181",
+    "name": "東興部落原住民多功能活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -9592.82,
+    "max_slope": 89.95,
+    "std_elevation": 14954.67,
+    "river_distance": 2141.85,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 304156.15155311406,
+      "y": 2614713.0231016856
+    }
+  },
+  {
+    "shelter_id": "2218",
+    "name": "新社國小二樓綜合教室",
+    "risk_level": "高風險",
+    "mean_elevation": -6507.62,
+    "max_slope": 89.95,
+    "std_elevation": 13129.75,
+    "river_distance": 665.11,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 304618.51433384465,
+      "y": 2616575.2953707017
+    }
+  },
+  {
+    "shelter_id": "2219",
+    "name": "光復鄉立托兒所",
+    "risk_level": "高風險",
+    "mean_elevation": 123.05,
+    "max_slope": 10.5,
+    "std_elevation": 1.7,
+    "river_distance": 335.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 292682.5985145302,
+      "y": 2616557.58701797
+    }
+  },
+  {
+    "shelter_id": "2226",
+    "name": "西南活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 112.28,
+    "max_slope": 14.22,
+    "std_elevation": 2.03,
+    "river_distance": 364.46,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 295842.8751664441,
+      "y": 2617264.8857212877
+    }
+  },
+  {
+    "shelter_id": "2231",
+    "name": "太巴塱國小",
+    "risk_level": "高風險",
+    "mean_elevation": 110.81,
+    "max_slope": 8.7,
+    "std_elevation": 1.99,
+    "river_distance": 172.02,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 295740.27340131765,
+      "y": 2617452.830757225
+    }
+  },
+  {
+    "shelter_id": "2235",
+    "name": "大同活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 114.5,
+    "max_slope": 12.22,
+    "std_elevation": 1.78,
+    "river_distance": 171.68,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 293964.2454034604,
+      "y": 2617801.7463959455
+    }
+  },
+  {
+    "shelter_id": "2243",
+    "name": "光復鄉公所",
+    "risk_level": "高風險",
+    "mean_elevation": 127.41,
+    "max_slope": 41.27,
+    "std_elevation": 16.82,
+    "river_distance": 736.96,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 293176.79201899684,
+      "y": 2618474.937037626
+    }
+  },
+  {
+    "shelter_id": "2246",
+    "name": "光復國中",
+    "risk_level": "高風險",
+    "mean_elevation": 124.74,
+    "max_slope": 37.05,
+    "std_elevation": 8.88,
+    "river_distance": 800.3,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 293329.4320030704,
+      "y": 2618597.210578233
+    }
+  },
+  {
+    "shelter_id": "2292",
+    "name": "馬太鞍社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 226.81,
+    "max_slope": 30.78,
+    "std_elevation": 56.6,
+    "river_distance": 681.81,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 290975.45916458644,
+      "y": 2621414.399794171
+    }
+  },
+  {
+    "shelter_id": "2322",
+    "name": "明利社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 169.71,
+    "max_slope": 41.71,
+    "std_elevation": 44.22,
+    "river_distance": 1650.82,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 292051.07712175034,
+      "y": 2622395.7987398063
+    }
+  },
+  {
+    "shelter_id": "2337",
+    "name": "萬榮鄉立幼兒園",
+    "risk_level": "高風險",
+    "mean_elevation": 146.83,
+    "max_slope": 56.71,
+    "std_elevation": 10.32,
+    "river_distance": 1190.78,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 292297.59022954106,
+      "y": 2622942.7126711207
+    }
+  },
+  {
+    "shelter_id": "2349",
+    "name": "萬榮社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 189.59,
+    "max_slope": 49.55,
+    "std_elevation": 55.42,
+    "river_distance": 769.27,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 291817.9769208755,
+      "y": 2623453.634668064
+    }
+  },
+  {
+    "shelter_id": "2419",
+    "name": "鳳義社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 106.06,
+    "max_slope": 7.61,
+    "std_elevation": 3.05,
+    "river_distance": 50.12,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 294781.6087536604,
+      "y": 2627306.2601895286
+    }
+  },
+  {
+    "shelter_id": "2533",
+    "name": "米棧活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 141.94,
+    "max_slope": 51.88,
+    "std_elevation": 73.55,
+    "river_distance": 533.64,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 303427.74548216467,
+      "y": 2632429.9680689676
+    }
+  },
+  {
+    "shelter_id": "2597",
+    "name": "溪口活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 112.18,
+    "max_slope": 45.41,
+    "std_elevation": 12.58,
+    "river_distance": 796.12,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 298231.78536111664,
+      "y": 2635113.9720287193
+    }
+  },
+  {
+    "shelter_id": "2659",
+    "name": "西林社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 1150.69,
+    "max_slope": 75.49,
+    "std_elevation": 223.78,
+    "river_distance": 2045.52,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 284909.63392717805,
+      "y": 2639039.063120372
+    }
+  },
+  {
+    "shelter_id": "2667",
+    "name": "西林天主堂",
+    "risk_level": "高風險",
+    "mean_elevation": 923.12,
+    "max_slope": 79.07,
+    "std_elevation": 220.3,
+    "river_distance": 537.27,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 286596.0310976193,
+      "y": 2639299.2891922197
+    }
+  },
+  {
+    "shelter_id": "2690",
+    "name": "壽豐活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 34.74,
+    "max_slope": 23.63,
+    "std_elevation": 1.86,
+    "river_distance": 147.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 301930.8452708387,
+      "y": 2640619.9542957125
+    }
+  },
+  {
+    "shelter_id": "2692",
+    "name": "共和活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 30.65,
+    "max_slope": 11.09,
+    "std_elevation": 1.77,
+    "river_distance": 425.94,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 304059.3664325277,
+      "y": 2640649.926712356
+    }
+  },
+  {
+    "shelter_id": "2700",
+    "name": "鹽寮活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -6962.02,
+    "max_slope": 89.95,
+    "std_elevation": 13464.87,
+    "river_distance": 869.72,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310932.0744908913,
+      "y": 2640908.246113369
+    }
+  },
+  {
+    "shelter_id": "2952",
+    "name": "東昌活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 12.8,
+    "max_slope": 10.8,
+    "std_elevation": 2.33,
+    "river_distance": 182.35,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 310583.505101579,
+      "y": 2651363.4246426006
+    }
+  },
+  {
+    "shelter_id": "2960",
+    "name": "仁里活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 15.41,
+    "max_slope": 11.91,
+    "std_elevation": 2.26,
+    "river_distance": 159.54,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 310297.33342560515,
+      "y": 2651650.176526008
+    }
+  },
+  {
+    "shelter_id": "2963",
+    "name": "主農社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 11.73,
+    "max_slope": 10.97,
+    "std_elevation": 2.12,
+    "river_distance": 159.56,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 310734.7575056046,
+      "y": 2651696.321916432
+    }
+  },
+  {
+    "shelter_id": "2973",
+    "name": "中原國小文中三國中預定地",
+    "risk_level": "高風險",
+    "mean_elevation": 12.5,
+    "max_slope": 11.09,
+    "std_elevation": 1.87,
+    "river_distance": 377.32,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 310692.6444747213,
+      "y": 2652028.4020009553
+    }
+  },
+  {
+    "shelter_id": "2988",
+    "name": "勝安活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 19.81,
+    "max_slope": 9.8,
+    "std_elevation": 1.99,
+    "river_distance": 26.71,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309724.1945355974,
+      "y": 2652423.048218177
+    }
+  },
+  {
+    "shelter_id": "2989",
+    "name": "宜昌活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 22.55,
+    "max_slope": 11.53,
+    "std_elevation": 2.05,
+    "river_distance": 88.44,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309347.57423530205,
+      "y": 2652443.636001287
+    }
+  },
+  {
+    "shelter_id": "2995",
+    "name": "勝安宮",
+    "risk_level": "高風險",
+    "mean_elevation": 20.52,
+    "max_slope": 9.8,
+    "std_elevation": 2.15,
+    "river_distance": 244.67,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309702.7816509806,
+      "y": 2652677.6901718676
+    }
+  },
+  {
+    "shelter_id": "2997",
+    "name": "聖地慈惠堂",
+    "risk_level": "高風險",
+    "mean_elevation": 21.31,
+    "max_slope": 10.77,
+    "std_elevation": 2.11,
+    "river_distance": 249.08,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309631.409648486,
+      "y": 2652710.6191330003
+    }
+  },
+  {
+    "shelter_id": "3003",
+    "name": "明義國小",
+    "risk_level": "高風險",
+    "mean_elevation": 7.91,
+    "max_slope": 5.28,
+    "std_elevation": 1.66,
+    "river_distance": 466.81,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311350.72366278444,
+      "y": 2652828.6215013145
+    }
+  },
+  {
+    "shelter_id": "3020",
+    "name": "花蓮市公所",
+    "risk_level": "高風險",
+    "mean_elevation": 6.66,
+    "max_slope": 17.69,
+    "std_elevation": 1.63,
+    "river_distance": 146.53,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311746.11732433655,
+      "y": 2653173.652493013
+    }
+  },
+  {
+    "shelter_id": "3022",
+    "name": "慶豐活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 43.04,
+    "max_slope": 8.79,
+    "std_elevation": 3.06,
+    "river_distance": 395.91,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 307309.23721932294,
+      "y": 2653199.539995648
+    }
+  },
+  {
+    "shelter_id": "3046",
+    "name": "南美崙營區",
+    "risk_level": "高風險",
+    "mean_elevation": 53.62,
+    "max_slope": 35.22,
+    "std_elevation": 17.68,
+    "river_distance": 641.49,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 312648.58435625397,
+      "y": 2653908.5379339955
+    }
+  },
+  {
+    "shelter_id": "3078",
+    "name": "花蓮高工",
+    "risk_level": "高風險",
+    "mean_elevation": 27.89,
+    "max_slope": 31.76,
+    "std_elevation": 6.06,
+    "river_distance": 868.09,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 313071.0804059317,
+      "y": 2655017.925697832
+    }
+  },
+  {
+    "shelter_id": "3079",
+    "name": "慈濟大學人文社會學院",
+    "risk_level": "高風險",
+    "mean_elevation": 43.03,
+    "max_slope": 16.94,
+    "std_elevation": 3.96,
+    "river_distance": 263.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 308339.4247329008,
+      "y": 2655108.6375736566
+    }
+  },
+  {
+    "shelter_id": "3092",
+    "name": "行政院國軍退除役官兵輔導委員會花",
+    "risk_level": "高風險",
+    "mean_elevation": 20.49,
+    "max_slope": 30.71,
+    "std_elevation": 7.24,
+    "river_distance": 714.06,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 312896.6529663455,
+      "y": 2655349.4200507635
+    }
+  },
+  {
+    "shelter_id": "3093",
+    "name": "民孝社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 15.71,
+    "max_slope": 20.27,
+    "std_elevation": 7.2,
+    "river_distance": 451.48,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 314198.73239563004,
+      "y": 2655410.5709956684
+    }
+  },
+  {
+    "shelter_id": "3094",
+    "name": "衛生福利部東區老人之家養護院區",
+    "risk_level": "高風險",
+    "mean_elevation": 12.63,
+    "max_slope": 28.01,
+    "std_elevation": 4.68,
+    "river_distance": 268.81,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 312488.8067276875,
+      "y": 2655546.992250494
+    }
+  },
+  {
+    "shelter_id": "3097",
+    "name": "花蓮縣立體育場",
+    "risk_level": "高風險",
+    "mean_elevation": 29.61,
+    "max_slope": 12.45,
+    "std_elevation": 4.69,
+    "river_distance": 239.53,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309212.4667098704,
+      "y": 2655588.4554813416
+    }
+  },
+  {
+    "shelter_id": "3099",
+    "name": "嘉新社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 10.62,
+    "max_slope": 18.34,
+    "std_elevation": 1.82,
+    "river_distance": 76.71,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 312294.53245335544,
+      "y": 2655767.6534793843
+    }
+  },
+  {
+    "shelter_id": "3112",
+    "name": "花蓮港天宮",
+    "risk_level": "高風險",
+    "mean_elevation": 21.6,
+    "max_slope": 8.8,
+    "std_elevation": 3.1,
+    "river_distance": 139.46,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309739.8628047562,
+      "y": 2655989.3556254916
+    }
+  },
+  {
+    "shelter_id": "3118",
+    "name": "國福社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 24.74,
+    "max_slope": 9.96,
+    "std_elevation": 3.07,
+    "river_distance": 246.53,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 309199.3636095987,
+      "y": 2656297.2204484153
+    }
+  },
+  {
+    "shelter_id": "3135",
+    "name": "佳林社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 13.41,
+    "max_slope": 20.33,
+    "std_elevation": 3.07,
+    "river_distance": 135.16,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311269.7299100743,
+      "y": 2657490.9888671185
+    }
+  },
+  {
+    "shelter_id": "3140",
+    "name": "國軍805醫院",
+    "risk_level": "高風險",
+    "mean_elevation": 15.01,
+    "max_slope": 10.7,
+    "std_elevation": 2.04,
+    "river_distance": 413.6,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311786.9695272626,
+      "y": 2657858.698955304
+    }
+  },
+  {
+    "shelter_id": "3149",
+    "name": "基督教芥菜種會",
+    "risk_level": "高風險",
+    "mean_elevation": 15.86,
+    "max_slope": 10.96,
+    "std_elevation": 1.97,
+    "river_distance": 387.45,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311663.4190008049,
+      "y": 2658201.5028374875
+    }
+  },
+  {
+    "shelter_id": "3165",
+    "name": "北埔社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 18.41,
+    "max_slope": 10.31,
+    "std_elevation": 1.68,
+    "river_distance": 406.36,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 311355.1137456691,
+      "y": 2658931.152711223
+    }
+  },
+  {
+    "shelter_id": "3182",
+    "name": "樹林腳社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 23.67,
+    "max_slope": 11.71,
+    "std_elevation": 2.67,
+    "river_distance": 208.22,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 310791.23435302544,
+      "y": 2659659.499103672
+    }
+  },
+  {
+    "shelter_id": "3257",
+    "name": "景美活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 49.07,
+    "max_slope": 51.48,
+    "std_elevation": 48.66,
+    "river_distance": 872.34,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311687.98845799215,
+      "y": 2664293.088263868
+    }
+  },
+  {
+    "shelter_id": "3356",
+    "name": "秀林國小收容所",
+    "risk_level": "高風險",
+    "mean_elevation": 55.74,
+    "max_slope": 58.75,
+    "std_elevation": 42.29,
+    "river_distance": 1093.88,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 313470.2378960009,
+      "y": 2668232.710153511
+    }
+  },
+  {
+    "shelter_id": "3481",
+    "name": "崇德國小收容所",
+    "risk_level": "高風險",
+    "mean_elevation": 51.0,
+    "max_slope": 61.06,
+    "std_elevation": 44.59,
+    "river_distance": 1763.81,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 316293.823626376,
+      "y": 2673118.8446475975
+    }
+  },
+  {
+    "shelter_id": "3788",
+    "name": "和平活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 36.58,
+    "max_slope": 46.29,
+    "std_elevation": 32.07,
+    "river_distance": 872.52,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325952.2048332845,
+      "y": 2689371.333582501
+    }
+  },
+  {
+    "shelter_id": "3809",
+    "name": "金洋國小",
+    "risk_level": "高風險",
+    "mean_elevation": 118.32,
+    "max_slope": 63.73,
+    "std_elevation": 80.87,
+    "river_distance": 520.0,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325683.66071857087,
+      "y": 2692127.846758017
+    }
+  },
+  {
+    "shelter_id": "3810",
+    "name": "澳花和平基督長老教會",
+    "risk_level": "高風險",
+    "mean_elevation": 122.84,
+    "max_slope": 63.3,
+    "std_elevation": 87.7,
+    "river_distance": 524.25,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325687.0635252435,
+      "y": 2692155.666123915
+    }
+  },
+  {
+    "shelter_id": "3881",
+    "name": "南山活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 1550.4,
+    "max_slope": 61.8,
+    "std_elevation": 114.52,
+    "river_distance": 1366.13,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 287617.2773483806,
+      "y": 2703648.604126208
+    }
+  },
+  {
+    "shelter_id": "3910",
+    "name": "金洋社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 50.42,
+    "max_slope": 48.63,
+    "std_elevation": 42.89,
+    "river_distance": 778.96,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 331159.2453135931,
+      "y": 2707011.705888527
+    }
+  },
+  {
+    "shelter_id": "3911",
+    "name": "南澳國小",
+    "risk_level": "高風險",
+    "mean_elevation": 51.12,
+    "max_slope": 48.63,
+    "std_elevation": 41.01,
+    "river_distance": 760.6,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 331214.76743223437,
+      "y": 2707035.177189961
+    }
+  },
+  {
+    "shelter_id": "3991",
+    "name": "昭安社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 94.78,
+    "max_slope": 52.29,
+    "std_elevation": 58.18,
+    "river_distance": 600.38,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 337093.60170755384,
+      "y": 2719464.3203556086
+    }
+  },
+  {
+    "shelter_id": "4008",
+    "name": "聖湖社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 37.45,
+    "max_slope": 47.06,
+    "std_elevation": 24.15,
+    "river_distance": 525.17,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 334510.610972457,
+      "y": 2721143.1762628835
+    }
+  },
+  {
+    "shelter_id": "4019",
+    "name": "樂水活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 331.04,
+    "max_slope": 60.43,
+    "std_elevation": 44.78,
+    "river_distance": 629.69,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 303681.1533711357,
+      "y": 2721466.643118586
+    }
+  },
+  {
+    "shelter_id": "4028",
+    "name": "岳明社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 8.45,
+    "max_slope": 39.85,
+    "std_elevation": 13.11,
+    "river_distance": 1325.41,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 336088.66507225466,
+      "y": 2723091.2754446035
+    }
+  },
+  {
+    "shelter_id": "4065",
+    "name": "大進社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 96.43,
+    "max_slope": 43.56,
+    "std_elevation": 12.03,
+    "river_distance": 682.76,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 322092.51464895013,
+      "y": 2725337.8665614533
+    }
+  },
+  {
+    "shelter_id": "4066",
+    "name": "南興社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 4.4,
+    "max_slope": 7.95,
+    "std_elevation": 0.9,
+    "river_distance": 479.97,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330364.03241094004,
+      "y": 2725394.2528024623
+    }
+  },
+  {
+    "shelter_id": "4068",
+    "name": "安平社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 3.54,
+    "max_slope": 11.22,
+    "std_elevation": 1.21,
+    "river_distance": 58.41,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 329907.60813872144,
+      "y": 2725535.6214576787
+    }
+  },
+  {
+    "shelter_id": "4070",
+    "name": "冬山社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 3.43,
+    "max_slope": 16.69,
+    "std_elevation": 1.24,
+    "river_distance": 202.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330008.02297725686,
+      "y": 2725680.1955498317
+    }
+  },
+  {
+    "shelter_id": "4077",
+    "name": "珍珠社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 1.86,
+    "max_slope": 14.97,
+    "std_elevation": 0.89,
+    "river_distance": 264.14,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330398.0648924654,
+      "y": 2726513.197522991
+    }
+  },
+  {
+    "shelter_id": "4080",
+    "name": "梅花社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 15.13,
+    "max_slope": 7.29,
+    "std_elevation": 3.59,
+    "river_distance": 428.64,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326216.2521118693,
+      "y": 2726633.650656084
+    }
+  },
+  {
+    "shelter_id": "4106",
+    "name": "武淵社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 1.75,
+    "max_slope": 10.21,
+    "std_elevation": 0.92,
+    "river_distance": 351.12,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330731.20384789904,
+      "y": 2728420.326987119
+    }
+  },
+  {
+    "shelter_id": "4107",
+    "name": "員山社區臨時收容站",
+    "risk_level": "高風險",
+    "mean_elevation": 132.53,
+    "max_slope": 46.47,
+    "std_elevation": 9.05,
+    "river_distance": 502.37,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 313047.85712051793,
+      "y": 2728351.012720177
+    }
+  },
+  {
+    "shelter_id": "4114",
+    "name": "利澤社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 2.33,
+    "max_slope": 6.13,
+    "std_elevation": 1.8,
+    "river_distance": 418.52,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333380.3667956806,
+      "y": 2728912.27144312
+    }
+  },
+  {
+    "shelter_id": "4153",
+    "name": "大洲社區二次收容",
+    "risk_level": "高風險",
+    "mean_elevation": 61.09,
+    "max_slope": 4.72,
+    "std_elevation": 2.72,
+    "river_distance": 371.55,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 318402.5162237368,
+      "y": 2730403.3280601916
+    }
+  },
+  {
+    "shelter_id": "4155",
+    "name": "新店社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 0.57,
+    "max_slope": 9.24,
+    "std_elevation": 0.95,
+    "river_distance": 428.74,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332763.2858212278,
+      "y": 2730547.952991826
+    }
+  },
+  {
+    "shelter_id": "4156",
+    "name": "崙埤活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 264.98,
+    "max_slope": 52.77,
+    "std_elevation": 61.99,
+    "river_distance": 649.47,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310791.2917285548,
+      "y": 2730511.9150374113
+    }
+  },
+  {
+    "shelter_id": "4199",
+    "name": "大隱社區臨時收容站",
+    "risk_level": "高風險",
+    "mean_elevation": 17.21,
+    "max_slope": 6.33,
+    "std_elevation": 1.22,
+    "river_distance": 476.87,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323606.4977751339,
+      "y": 2731958.5092941425
+    }
+  },
+  {
+    "shelter_id": "4200",
+    "name": "八大庄一百甲城煌廟",
+    "risk_level": "高風險",
+    "mean_elevation": 0.93,
+    "max_slope": 10.15,
+    "std_elevation": 0.96,
+    "river_distance": 75.58,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333786.7714518689,
+      "y": 2732016.238724666
+    }
+  },
+  {
+    "shelter_id": "4202",
+    "name": "萬德社區二次收容",
+    "risk_level": "高風險",
+    "mean_elevation": 16.87,
+    "max_slope": 6.33,
+    "std_elevation": 1.24,
+    "river_distance": 455.3,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323687.3359867692,
+      "y": 2731981.0915367045
+    }
+  },
+  {
+    "shelter_id": "4203",
+    "name": "萬富社區臨時收容站",
+    "risk_level": "高風險",
+    "mean_elevation": 16.87,
+    "max_slope": 6.33,
+    "std_elevation": 1.24,
+    "river_distance": 455.3,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323687.3359867692,
+      "y": 2731981.0915367045
+    }
+  },
+  {
+    "shelter_id": "4224",
+    "name": "仁愛社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 7.36,
+    "max_slope": 12.85,
+    "std_elevation": 1.41,
+    "river_distance": 138.84,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326495.4840847756,
+      "y": 2732915.6524707424
+    }
+  },
+  {
+    "shelter_id": "4239",
+    "name": "二結社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.15,
+    "max_slope": 11.39,
+    "std_elevation": 1.03,
+    "river_distance": 342.67,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327097.6271214116,
+      "y": 2733816.2008938272
+    }
+  },
+  {
+    "shelter_id": "4244",
+    "name": "深溝村集會所",
+    "risk_level": "高風險",
+    "mean_elevation": 16.47,
+    "max_slope": 5.21,
+    "std_elevation": 1.61,
+    "river_distance": 84.69,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 322822.1183156355,
+      "y": 2734482.8313455344
+    }
+  },
+  {
+    "shelter_id": "4247",
+    "name": "內城社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 34.07,
+    "max_slope": 6.83,
+    "std_elevation": 2.54,
+    "river_distance": 491.51,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 319696.2480326593,
+      "y": 2735037.6502457913
+    }
+  },
+  {
+    "shelter_id": "4252",
+    "name": "凱旋國民中學樂活館",
+    "risk_level": "高風險",
+    "mean_elevation": 6.11,
+    "max_slope": 12.55,
+    "std_elevation": 0.97,
+    "river_distance": 225.29,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326581.86524121166,
+      "y": 2735596.697039646
+    }
+  },
+  {
+    "shelter_id": "4259",
+    "name": "紅葉活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -390.09,
+    "max_slope": 89.95,
+    "std_elevation": 3568.19,
+    "river_distance": 683.6,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 333205.72818478424,
+      "y": 2736089.041698667
+    }
+  },
+  {
+    "shelter_id": "4271",
+    "name": "湖北社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 12.91,
+    "max_slope": 10.6,
+    "std_elevation": 1.64,
+    "river_distance": 172.05,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 322634.9103937035,
+      "y": 2736649.6599208754
+    }
+  },
+  {
+    "shelter_id": "4276",
+    "name": "尚德社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 12.23,
+    "max_slope": 5.79,
+    "std_elevation": 1.2,
+    "river_distance": 456.06,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323046.8965023876,
+      "y": 2736908.805370683
+    }
+  },
+  {
+    "shelter_id": "4291",
+    "name": "壯圍鄉公所",
+    "risk_level": "高風險",
+    "mean_elevation": 3.05,
+    "max_slope": 12.22,
+    "std_elevation": 0.82,
+    "river_distance": 428.23,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 329478.79715376365,
+      "y": 2737965.176200375
+    }
+  },
+  {
+    "shelter_id": "4292",
+    "name": "大福補天宮",
+    "risk_level": "高風險",
+    "mean_elevation": 3.09,
+    "max_slope": 11.52,
+    "std_elevation": 0.78,
+    "river_distance": 421.58,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 329481.9926825798,
+      "y": 2737972.394500919
+    }
+  },
+  {
+    "shelter_id": "4301",
+    "name": "五大社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 3.56,
+    "max_slope": 12.22,
+    "std_elevation": 1.12,
+    "river_distance": 44.29,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 329277.4683484753,
+      "y": 2738358.9114532247
+    }
+  },
+  {
+    "shelter_id": "4304",
+    "name": "美城活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 2.36,
+    "max_slope": 9.47,
+    "std_elevation": 0.71,
+    "river_distance": 464.01,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331087.4566234629,
+      "y": 2738469.0889265533
+    }
+  },
+  {
+    "shelter_id": "4309",
+    "name": "南屏國小活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 7.46,
+    "max_slope": 9.45,
+    "std_elevation": 0.89,
+    "river_distance": 349.21,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325107.97259957646,
+      "y": 2738734.420946931
+    }
+  },
+  {
+    "shelter_id": "4311",
+    "name": "光復國小五育館",
+    "risk_level": "高風險",
+    "mean_elevation": 7.14,
+    "max_slope": 9.45,
+    "std_elevation": 0.79,
+    "river_distance": 461.86,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325552.71102623374,
+      "y": 2738792.225633338
+    }
+  },
+  {
+    "shelter_id": "4317",
+    "name": "碧霞宮",
+    "risk_level": "高風險",
+    "mean_elevation": 7.02,
+    "max_slope": 8.04,
+    "std_elevation": 0.81,
+    "river_distance": 381.65,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325964.4878430369,
+      "y": 2739326.165146949
+    }
+  },
+  {
+    "shelter_id": "4318",
+    "name": "過嶺活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -2257.66,
+    "max_slope": 89.95,
+    "std_elevation": 8305.82,
+    "river_distance": 2102.02,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 332464.2614830805,
+      "y": 2739382.320836664
+    }
+  },
+  {
+    "shelter_id": "4320",
+    "name": "梅洲里鎮平宮",
+    "risk_level": "高風險",
+    "mean_elevation": 6.84,
+    "max_slope": 8.24,
+    "std_elevation": 1.12,
+    "river_distance": 141.74,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325265.70841437264,
+      "y": 2739488.4975768058
+    }
+  },
+  {
+    "shelter_id": "4321",
+    "name": "東園社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.37,
+    "max_slope": 10.34,
+    "std_elevation": 1.08,
+    "river_distance": 358.26,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326610.8733112893,
+      "y": 2739495.8812082964
+    }
+  },
+  {
+    "shelter_id": "4322",
+    "name": "宜蘭縣社會福利館多功能劇場",
+    "risk_level": "高風險",
+    "mean_elevation": 6.87,
+    "max_slope": 9.19,
+    "std_elevation": 1.14,
+    "river_distance": 164.6,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325912.45845821436,
+      "y": 2739591.722305495
+    }
+  },
+  {
+    "shelter_id": "4323",
+    "name": "同樂社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 12.93,
+    "max_slope": 11.23,
+    "std_elevation": 3.76,
+    "river_distance": 384.05,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 323795.72843344917,
+      "y": 2739615.382199908
+    }
+  },
+  {
+    "shelter_id": "4324",
+    "name": "慶和社區活動中心1樓",
+    "risk_level": "高風險",
+    "mean_elevation": 6.83,
+    "max_slope": 8.98,
+    "std_elevation": 1.08,
+    "river_distance": 250.67,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326094.204920651,
+      "y": 2739648.1047461666
+    }
+  },
+  {
+    "shelter_id": "4325",
+    "name": "慶和里慶和廟",
+    "risk_level": "高風險",
+    "mean_elevation": 6.76,
+    "max_slope": 8.98,
+    "std_elevation": 1.17,
+    "river_distance": 176.88,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326033.2779412974,
+      "y": 2739692.0768881235
+    }
+  },
+  {
+    "shelter_id": "4326",
+    "name": "梅洲社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.79,
+    "max_slope": 8.5,
+    "std_elevation": 1.03,
+    "river_distance": 316.85,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325274.4361947072,
+      "y": 2739743.310693634
+    }
+  },
+  {
+    "shelter_id": "4327",
+    "name": "力行國小英才館",
+    "risk_level": "高風險",
+    "mean_elevation": 6.56,
+    "max_slope": 14.56,
+    "std_elevation": 1.45,
+    "river_distance": 221.82,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326356.1884103452,
+      "y": 2739826.7770292247
+    }
+  },
+  {
+    "shelter_id": "4328",
+    "name": "宜蘭國中活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.7,
+    "max_slope": 8.98,
+    "std_elevation": 1.16,
+    "river_distance": 0.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325850.4386095063,
+      "y": 2739835.0713285306
+    }
+  },
+  {
+    "shelter_id": "4329",
+    "name": "七張社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 4.23,
+    "max_slope": 13.5,
+    "std_elevation": 1.17,
+    "river_distance": 297.56,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 328399.05056731007,
+      "y": 2739860.358155102
+    }
+  },
+  {
+    "shelter_id": "4331",
+    "name": "新生社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 5.09,
+    "max_slope": 14.2,
+    "std_elevation": 1.5,
+    "river_distance": 230.82,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327286.1621785403,
+      "y": 2739920.5562997623
+    }
+  },
+  {
+    "shelter_id": "4333",
+    "name": "七張里慈雲寺",
+    "risk_level": "高風險",
+    "mean_elevation": 4.77,
+    "max_slope": 11.64,
+    "std_elevation": 1.21,
+    "river_distance": 342.7,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327822.0656781309,
+      "y": 2739945.714673027
+    }
+  },
+  {
+    "shelter_id": "4339",
+    "name": "北津社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.62,
+    "max_slope": 9.46,
+    "std_elevation": 0.99,
+    "river_distance": 288.27,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 325838.1384466825,
+      "y": 2740233.7681936356
+    }
+  },
+  {
+    "shelter_id": "4341",
+    "name": "枕山社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 38.85,
+    "max_slope": 36.54,
+    "std_elevation": 9.66,
+    "river_distance": 1122.56,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 322666.70564530004,
+      "y": 2740304.3582045757
+    }
+  },
+  {
+    "shelter_id": "4342",
+    "name": "北津里帝王廟",
+    "risk_level": "高風險",
+    "mean_elevation": 6.57,
+    "max_slope": 14.56,
+    "std_elevation": 1.14,
+    "river_distance": 242.1,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326312.79974909185,
+      "y": 2740358.223945389
+    }
+  },
+  {
+    "shelter_id": "4347",
+    "name": "新生國小體育館",
+    "risk_level": "高風險",
+    "mean_elevation": 6.72,
+    "max_slope": 7.6,
+    "std_elevation": 0.75,
+    "river_distance": 474.92,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326301.4029396423,
+      "y": 2740590.773943346
+    }
+  },
+  {
+    "shelter_id": "4353",
+    "name": "壯六活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -3699.23,
+    "max_slope": 89.95,
+    "std_elevation": 10375.03,
+    "river_distance": 3311.58,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 332396.80177973607,
+      "y": 2741113.1370942635
+    }
+  },
+  {
+    "shelter_id": "4403",
+    "name": "壯圍鄉立幼兒園",
+    "risk_level": "高風險",
+    "mean_elevation": -2749.91,
+    "max_slope": 89.95,
+    "std_elevation": 9089.93,
+    "river_distance": 1412.77,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 332520.0563048809,
+      "y": 2744182.200234653
+    }
+  },
+  {
+    "shelter_id": "4414",
+    "name": "三民活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 6.65,
+    "max_slope": 11.13,
+    "std_elevation": 2.44,
+    "river_distance": 94.0,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327298.5426165482,
+      "y": 2744938.4410576224
+    }
+  },
+  {
+    "shelter_id": "4420",
+    "name": "三民國小",
+    "risk_level": "高風險",
+    "mean_elevation": 12.59,
+    "max_slope": 18.88,
+    "std_elevation": 4.59,
+    "river_distance": 354.75,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 326790.9444058831,
+      "y": 2745312.2217644393
+    }
+  },
+  {
+    "shelter_id": "4428",
+    "name": "佛光大學",
+    "risk_level": "高風險",
+    "mean_elevation": 429.56,
+    "max_slope": 48.24,
+    "std_elevation": 53.09,
+    "river_distance": 1390.14,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 322674.17695213103,
+      "y": 2745688.694189859
+    }
+  },
+  {
+    "shelter_id": "4429",
+    "name": "礁溪國中",
+    "risk_level": "高風險",
+    "mean_elevation": 12.91,
+    "max_slope": 11.73,
+    "std_elevation": 4.03,
+    "river_distance": 123.37,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 327607.4075971589,
+      "y": 2745748.788043646
+    }
+  },
+  {
+    "shelter_id": "4435",
+    "name": "淡江大學蘭陽校園",
+    "risk_level": "高風險",
+    "mean_elevation": 362.69,
+    "max_slope": 48.63,
+    "std_elevation": 52.02,
+    "river_distance": 727.4,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 323692.09420883603,
+      "y": 2746281.163796366
+    }
+  },
+  {
+    "shelter_id": "4448",
+    "name": "德陽宮弘道大樓",
+    "risk_level": "高風險",
+    "mean_elevation": 87.46,
+    "max_slope": 49.35,
+    "std_elevation": 84.02,
+    "river_distance": 925.53,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 327337.41991134797,
+      "y": 2747021.116872424
+    }
+  },
+  {
+    "shelter_id": "4451",
+    "name": "玉石活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 9.38,
+    "max_slope": 14.3,
+    "std_elevation": 6.33,
+    "river_distance": 316.73,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 328519.4260951478,
+      "y": 2747149.6421587756
+    }
+  },
+  {
+    "shelter_id": "4457",
+    "name": "中崙里-中崙社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 1.91,
+    "max_slope": 7.7,
+    "std_elevation": 0.95,
+    "river_distance": 135.73,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 331134.2652887332,
+      "y": 2747718.629026943
+    }
+  },
+  {
+    "shelter_id": "4463",
+    "name": "二城里-二城社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 7.27,
+    "max_slope": 19.28,
+    "std_elevation": 3.0,
+    "river_distance": 241.18,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 330130.9888304855,
+      "y": 2748155.8418642012
+    }
+  },
+  {
+    "shelter_id": "4476",
+    "name": "頂埔里-順天府池府王爺廟",
+    "risk_level": "高風險",
+    "mean_elevation": 3.64,
+    "max_slope": 11.92,
+    "std_elevation": 2.57,
+    "river_distance": 227.93,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332359.9757727156,
+      "y": 2748977.6050778897
+    }
+  },
+  {
+    "shelter_id": "4487",
+    "name": "新建里-新建社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 7.31,
+    "max_slope": 12.78,
+    "std_elevation": 3.27,
+    "river_distance": 132.1,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332829.82030760346,
+      "y": 2749844.434653088
+    }
+  },
+  {
+    "shelter_id": "4489",
+    "name": "金面里-協天廟",
+    "risk_level": "高風險",
+    "mean_elevation": 193.65,
+    "max_slope": 45.48,
+    "std_elevation": 94.73,
+    "river_distance": 718.9,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 330191.3646053409,
+      "y": 2749939.593230162
+    }
+  },
+  {
+    "shelter_id": "4491",
+    "name": "城西里-城隍廟",
+    "risk_level": "高風險",
+    "mean_elevation": 5.86,
+    "max_slope": 7.83,
+    "std_elevation": 2.66,
+    "river_distance": 377.56,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333061.0693704551,
+      "y": 2750045.215023008
+    }
+  },
+  {
+    "shelter_id": "4497",
+    "name": "城東里-城東社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 4.41,
+    "max_slope": 7.36,
+    "std_elevation": 1.79,
+    "river_distance": 119.43,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333372.0892150187,
+      "y": 2750423.7161682304
+    }
+  },
+  {
+    "shelter_id": "4498",
+    "name": "城北里-農會",
+    "risk_level": "高風險",
+    "mean_elevation": 5.19,
+    "max_slope": 7.36,
+    "std_elevation": 2.1,
+    "river_distance": 158.09,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333230.5360157075,
+      "y": 2750433.9371133745
+    }
+  },
+  {
+    "shelter_id": "4503",
+    "name": "拔雅里-拔雅社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": 15.95,
+    "max_slope": 14.62,
+    "std_elevation": 6.42,
+    "river_distance": 411.94,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 332552.2290353119,
+      "y": 2750629.2424589223
+    }
+  },
+  {
+    "shelter_id": "4505",
+    "name": "武營里-頭城國小",
+    "risk_level": "高風險",
+    "mean_elevation": 5.43,
+    "max_slope": 6.3,
+    "std_elevation": 1.98,
+    "river_distance": 289.07,
+    "river_distance_category": "high",
+    "coordinates": {
+      "x": 333612.01426196937,
+      "y": 2750857.178915382
+    }
+  },
+  {
+    "shelter_id": "4672",
+    "name": "合興里-合興社區活動中心",
+    "risk_level": "高風險",
+    "mean_elevation": -6061.81,
+    "max_slope": 89.95,
+    "std_elevation": 12807.93,
+    "river_distance": 1007.06,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 339471.3934336808,
+      "y": 2758969.400339494
+    }
+  },
+  {
+    "shelter_id": "2791",
+    "name": "月眉活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 33.82,
+    "max_slope": 14.18,
+    "std_elevation": 2.53,
+    "river_distance": 848.34,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 306409.0831830125,
+      "y": 2644014.6725255945
+    }
+  },
+  {
+    "shelter_id": "2803",
+    "name": "志學活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 46.4,
+    "max_slope": 8.9,
+    "std_elevation": 2.49,
+    "river_distance": 818.49,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 304186.95561039296,
+      "y": 2644637.4170299126
+    }
+  },
+  {
+    "shelter_id": "2969",
+    "name": "南昌活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 25.74,
+    "max_slope": 4.22,
+    "std_elevation": 2.25,
+    "river_distance": 608.25,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 308993.76670438534,
+      "y": 2651866.2641888163
+    }
+  },
+  {
+    "shelter_id": "2972",
+    "name": "中正國小",
+    "risk_level": "中風險",
+    "mean_elevation": 10.05,
+    "max_slope": 5.64,
+    "std_elevation": 2.03,
+    "river_distance": 595.58,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311028.5243144549,
+      "y": 2652018.751169995
+    }
+  },
+  {
+    "shelter_id": "2981",
+    "name": "花蓮城隍廟香客大樓",
+    "risk_level": "中風險",
+    "mean_elevation": 5.59,
+    "max_slope": 4.62,
+    "std_elevation": 1.65,
+    "river_distance": 691.1,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311648.498043181,
+      "y": 2652209.6811313997
+    }
+  },
+  {
+    "shelter_id": "2985",
+    "name": "五穀宮",
+    "risk_level": "中風險",
+    "mean_elevation": 29.45,
+    "max_slope": 8.93,
+    "std_elevation": 2.11,
+    "river_distance": 632.07,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 308432.4173806327,
+      "y": 2652262.676074288
+    }
+  },
+  {
+    "shelter_id": "2990",
+    "name": "忠孝國小",
+    "risk_level": "中風險",
+    "mean_elevation": 11.09,
+    "max_slope": 5.38,
+    "std_elevation": 1.89,
+    "river_distance": 838.73,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310914.7463592211,
+      "y": 2652450.2038227036
+    }
+  },
+  {
+    "shelter_id": "2991",
+    "name": "主權社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 14.65,
+    "max_slope": 5.25,
+    "std_elevation": 1.97,
+    "river_distance": 513.63,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310426.23016881704,
+      "y": 2652459.2134258924
+    }
+  },
+  {
+    "shelter_id": "2999",
+    "name": "國風國中",
+    "risk_level": "中風險",
+    "mean_elevation": 13.55,
+    "max_slope": 5.28,
+    "std_elevation": 2.13,
+    "river_distance": 850.3,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310587.74361901823,
+      "y": 2652770.0024400335
+    }
+  },
+  {
+    "shelter_id": "3024",
+    "name": "國立花蓮農業職業學校",
+    "risk_level": "中風險",
+    "mean_elevation": 10.82,
+    "max_slope": 4.83,
+    "std_elevation": 1.78,
+    "river_distance": 897.47,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310951.68752803485,
+      "y": 2653336.3841377515
+    }
+  },
+  {
+    "shelter_id": "3034",
+    "name": "花蓮高商",
+    "risk_level": "中風險",
+    "mean_elevation": 9.17,
+    "max_slope": 7.33,
+    "std_elevation": 1.46,
+    "river_distance": 568.08,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311306.46848761535,
+      "y": 2653659.0801548334
+    }
+  },
+  {
+    "shelter_id": "3048",
+    "name": "永安活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 39.71,
+    "max_slope": 4.1,
+    "std_elevation": 3.64,
+    "river_distance": 720.3,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 308313.72140980465,
+      "y": 2653923.479843969
+    }
+  },
+  {
+    "shelter_id": "3060",
+    "name": "鑄強國小",
+    "risk_level": "中風險",
+    "mean_elevation": 31.5,
+    "max_slope": 9.58,
+    "std_elevation": 5.08,
+    "river_distance": 958.21,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 313643.7628775192,
+      "y": 2654367.010353024
+    }
+  },
+  {
+    "shelter_id": "3073",
+    "name": "慈濟大學附設國民中學,小學",
+    "risk_level": "中風險",
+    "mean_elevation": 42.0,
+    "max_slope": 11.68,
+    "std_elevation": 3.43,
+    "river_distance": 585.93,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 308462.7387664999,
+      "y": 2654810.107735025
+    }
+  },
+  {
+    "shelter_id": "3074",
+    "name": "美崙國中",
+    "risk_level": "中風險",
+    "mean_elevation": 22.38,
+    "max_slope": 20.78,
+    "std_elevation": 5.88,
+    "river_distance": 833.91,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 313865.14869428816,
+      "y": 2654921.763620341
+    }
+  },
+  {
+    "shelter_id": "3084",
+    "name": "私立四維高級中學",
+    "risk_level": "中風險",
+    "mean_elevation": 19.42,
+    "max_slope": 7.01,
+    "std_elevation": 2.88,
+    "river_distance": 997.69,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310190.86503145884,
+      "y": 2655193.820784057
+    }
+  },
+  {
+    "shelter_id": "3096",
+    "name": "大陳二村活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 15.66,
+    "max_slope": 22.58,
+    "std_elevation": 5.57,
+    "river_distance": 523.84,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 312753.1440054266,
+      "y": 2655592.448897075
+    }
+  },
+  {
+    "shelter_id": "3180",
+    "name": "新城鄉立圖書館",
+    "risk_level": "中風險",
+    "mean_elevation": 20.07,
+    "max_slope": 5.04,
+    "std_elevation": 1.75,
+    "river_distance": 785.08,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311454.0730370491,
+      "y": 2659573.9497985444
+    }
+  },
+  {
+    "shelter_id": "3181",
+    "name": "新城鄉原住民文化館",
+    "risk_level": "中風險",
+    "mean_elevation": 19.93,
+    "max_slope": 5.04,
+    "std_elevation": 1.69,
+    "river_distance": 872.37,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 311514.8156838089,
+      "y": 2659640.663233151
+    }
+  },
+  {
+    "shelter_id": "3204",
+    "name": "康樂社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 18.58,
+    "max_slope": 13.13,
+    "std_elevation": 1.67,
+    "river_distance": 851.97,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 312027.56785887753,
+      "y": 2661116.904150479
+    }
+  },
+  {
+    "shelter_id": "3205",
+    "name": "佳民國小收容所",
+    "risk_level": "中風險",
+    "mean_elevation": 29.5,
+    "max_slope": 10.3,
+    "std_elevation": 6.66,
+    "river_distance": 998.48,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 310959.23594585096,
+      "y": 2661122.3872578493
+    }
+  },
+  {
+    "shelter_id": "3311",
+    "name": "北三棧社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 12.33,
+    "max_slope": 12.34,
+    "std_elevation": 2.96,
+    "river_distance": 739.98,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 313130.65089337336,
+      "y": 2666868.911782414
+    }
+  },
+  {
+    "shelter_id": "4045",
+    "name": "慶安廟活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 9.15,
+    "max_slope": 11.15,
+    "std_elevation": 1.93,
+    "river_distance": 552.99,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 333754.18472023786,
+      "y": 2723985.33832785
+    }
+  },
+  {
+    "shelter_id": "4049",
+    "name": "頂寮文教活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 3.8,
+    "max_slope": 5.14,
+    "std_elevation": 1.58,
+    "river_distance": 985.66,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 334849.440529275,
+      "y": 2724327.3753242623
+    }
+  },
+  {
+    "shelter_id": "4052",
+    "name": "福德社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 5.53,
+    "max_slope": 12.22,
+    "std_elevation": 1.56,
+    "river_distance": 644.98,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 334237.19237997057,
+      "y": 2724486.7078348
+    }
+  },
+  {
+    "shelter_id": "4053",
+    "name": "大興社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 10.58,
+    "max_slope": 6.08,
+    "std_elevation": 1.74,
+    "river_distance": 852.61,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 332070.15711412195,
+      "y": 2724518.0706576244
+    }
+  },
+  {
+    "shelter_id": "4055",
+    "name": "存仁社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 2.12,
+    "max_slope": 7.25,
+    "std_elevation": 1.0,
+    "river_distance": 564.54,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 335238.6994144098,
+      "y": 2724636.802783369
+    }
+  },
+  {
+    "shelter_id": "4057",
+    "name": "香和社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 6.58,
+    "max_slope": 6.15,
+    "std_elevation": 1.07,
+    "river_distance": 512.06,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 330742.2976370776,
+      "y": 2724765.0698703146
+    }
+  },
+  {
+    "shelter_id": "4074",
+    "name": "育英國小",
+    "risk_level": "中風險",
+    "mean_elevation": 4.24,
+    "max_slope": 3.73,
+    "std_elevation": 1.31,
+    "river_distance": 845.05,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 334328.1737366736,
+      "y": 2726182.0110033476
+    }
+  },
+  {
+    "shelter_id": "4079",
+    "name": "補城社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 1.9,
+    "max_slope": 3.27,
+    "std_elevation": 0.7,
+    "river_distance": 815.29,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 331217.9457932409,
+      "y": 2726540.1142169363
+    }
+  },
+  {
+    "shelter_id": "4091",
+    "name": "順安社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 8.93,
+    "max_slope": 6.39,
+    "std_elevation": 1.35,
+    "river_distance": 994.24,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 327405.51269059133,
+      "y": 2727592.8105028234
+    }
+  },
+  {
+    "shelter_id": "4127",
+    "name": "廣興社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 19.57,
+    "max_slope": 4.97,
+    "std_elevation": 2.69,
+    "river_distance": 966.71,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325826.9422684766,
+      "y": 2729334.2189610247
+    }
+  },
+  {
+    "shelter_id": "4129",
+    "name": "雙義社區社區二次收容",
+    "risk_level": "中風險",
+    "mean_elevation": 34.39,
+    "max_slope": 7.48,
+    "std_elevation": 3.3,
+    "river_distance": 736.37,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 322334.07625774865,
+      "y": 2729503.8956932407
+    }
+  },
+  {
+    "shelter_id": "4130",
+    "name": "廣安社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 21.85,
+    "max_slope": 9.05,
+    "std_elevation": 2.62,
+    "river_distance": 606.43,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325471.60907464934,
+      "y": 2729531.6635369607
+    }
+  },
+  {
+    "shelter_id": "4147",
+    "name": "柯林社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 25.02,
+    "max_slope": 3.83,
+    "std_elevation": 2.7,
+    "river_distance": 507.46,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 323859.0287060964,
+      "y": 2730143.2858967944
+    }
+  },
+  {
+    "shelter_id": "4149",
+    "name": "季新社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 3.35,
+    "max_slope": 13.02,
+    "std_elevation": 2.77,
+    "river_distance": 811.26,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 334172.1440288005,
+      "y": 2730213.0383198136
+    }
+  },
+  {
+    "shelter_id": "4152",
+    "name": "北成社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 12.2,
+    "max_slope": 12.27,
+    "std_elevation": 2.2,
+    "river_distance": 639.0,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 326175.2392532041,
+      "y": 2730421.6367952777
+    }
+  },
+  {
+    "shelter_id": "4168",
+    "name": "行健社區二次收容",
+    "risk_level": "中風險",
+    "mean_elevation": 33.56,
+    "max_slope": 5.92,
+    "std_elevation": 2.06,
+    "river_distance": 779.37,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 321253.4959000163,
+      "y": 2731004.7211183663
+    }
+  },
+  {
+    "shelter_id": "4210",
+    "name": "孝威社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 0.98,
+    "max_slope": 3.99,
+    "std_elevation": 0.66,
+    "river_distance": 962.77,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 332135.1748371293,
+      "y": 2732360.8244759617
+    }
+  },
+  {
+    "shelter_id": "4231",
+    "name": "三興社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 5.48,
+    "max_slope": 8.36,
+    "std_elevation": 0.93,
+    "river_distance": 860.49,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 328304.1318009877,
+      "y": 2733390.9674772304
+    }
+  },
+  {
+    "shelter_id": "4243",
+    "name": "七賢村民眾活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 10.56,
+    "max_slope": 12.31,
+    "std_elevation": 1.51,
+    "river_distance": 515.4,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 324373.3964122806,
+      "y": 2734369.998771634
+    }
+  },
+  {
+    "shelter_id": "4253",
+    "name": "凱旋國小展藝館",
+    "risk_level": "中風險",
+    "mean_elevation": 5.1,
+    "max_slope": 6.27,
+    "std_elevation": 1.04,
+    "river_distance": 572.39,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 327249.5796631828,
+      "y": 2735600.4033240904
+    }
+  },
+  {
+    "shelter_id": "4260",
+    "name": "南橋社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 6.97,
+    "max_slope": 3.16,
+    "std_elevation": 0.78,
+    "river_distance": 584.83,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 324980.34299081366,
+      "y": 2736152.850759498
+    }
+  },
+  {
+    "shelter_id": "4261",
+    "name": "建業社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 4.99,
+    "max_slope": 6.1,
+    "std_elevation": 0.83,
+    "river_distance": 871.78,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 326537.7875432673,
+      "y": 2736249.9816709757
+    }
+  },
+  {
+    "shelter_id": "4265",
+    "name": "育才國小中興堂",
+    "risk_level": "中風險",
+    "mean_elevation": 7.32,
+    "max_slope": 5.61,
+    "std_elevation": 1.01,
+    "river_distance": 917.36,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 324543.8459595522,
+      "y": 2736427.4127799193
+    }
+  },
+  {
+    "shelter_id": "4274",
+    "name": "永鎮活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 1.83,
+    "max_slope": 5.89,
+    "std_elevation": 0.95,
+    "river_distance": 557.77,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 332482.89517388016,
+      "y": 2736849.0262915157
+    }
+  },
+  {
+    "shelter_id": "4277",
+    "name": "逸仙社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 16.32,
+    "max_slope": 3.71,
+    "std_elevation": 1.16,
+    "river_distance": 803.6,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 320851.8462173592,
+      "y": 2737018.801578378
+    }
+  },
+  {
+    "shelter_id": "4286",
+    "name": "壯五活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 2.41,
+    "max_slope": 2.47,
+    "std_elevation": 0.54,
+    "river_distance": 729.66,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 329867.7094240468,
+      "y": 2737707.4406050513
+    }
+  },
+  {
+    "shelter_id": "4293",
+    "name": "思源社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 8.09,
+    "max_slope": 3.64,
+    "std_elevation": 0.76,
+    "river_distance": 730.72,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 324585.4775532767,
+      "y": 2738089.144542881
+    }
+  },
+  {
+    "shelter_id": "4303",
+    "name": "國立宜蘭高中體育館",
+    "risk_level": "中風險",
+    "mean_elevation": 7.43,
+    "max_slope": 4.6,
+    "std_elevation": 0.86,
+    "river_distance": 669.33,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 325129.94543116214,
+      "y": 2738413.314497977
+    }
+  },
+  {
+    "shelter_id": "4308",
+    "name": "東嶽廟",
+    "risk_level": "中風險",
+    "mean_elevation": 6.34,
+    "max_slope": 3.01,
+    "std_elevation": 0.75,
+    "river_distance": 959.68,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 326119.79489840136,
+      "y": 2738673.4887507
+    }
+  },
+  {
+    "shelter_id": "4312",
+    "name": "國立宜蘭高商四維堂",
+    "risk_level": "中風險",
+    "mean_elevation": 5.06,
+    "max_slope": 4.05,
+    "std_elevation": 0.6,
+    "river_distance": 756.88,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 327423.6530757366,
+      "y": 2738846.8738882374
+    }
+  },
+  {
+    "shelter_id": "4314",
+    "name": "美福活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 3.05,
+    "max_slope": 7.13,
+    "std_elevation": 0.48,
+    "river_distance": 593.79,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 330001.58046556136,
+      "y": 2739083.074797544
+    }
+  },
+  {
+    "shelter_id": "4319",
+    "name": "結頭份社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 18.28,
+    "max_slope": 7.15,
+    "std_elevation": 4.57,
+    "river_distance": 813.57,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 322780.72208033374,
+      "y": 2739355.6838373663
+    }
+  },
+  {
+    "shelter_id": "4395",
+    "name": "玉田活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 1.6,
+    "max_slope": 4.26,
+    "std_elevation": 0.51,
+    "river_distance": 982.11,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 329429.305205183,
+      "y": 2743621.3053449146
+    }
+  },
+  {
+    "shelter_id": "4397",
+    "name": "玉田國小",
+    "risk_level": "中風險",
+    "mean_elevation": 1.7,
+    "max_slope": 3.9,
+    "std_elevation": 0.56,
+    "river_distance": 914.81,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 329186.4490801797,
+      "y": 2743653.141541583
+    }
+  },
+  {
+    "shelter_id": "4434",
+    "name": "礁溪國小",
+    "risk_level": "中風險",
+    "mean_elevation": 14.92,
+    "max_slope": 8.83,
+    "std_elevation": 5.58,
+    "river_distance": 570.57,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 327685.4768901899,
+      "y": 2746247.6884569395
+    }
+  },
+  {
+    "shelter_id": "4461",
+    "name": "下埔里-下埔社區活動中心",
+    "risk_level": "中風險",
+    "mean_elevation": 1.51,
+    "max_slope": 5.64,
+    "std_elevation": 1.21,
+    "river_distance": 687.58,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 331648.3354852547,
+      "y": 2747965.3586234073
+    }
+  },
+  {
+    "shelter_id": "1433",
+    "name": "新興竹田聯合社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 236.9,
+    "max_slope": 23.16,
+    "std_elevation": 25.75,
+    "river_distance": 585.78,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 279668.67093347164,
+      "y": 2569349.7992865634
+    }
+  },
+  {
+    "shelter_id": "1473",
+    "name": "萬寧社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 185.13,
+    "max_slope": 20.54,
+    "std_elevation": 6.85,
+    "river_distance": 587.04,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 280512.44457449514,
+      "y": 2572108.877798535
+    }
+  },
+  {
+    "shelter_id": "1486",
+    "name": "東里社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 163.93,
+    "max_slope": 20.26,
+    "std_elevation": 5.23,
+    "river_distance": 660.13,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 281224.9069131722,
+      "y": 2573915.3905474506
+    }
+  },
+  {
+    "shelter_id": "1563",
+    "name": "玉里慈惠堂",
+    "risk_level": "低風險",
+    "mean_elevation": 134.1,
+    "max_slope": 6.51,
+    "std_elevation": 3.68,
+    "river_distance": 516.17,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 282100.5619875082,
+      "y": 2580583.733534773
+    }
+  },
+  {
+    "shelter_id": "1575",
+    "name": "中正堂",
+    "risk_level": "低風險",
+    "mean_elevation": 131.7,
+    "max_slope": 7.88,
+    "std_elevation": 3.6,
+    "river_distance": 1176.1,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 282241.87368398387,
+      "y": 2581436.7332036756
+    }
+  },
+  {
+    "shelter_id": "1893",
+    "name": "花蓮縣立瑞穗國民中學",
+    "risk_level": "低風險",
+    "mean_elevation": 100.42,
+    "max_slope": 8.02,
+    "std_elevation": 5.03,
+    "river_distance": 1144.14,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 288391.68619732547,
+      "y": 2599502.2313438873
+    }
+  },
+  {
+    "shelter_id": "1901",
+    "name": "瑞穗社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 94.09,
+    "max_slope": 7.72,
+    "std_elevation": 5.02,
+    "river_distance": 830.4,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 288677.1936651807,
+      "y": 2599680.168820714
+    }
+  },
+  {
+    "shelter_id": "2059",
+    "name": "富民社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 164.62,
+    "max_slope": 15.01,
+    "std_elevation": 5.15,
+    "river_distance": 725.68,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 288226.70197363914,
+      "y": 2607929.333227852
+    }
+  },
+  {
+    "shelter_id": "2075",
+    "name": "富源社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 168.87,
+    "max_slope": 5.12,
+    "std_elevation": 5.24,
+    "river_distance": 1114.42,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 288368.64796110877,
+      "y": 2608295.15838737
+    }
+  },
+  {
+    "shelter_id": "2076",
+    "name": "富源消防分隊",
+    "risk_level": "低風險",
+    "mean_elevation": 168.17,
+    "max_slope": 5.97,
+    "std_elevation": 5.23,
+    "river_distance": 1158.33,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 288419.6259741326,
+      "y": 2608317.440952981
+    }
+  },
+  {
+    "shelter_id": "2084",
+    "name": "富興社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 173.14,
+    "max_slope": 6.91,
+    "std_elevation": 6.56,
+    "river_distance": 1466.71,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 289571.87411360134,
+      "y": 2608752.414481564
+    }
+  },
+  {
+    "shelter_id": "2142",
+    "name": "大富國小",
+    "risk_level": "低風險",
+    "mean_elevation": 181.82,
+    "max_slope": 11.29,
+    "std_elevation": 6.0,
+    "river_distance": 632.9,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 289890.75414091244,
+      "y": 2611588.325410638
+    }
+  },
+  {
+    "shelter_id": "2184",
+    "name": "馬佛活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 136.61,
+    "max_slope": 7.46,
+    "std_elevation": 4.42,
+    "river_distance": 693.06,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 293820.2604819259,
+      "y": 2614800.1163571323
+    }
+  },
+  {
+    "shelter_id": "2336",
+    "name": "長橋社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 140.07,
+    "max_slope": 5.0,
+    "std_elevation": 3.49,
+    "river_distance": 1047.94,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 292776.0564655077,
+      "y": 2622936.80422226
+    }
+  },
+  {
+    "shelter_id": "2383",
+    "name": "鳳信社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 118.3,
+    "max_slope": 7.18,
+    "std_elevation": 2.46,
+    "river_distance": 1341.59,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 295206.2560913146,
+      "y": 2625159.091149558
+    }
+  },
+  {
+    "shelter_id": "2396",
+    "name": "樂活會館",
+    "risk_level": "低風險",
+    "mean_elevation": 106.27,
+    "max_slope": 5.66,
+    "std_elevation": 2.18,
+    "river_distance": 1282.88,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 295808.6581659951,
+      "y": 2626436.5609186357
+    }
+  },
+  {
+    "shelter_id": "2400",
+    "name": "鳳林鎮藝文中心",
+    "risk_level": "低風險",
+    "mean_elevation": 106.01,
+    "max_slope": 11.38,
+    "std_elevation": 2.24,
+    "river_distance": 1030.89,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 295589.0924860327,
+      "y": 2626622.1454475936
+    }
+  },
+  {
+    "shelter_id": "2402",
+    "name": "鳳林國中進德堂",
+    "risk_level": "低風險",
+    "mean_elevation": 104.41,
+    "max_slope": 9.55,
+    "std_elevation": 2.17,
+    "river_distance": 987.07,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 295751.85491768294,
+      "y": 2626733.404734734
+    }
+  },
+  {
+    "shelter_id": "2404",
+    "name": "鳳林鎮公所",
+    "risk_level": "低風險",
+    "mean_elevation": 102.26,
+    "max_slope": 5.42,
+    "std_elevation": 2.31,
+    "river_distance": 1064.1,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 296057.405814852,
+      "y": 2626822.9692104594
+    }
+  },
+  {
+    "shelter_id": "2409",
+    "name": "鳳禮,鳳智里活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 101.61,
+    "max_slope": 9.52,
+    "std_elevation": 2.32,
+    "river_distance": 899.96,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 295975.39471275907,
+      "y": 2626966.680045782
+    }
+  },
+  {
+    "shelter_id": "2421",
+    "name": "鳳仁社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 97.91,
+    "max_slope": 6.47,
+    "std_elevation": 2.45,
+    "river_distance": 677.11,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 296076.00015697815,
+      "y": 2627387.837813011
+    }
+  },
+  {
+    "shelter_id": "2428",
+    "name": "鳳仁國小羽球館",
+    "risk_level": "低風險",
+    "mean_elevation": 96.92,
+    "max_slope": 9.52,
+    "std_elevation": 2.33,
+    "river_distance": 535.97,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 296055.1198463242,
+      "y": 2627542.817305486
+    }
+  },
+  {
+    "shelter_id": "2432",
+    "name": "大榮2村社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 87.9,
+    "max_slope": 3.71,
+    "std_elevation": 1.99,
+    "river_distance": 1041.71,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 297665.34732841694,
+      "y": 2627669.842857021
+    }
+  },
+  {
+    "shelter_id": "2433",
+    "name": "大榮1村社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 87.9,
+    "max_slope": 3.71,
+    "std_elevation": 1.99,
+    "river_distance": 1041.71,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 297665.34732841694,
+      "y": 2627669.842857021
+    }
+  },
+  {
+    "shelter_id": "2479",
+    "name": "北林3村社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 82.82,
+    "max_slope": 5.81,
+    "std_elevation": 2.56,
+    "river_distance": 510.86,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 298006.4701388893,
+      "y": 2629321.1051800423
+    }
+  },
+  {
+    "shelter_id": "2504",
+    "name": "南平社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 111.19,
+    "max_slope": 8.14,
+    "std_elevation": 4.26,
+    "river_distance": 626.92,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 296717.02230858,
+      "y": 2630922.7286204346
+    }
+  },
+  {
+    "shelter_id": "2508",
+    "name": "見晴國民小學",
+    "risk_level": "低風險",
+    "mean_elevation": 120.82,
+    "max_slope": 6.2,
+    "std_elevation": 4.0,
+    "river_distance": 520.98,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 296059.54389548796,
+      "y": 2631121.296731801
+    }
+  },
+  {
+    "shelter_id": "2560",
+    "name": "林榮社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 154.02,
+    "max_slope": 12.71,
+    "std_elevation": 4.26,
+    "river_distance": 673.92,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 295853.28934032726,
+      "y": 2633334.2651454723
+    }
+  },
+  {
+    "shelter_id": "2618",
+    "name": "豐坪活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 51.09,
+    "max_slope": 4.32,
+    "std_elevation": 2.95,
+    "river_distance": 1383.92,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 301913.83432855364,
+      "y": 2636854.4129382023
+    }
+  },
+  {
+    "shelter_id": "2638",
+    "name": "豐山國小",
+    "risk_level": "低風險",
+    "mean_elevation": 54.02,
+    "max_slope": 6.98,
+    "std_elevation": 2.83,
+    "river_distance": 842.34,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 300096.14484753564,
+      "y": 2638099.457126402
+    }
+  },
+  {
+    "shelter_id": "2642",
+    "name": "豐山活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 51.57,
+    "max_slope": 6.98,
+    "std_elevation": 2.66,
+    "river_distance": 1001.62,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 300278.9609875577,
+      "y": 2638255.141406479
+    }
+  },
+  {
+    "shelter_id": "2875",
+    "name": "光華活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 32.94,
+    "max_slope": 6.46,
+    "std_elevation": 3.04,
+    "river_distance": 1587.31,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 308837.2711679498,
+      "y": 2647834.244689227
+    }
+  },
+  {
+    "shelter_id": "2901",
+    "name": "干城活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 75.8,
+    "max_slope": 9.98,
+    "std_elevation": 3.44,
+    "river_distance": 1097.69,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 305472.2508451945,
+      "y": 2649304.934271758
+    }
+  },
+  {
+    "shelter_id": "2911",
+    "name": "仁安活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 11.7,
+    "max_slope": 4.96,
+    "std_elevation": 2.51,
+    "river_distance": 1402.77,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 310742.7687566141,
+      "y": 2649802.4862442478
+    }
+  },
+  {
+    "shelter_id": "2915",
+    "name": "南華活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 66.2,
+    "max_slope": 5.04,
+    "std_elevation": 3.6,
+    "river_distance": 1921.41,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 306111.2102259816,
+      "y": 2649894.398864183
+    }
+  },
+  {
+    "shelter_id": "2920",
+    "name": "稻香活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 34.36,
+    "max_slope": 4.4,
+    "std_elevation": 3.01,
+    "river_distance": 1955.79,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 308593.7440496553,
+      "y": 2650136.890782302
+    }
+  },
+  {
+    "shelter_id": "2921",
+    "name": "永興活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 43.28,
+    "max_slope": 5.12,
+    "std_elevation": 3.19,
+    "river_distance": 2418.03,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 307840.47894341487,
+      "y": 2650155.9878119626
+    }
+  },
+  {
+    "shelter_id": "2922",
+    "name": "仁和活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 20.81,
+    "max_slope": 5.95,
+    "std_elevation": 2.57,
+    "river_distance": 1489.48,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 309804.2419321524,
+      "y": 2650308.0088315695
+    }
+  },
+  {
+    "shelter_id": "2964",
+    "name": "福興活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 42.03,
+    "max_slope": 3.98,
+    "std_elevation": 2.72,
+    "river_distance": 1732.09,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 307233.8381564572,
+      "y": 2651693.0096503943
+    }
+  },
+  {
+    "shelter_id": "2980",
+    "name": "吉安國小",
+    "risk_level": "低風險",
+    "mean_elevation": 38.56,
+    "max_slope": 6.23,
+    "std_elevation": 2.54,
+    "river_distance": 1282.29,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 307272.5569393298,
+      "y": 2652191.5485270284
+    }
+  },
+  {
+    "shelter_id": "2983",
+    "name": "吉安活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 37.19,
+    "max_slope": 6.23,
+    "std_elevation": 2.48,
+    "river_distance": 1185.76,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 307425.11702983244,
+      "y": 2652214.3086705855
+    }
+  },
+  {
+    "shelter_id": "3035",
+    "name": "北昌活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 14.88,
+    "max_slope": 6.08,
+    "std_elevation": 2.15,
+    "river_distance": 1323.9,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 310512.53837737814,
+      "y": 2653711.0845704824
+    }
+  },
+  {
+    "shelter_id": "3063",
+    "name": "太昌活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 55.95,
+    "max_slope": 11.0,
+    "std_elevation": 3.96,
+    "river_distance": 685.31,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 307375.54933881585,
+      "y": 2654429.156286673
+    }
+  },
+  {
+    "shelter_id": "3068",
+    "name": "明廉國小",
+    "risk_level": "低風險",
+    "mean_elevation": 16.87,
+    "max_slope": 6.25,
+    "std_elevation": 2.1,
+    "river_distance": 1410.49,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 310508.79908911,
+      "y": 2654597.0928467764
+    }
+  },
+  {
+    "shelter_id": "3075",
+    "name": "自強國中",
+    "risk_level": "低風險",
+    "mean_elevation": 13.65,
+    "max_slope": 19.23,
+    "std_elevation": 1.6,
+    "river_distance": 1153.98,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 310955.1299804578,
+      "y": 2654920.1679820837
+    }
+  },
+  {
+    "shelter_id": "3172",
+    "name": "大漢社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 16.74,
+    "max_slope": 5.57,
+    "std_elevation": 0.99,
+    "river_distance": 1159.52,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 312045.50354143674,
+      "y": 2659233.1654113787
+    }
+  },
+  {
+    "shelter_id": "3174",
+    "name": "復興南營區",
+    "risk_level": "低風險",
+    "mean_elevation": 16.33,
+    "max_slope": 5.76,
+    "std_elevation": 0.94,
+    "river_distance": 1388.8,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 312238.1867925864,
+      "y": 2659366.907160603
+    }
+  },
+  {
+    "shelter_id": "3354",
+    "name": "順安農宅示範中心",
+    "risk_level": "低風險",
+    "mean_elevation": 15.45,
+    "max_slope": 6.41,
+    "std_elevation": 4.97,
+    "river_distance": 2325.89,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 314700.63829079026,
+      "y": 2668149.6379429963
+    }
+  },
+  {
+    "shelter_id": "3377",
+    "name": "禪光育幼院",
+    "risk_level": "低風險",
+    "mean_elevation": 16.68,
+    "max_slope": 15.88,
+    "std_elevation": 3.65,
+    "river_distance": 1812.78,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 316038.10228632856,
+      "y": 2669097.1984184994
+    }
+  },
+  {
+    "shelter_id": "3386",
+    "name": "天主教聲遠之家",
+    "risk_level": "低風險",
+    "mean_elevation": 14.97,
+    "max_slope": 16.99,
+    "std_elevation": 4.09,
+    "river_distance": 1640.09,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 316200.27420434146,
+      "y": 2669197.6315612043
+    }
+  },
+  {
+    "shelter_id": "3391",
+    "name": "新城社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 16.85,
+    "max_slope": 15.88,
+    "std_elevation": 4.14,
+    "river_distance": 1509.25,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 316087.33303529467,
+      "y": 2669440.770753744
+    }
+  },
+  {
+    "shelter_id": "3392",
+    "name": "興田社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 23.47,
+    "max_slope": 17.08,
+    "std_elevation": 4.33,
+    "river_distance": 1540.28,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 315578.44801783224,
+      "y": 2669582.401919155
+    }
+  },
+  {
+    "shelter_id": "4033",
+    "name": "岳明國小",
+    "risk_level": "低風險",
+    "mean_elevation": 4.26,
+    "max_slope": 15.21,
+    "std_elevation": 2.36,
+    "river_distance": 1246.62,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 336381.4314961352,
+      "y": 2723237.086881887
+    }
+  },
+  {
+    "shelter_id": "4039",
+    "name": "隘丁社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.32,
+    "max_slope": 6.62,
+    "std_elevation": 1.69,
+    "river_distance": 1615.04,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 334749.5838627879,
+      "y": 2723481.8283966407
+    }
+  },
+  {
+    "shelter_id": "4043",
+    "name": "文化國中",
+    "risk_level": "低風險",
+    "mean_elevation": 8.55,
+    "max_slope": 6.94,
+    "std_elevation": 1.74,
+    "river_distance": 1140.84,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 334322.88897151954,
+      "y": 2723711.8509388594
+    }
+  },
+  {
+    "shelter_id": "4047",
+    "name": "永榮社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 5.47,
+    "max_slope": 5.14,
+    "std_elevation": 1.66,
+    "river_distance": 1225.4,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 334664.94022672425,
+      "y": 2724079.4608333227
+    }
+  },
+  {
+    "shelter_id": "4048",
+    "name": "馬賽國小",
+    "risk_level": "低風險",
+    "mean_elevation": 5.75,
+    "max_slope": 6.4,
+    "std_elevation": 1.66,
+    "river_distance": 1072.9,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 334532.8388370528,
+      "y": 2724156.195800604
+    }
+  },
+  {
+    "shelter_id": "4059",
+    "name": "東城社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 7.75,
+    "max_slope": 7.33,
+    "std_elevation": 1.64,
+    "river_distance": 1342.34,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 331631.92137079645,
+      "y": 2725002.8701219675
+    }
+  },
+  {
+    "shelter_id": "4078",
+    "name": "三奇社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 1.31,
+    "max_slope": 5.12,
+    "std_elevation": 0.59,
+    "river_distance": 1321.91,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 332402.4706668775,
+      "y": 2726536.004514435
+    }
+  },
+  {
+    "shelter_id": "4081",
+    "name": "成興社區老人活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 4.87,
+    "max_slope": 5.11,
+    "std_elevation": 1.38,
+    "river_distance": 1341.12,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 334294.7814123677,
+      "y": 2726680.265817337
+    }
+  },
+  {
+    "shelter_id": "4090",
+    "name": "成興村老人福利中心",
+    "risk_level": "低風險",
+    "mean_elevation": 3.09,
+    "max_slope": 6.91,
+    "std_elevation": 2.38,
+    "river_distance": 1738.91,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 333641.2123161767,
+      "y": 2727617.8496247055
+    }
+  },
+  {
+    "shelter_id": "4095",
+    "name": "永美社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.17,
+    "max_slope": 5.1,
+    "std_elevation": 0.98,
+    "river_distance": 1391.66,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328041.8771796308,
+      "y": 2727840.0549255004
+    }
+  },
+  {
+    "shelter_id": "4098",
+    "name": "鹿埔社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 21.26,
+    "max_slope": 5.68,
+    "std_elevation": 3.39,
+    "river_distance": 1667.97,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325976.7562329571,
+      "y": 2727850.768257482
+    }
+  },
+  {
+    "shelter_id": "4113",
+    "name": "清溝社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 11.89,
+    "max_slope": 6.12,
+    "std_elevation": 2.01,
+    "river_distance": 2204.25,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327034.3415240635,
+      "y": 2728809.1812371137
+    }
+  },
+  {
+    "shelter_id": "4118",
+    "name": "大洲多功能館臨時收容站",
+    "risk_level": "低風險",
+    "mean_elevation": 92.34,
+    "max_slope": 5.97,
+    "std_elevation": 3.24,
+    "river_distance": 662.48,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 315858.87083810364,
+      "y": 2728973.2506915485
+    }
+  },
+  {
+    "shelter_id": "4119",
+    "name": "新群社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.02,
+    "max_slope": 4.89,
+    "std_elevation": 0.84,
+    "river_distance": 1264.93,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330180.32345898857,
+      "y": 2729159.280028993
+    }
+  },
+  {
+    "shelter_id": "4120",
+    "name": "群英社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 4.6,
+    "max_slope": 6.77,
+    "std_elevation": 0.92,
+    "river_distance": 2717.73,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328287.5161009707,
+      "y": 2729159.562581494
+    }
+  },
+  {
+    "shelter_id": "4121",
+    "name": "維安社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 16.24,
+    "max_slope": 6.12,
+    "std_elevation": 2.16,
+    "river_distance": 1454.26,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326354.23095128057,
+      "y": 2729159.880413942
+    }
+  },
+  {
+    "shelter_id": "4124",
+    "name": "憲明國小臨時收容站",
+    "risk_level": "低風險",
+    "mean_elevation": 106.72,
+    "max_slope": 4.45,
+    "std_elevation": 3.52,
+    "river_distance": 719.61,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 314683.84726803156,
+      "y": 2729167.1058490654
+    }
+  },
+  {
+    "shelter_id": "4125",
+    "name": "三星國小臨時收容站",
+    "risk_level": "低風險",
+    "mean_elevation": 87.52,
+    "max_slope": 5.11,
+    "std_elevation": 3.27,
+    "river_distance": 542.26,
+    "river_distance_category": "medium",
+    "coordinates": {
+      "x": 316171.4774904783,
+      "y": 2729218.416975809
+    }
+  },
+  {
+    "shelter_id": "4126",
+    "name": "第三公園管理站南昌社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 5.11,
+    "max_slope": 6.77,
+    "std_elevation": 0.92,
+    "river_distance": 2859.64,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328185.30271342024,
+      "y": 2729336.2142345975
+    }
+  },
+  {
+    "shelter_id": "4128",
+    "name": "成功國小體育館",
+    "risk_level": "低風險",
+    "mean_elevation": 6.76,
+    "max_slope": 5.11,
+    "std_elevation": 1.15,
+    "river_distance": 2492.6,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327799.63219084474,
+      "y": 2729522.35294199
+    }
+  },
+  {
+    "shelter_id": "4131",
+    "name": "羅莊社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 4.1,
+    "max_slope": 6.69,
+    "std_elevation": 0.89,
+    "river_distance": 2492.95,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328912.41360058315,
+      "y": 2729628.320002165
+    }
+  },
+  {
+    "shelter_id": "4132",
+    "name": "阿束社社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.33,
+    "max_slope": 8.32,
+    "std_elevation": 0.94,
+    "river_distance": 2611.9,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328021.18177666253,
+      "y": 2729722.9760926873
+    }
+  },
+  {
+    "shelter_id": "4133",
+    "name": "仁和社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.33,
+    "max_slope": 8.32,
+    "std_elevation": 0.94,
+    "river_distance": 2611.9,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328021.18177666253,
+      "y": 2729722.9760926873
+    }
+  },
+  {
+    "shelter_id": "4135",
+    "name": "第二公園管理站羅東鎮老人館",
+    "risk_level": "低風險",
+    "mean_elevation": 7.34,
+    "max_slope": 7.06,
+    "std_elevation": 1.03,
+    "river_distance": 2325.37,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327747.41367316083,
+      "y": 2729810.054669397
+    }
+  },
+  {
+    "shelter_id": "4136",
+    "name": "仁德社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 7.98,
+    "max_slope": 6.97,
+    "std_elevation": 1.05,
+    "river_distance": 2135.3,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327554.92682329804,
+      "y": 2729842.2086799913
+    }
+  },
+  {
+    "shelter_id": "4137",
+    "name": "漢民社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 9.1,
+    "max_slope": 6.97,
+    "std_elevation": 1.16,
+    "river_distance": 1873.8,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327271.47456995083,
+      "y": 2729851.705606627
+    }
+  },
+  {
+    "shelter_id": "4138",
+    "name": "東安社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 5.16,
+    "max_slope": 6.69,
+    "std_elevation": 0.89,
+    "river_distance": 2941.22,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328596.8364698001,
+      "y": 2729947.755727199
+    }
+  },
+  {
+    "shelter_id": "4141",
+    "name": "北成國小自強館",
+    "risk_level": "低風險",
+    "mean_elevation": 10.58,
+    "max_slope": 5.11,
+    "std_elevation": 1.42,
+    "river_distance": 1336.19,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326774.3783618249,
+      "y": 2730059.405914461
+    }
+  },
+  {
+    "shelter_id": "4142",
+    "name": "天送埤社區二次收容",
+    "risk_level": "低風險",
+    "mean_elevation": 83.07,
+    "max_slope": 5.14,
+    "std_elevation": 2.98,
+    "river_distance": 1149.92,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 316440.8864558637,
+      "y": 2730028.281786304
+    }
+  },
+  {
+    "shelter_id": "4143",
+    "name": "聖安宮",
+    "risk_level": "低風險",
+    "mean_elevation": 8.13,
+    "max_slope": 4.82,
+    "std_elevation": 1.01,
+    "river_distance": 1908.59,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327411.7498648312,
+      "y": 2730107.2505664784
+    }
+  },
+  {
+    "shelter_id": "4144",
+    "name": "大新社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.49,
+    "max_slope": 8.32,
+    "std_elevation": 0.76,
+    "river_distance": 2542.76,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328069.60871505126,
+      "y": 2730110.9329152843
+    }
+  },
+  {
+    "shelter_id": "4148",
+    "name": "羅東鎮展演廳",
+    "risk_level": "低風險",
+    "mean_elevation": 7.43,
+    "max_slope": 5.41,
+    "std_elevation": 0.87,
+    "river_distance": 2087.42,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327613.8584062536,
+      "y": 2730163.762037534
+    }
+  },
+  {
+    "shelter_id": "4151",
+    "name": "國華國中自強館",
+    "risk_level": "低風險",
+    "mean_elevation": 9.36,
+    "max_slope": 3.54,
+    "std_elevation": 1.32,
+    "river_distance": 1490.8,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326996.36323102046,
+      "y": 2730182.4782770956
+    }
+  },
+  {
+    "shelter_id": "4154",
+    "name": "公正國小體育館",
+    "risk_level": "低風險",
+    "mean_elevation": 6.99,
+    "max_slope": 5.41,
+    "std_elevation": 0.8,
+    "river_distance": 1986.66,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327591.8838433077,
+      "y": 2730473.7868466256
+    }
+  },
+  {
+    "shelter_id": "4160",
+    "name": "羅東國中自強館",
+    "risk_level": "低風險",
+    "mean_elevation": 6.43,
+    "max_slope": 3.53,
+    "std_elevation": 0.46,
+    "river_distance": 1971.78,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327751.8293044192,
+      "y": 2730829.136150474
+    }
+  },
+  {
+    "shelter_id": "4162",
+    "name": "第五公園管理站樹林社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 7.45,
+    "max_slope": 14.7,
+    "std_elevation": 0.82,
+    "river_distance": 1300.16,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327053.031631639,
+      "y": 2730913.8540524445
+    }
+  },
+  {
+    "shelter_id": "4163",
+    "name": "第一公園管理站信義社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.31,
+    "max_slope": 3.49,
+    "std_elevation": 0.49,
+    "river_distance": 1962.86,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327781.5699224854,
+      "y": 2730940.069851675
+    }
+  },
+  {
+    "shelter_id": "4169",
+    "name": "五結鄉公所",
+    "risk_level": "低風險",
+    "mean_elevation": 2.66,
+    "max_slope": 6.83,
+    "std_elevation": 0.88,
+    "river_distance": 2081.17,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330796.6529213023,
+      "y": 2731090.210336777
+    }
+  },
+  {
+    "shelter_id": "4171",
+    "name": "五結社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.75,
+    "max_slope": 6.83,
+    "std_elevation": 0.89,
+    "river_distance": 2121.44,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330745.7295522966,
+      "y": 2731145.298028496
+    }
+  },
+  {
+    "shelter_id": "4176",
+    "name": "正勉堂",
+    "risk_level": "低風險",
+    "mean_elevation": 4.34,
+    "max_slope": 4.68,
+    "std_elevation": 0.7,
+    "river_distance": 2922.83,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328913.1557059864,
+      "y": 2731278.7578503666
+    }
+  },
+  {
+    "shelter_id": "4182",
+    "name": "四結社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 5.29,
+    "max_slope": 5.88,
+    "std_elevation": 0.73,
+    "river_distance": 2359.48,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328315.5715919597,
+      "y": 2731363.9875155245
+    }
+  },
+  {
+    "shelter_id": "4185",
+    "name": "竹林社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.49,
+    "max_slope": 4.01,
+    "std_elevation": 0.62,
+    "river_distance": 1550.49,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327495.23357445747,
+      "y": 2731470.1506943177
+    }
+  },
+  {
+    "shelter_id": "4186",
+    "name": "協和社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.16,
+    "max_slope": 6.23,
+    "std_elevation": 0.78,
+    "river_distance": 1421.2,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 331411.649951073,
+      "y": 2731492.568429576
+    }
+  },
+  {
+    "shelter_id": "4187",
+    "name": "竹林國小體育館",
+    "risk_level": "低風險",
+    "mean_elevation": 6.43,
+    "max_slope": 4.01,
+    "std_elevation": 0.61,
+    "river_distance": 1572.59,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327525.345846343,
+      "y": 2731514.625698275
+    }
+  },
+  {
+    "shelter_id": "4212",
+    "name": "五結國中五動館",
+    "risk_level": "低風險",
+    "mean_elevation": 2.59,
+    "max_slope": 3.99,
+    "std_elevation": 0.75,
+    "river_distance": 1660.82,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330971.3212143617,
+      "y": 2732376.1376303593
+    }
+  },
+  {
+    "shelter_id": "4215",
+    "name": "四結福德廟",
+    "risk_level": "低風險",
+    "mean_elevation": 6.64,
+    "max_slope": 3.93,
+    "std_elevation": 0.52,
+    "river_distance": 1100.61,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327428.8902237392,
+      "y": 2732477.761795203
+    }
+  },
+  {
+    "shelter_id": "4219",
+    "name": "開基灶君廟省民堂",
+    "risk_level": "低風險",
+    "mean_elevation": 4.28,
+    "max_slope": 5.25,
+    "std_elevation": 0.62,
+    "river_distance": 1653.8,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 329603.24487650476,
+      "y": 2732711.6018435443
+    }
+  },
+  {
+    "shelter_id": "4241",
+    "name": "蓁巷社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 33.54,
+    "max_slope": 5.09,
+    "std_elevation": 2.47,
+    "river_distance": 1045.37,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 320374.9705393497,
+      "y": 2734231.492518074
+    }
+  },
+  {
+    "shelter_id": "4255",
+    "name": "凱旋社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 3.33,
+    "max_slope": 3.98,
+    "std_elevation": 0.97,
+    "river_distance": 1077.85,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327713.71431351954,
+      "y": 2735824.5340672797
+    }
+  },
+  {
+    "shelter_id": "4258",
+    "name": "新南活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 1.32,
+    "max_slope": 7.14,
+    "std_elevation": 0.63,
+    "river_distance": 1487.52,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 329644.8675497097,
+      "y": 2736034.883048031
+    }
+  },
+  {
+    "shelter_id": "4262",
+    "name": "惠好社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 10.18,
+    "max_slope": 3.82,
+    "std_elevation": 1.37,
+    "river_distance": 1146.13,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 323921.75262482493,
+      "y": 2736262.1378230057
+    }
+  },
+  {
+    "shelter_id": "4281",
+    "name": "進士里鎮興廟",
+    "risk_level": "低風險",
+    "mean_elevation": 4.88,
+    "max_slope": 5.35,
+    "std_elevation": 0.61,
+    "river_distance": 1774.16,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325510.0530228636,
+      "y": 2737340.9383492027
+    }
+  },
+  {
+    "shelter_id": "4284",
+    "name": "黎明里慶安廟",
+    "risk_level": "低風險",
+    "mean_elevation": 3.34,
+    "max_slope": 3.5,
+    "std_elevation": 0.79,
+    "river_distance": 1529.64,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328007.7961394383,
+      "y": 2737498.782830185
+    }
+  },
+  {
+    "shelter_id": "4285",
+    "name": "黎明社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.8,
+    "max_slope": 3.43,
+    "std_elevation": 0.73,
+    "river_distance": 1072.67,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 328492.5248800658,
+      "y": 2737645.5209180363
+    }
+  },
+  {
+    "shelter_id": "4288",
+    "name": "國立宜蘭大學體育館",
+    "risk_level": "低風險",
+    "mean_elevation": 5.07,
+    "max_slope": 6.2,
+    "std_elevation": 0.71,
+    "river_distance": 1398.02,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325669.5415146883,
+      "y": 2737773.802190497
+    }
+  },
+  {
+    "shelter_id": "4297",
+    "name": "三聖宮",
+    "risk_level": "低風險",
+    "mean_elevation": 4.57,
+    "max_slope": 3.7,
+    "std_elevation": 0.64,
+    "river_distance": 1432.6,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327478.00797722174,
+      "y": 2738171.4928603373
+    }
+  },
+  {
+    "shelter_id": "4298",
+    "name": "復興國中群育館",
+    "risk_level": "低風險",
+    "mean_elevation": 5.86,
+    "max_slope": 5.4,
+    "std_elevation": 0.9,
+    "river_distance": 1009.61,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325616.7870065586,
+      "y": 2738172.2770576337
+    }
+  },
+  {
+    "shelter_id": "4302",
+    "name": "中華國中",
+    "risk_level": "低風險",
+    "mean_elevation": 4.65,
+    "max_slope": 3.14,
+    "std_elevation": 0.64,
+    "river_distance": 1239.63,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327567.98790154234,
+      "y": 2738360.3024989967
+    }
+  },
+  {
+    "shelter_id": "4305",
+    "name": "黎明國小體育館",
+    "risk_level": "低風險",
+    "mean_elevation": 4.98,
+    "max_slope": 5.51,
+    "std_elevation": 0.52,
+    "river_distance": 1119.54,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327304.2586801161,
+      "y": 2738491.7486469694
+    }
+  },
+  {
+    "shelter_id": "4306",
+    "name": "社福大樓2樓",
+    "risk_level": "低風險",
+    "mean_elevation": 6.05,
+    "max_slope": 3.72,
+    "std_elevation": 0.8,
+    "river_distance": 1113.87,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326251.7732408918,
+      "y": 2738585.6010744898
+    }
+  },
+  {
+    "shelter_id": "4307",
+    "name": "宜蘭國小活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 6.08,
+    "max_slope": 3.37,
+    "std_elevation": 0.8,
+    "river_distance": 1121.03,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326332.3242154032,
+      "y": 2738652.5057908483
+    }
+  },
+  {
+    "shelter_id": "4310",
+    "name": "中山國小五育館",
+    "risk_level": "低風險",
+    "mean_elevation": 6.25,
+    "max_slope": 3.89,
+    "std_elevation": 0.73,
+    "river_distance": 1050.15,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326321.72088593367,
+      "y": 2738741.0615548077
+    }
+  },
+  {
+    "shelter_id": "4334",
+    "name": "順和活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.34,
+    "max_slope": 3.89,
+    "std_elevation": 0.39,
+    "river_distance": 1616.77,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330885.5090162924,
+      "y": 2739982.5633883546
+    }
+  },
+  {
+    "shelter_id": "4346",
+    "name": "?後活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.16,
+    "max_slope": 2.19,
+    "std_elevation": 0.46,
+    "river_distance": 2217.1,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330903.00130610523,
+      "y": 2740605.8532644482
+    }
+  },
+  {
+    "shelter_id": "4348",
+    "name": "古亭活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.0,
+    "max_slope": 2.74,
+    "std_elevation": 0.48,
+    "river_distance": 2364.02,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 330932.4984352962,
+      "y": 2740750.0259203035
+    }
+  },
+  {
+    "shelter_id": "4355",
+    "name": "茭白社區活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 7.23,
+    "max_slope": 3.79,
+    "std_elevation": 0.81,
+    "river_distance": 1143.26,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325903.5820271456,
+      "y": 2741208.8853602675
+    }
+  },
+  {
+    "shelter_id": "4357",
+    "name": "新社活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 2.26,
+    "max_slope": 2.34,
+    "std_elevation": 0.49,
+    "river_distance": 2248.35,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 329776.0794232304,
+      "y": 2741352.5353071718
+    }
+  },
+  {
+    "shelter_id": "4362",
+    "name": "龍潭國小",
+    "risk_level": "低風險",
+    "mean_elevation": 12.27,
+    "max_slope": 7.25,
+    "std_elevation": 4.32,
+    "river_distance": 1344.37,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 325304.57583079016,
+      "y": 2741637.6044267206
+    }
+  },
+  {
+    "shelter_id": "4366",
+    "name": "鄉立幼兒園",
+    "risk_level": "低風險",
+    "mean_elevation": 5.13,
+    "max_slope": 3.42,
+    "std_elevation": 0.58,
+    "river_distance": 2103.54,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 327578.2001749661,
+      "y": 2741949.253313932
+    }
+  },
+  {
+    "shelter_id": "4368",
+    "name": "古結活動中心",
+    "risk_level": "低風險",
+    "mean_elevation": 1.2,
+    "max_slope": 4.68,
+    "std_elevation": 0.55,
+    "river_distance": 2926.37,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 331844.4710626366,
+      "y": 2742162.167967573
+    }
+  },
+  {
+    "shelter_id": "4372",
+    "name": "吳沙國中",
+    "risk_level": "低風險",
+    "mean_elevation": 5.71,
+    "max_slope": 5.29,
+    "std_elevation": 0.71,
+    "river_distance": 1706.95,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326807.76071435463,
+      "y": 2742288.33212897
+    }
+  },
+  {
+    "shelter_id": "4374",
+    "name": "四結國小",
+    "risk_level": "低風險",
+    "mean_elevation": 5.6,
+    "max_slope": 4.01,
+    "std_elevation": 0.78,
+    "river_distance": 1649.59,
+    "river_distance_category": "low",
+    "coordinates": {
+      "x": 326827.6767852119,
+      "y": 2742343.827052754
+    }
+  }
+]

@@ -1,8 +1,29 @@
-# Ignore files for Week 5 Assignment
+# 環境變數檔案 - 包含 API keys 等敏感資訊
 .env
-.DS_Store
+
+# Python 編譯檔案
 __pycache__/
-*.pyc
-outputs/
-*.zip
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook 檢查點
+.ipynb_checkpoints
+
+# 虛擬環境
 .venv/
+venv/
+
+# IDE 檔案
+.vscode/
+.idea/
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
+
+# 輸出檔案
+*.html
+outputs/
+
+# 日誌檔案
+*.log

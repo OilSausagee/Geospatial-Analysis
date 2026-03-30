@@ -1,144 +1,162 @@
-# Week 5 Assignment: ARIA v3.0 - 全自動區域受災衝擊評估系統
+# ARIA v3.0: 全自動區域受災衝擊評估系統（動態監測版）
 
 ## 專案概述
 
-ARIA v3.0 是一個動態風險監測系統，整合了 Week 3-4 的避難所風險資料與即時雨量監測，能在鳳凰颱風等極端天氣事件中提供即時的災害風險評估。
+ARIA v3.0 是一個整合即時雨量監測與避難所風險評估的動態系統，能在颱風期間提供即時的災害風險地圖。本系統針對 2025 年鳳凰颱風的極端情境進行壓力測試。
 
-## 系統架構
+## 核心功能
 
-### 核心功能
-- **模式切換器**: 支援 LIVE (CWA API) 與 SIMULATION (歷史資料) 模式
-- **動態風險分級**: CRITICAL/URGENT/WARNING/SAFE 四級分類
-- **空間疊合分析**: 5km 雨量影響範圍與避難所空間關聯
-- **互動地圖**: Folium 視覺化與 HeatMap 雨量分佈
+### 🔄 模式切換器
+- **LIVE 模式**: 呼叫 CWA O-A0002-001 API 獲取即時雨量
+- **SIMULATION 模式**: 載入鳳凰颱風歷史快照 (`fungwong_202511.json`)
+- **Fallback 機制**: API 失敗自動切換至本地快照
 
-### 資料來源
-- **向量資料**: W3 避難所河川距離、W4 地形坡度風險
-- **雨量資料**: CWA O-A0002-001 API 或 CoLife 歷史資料庫
-- **測試情境**: 2025年鳳凰颱風 (fungwong_202511.json)
+### 🌧️ 資料標準化
+- `normalize_cwa_json()` 函數統一處理 CWA API 與 CoLife 歷史資料格式差異
+- 自動過濾無效值 (-998)
+- 支援不同座標格式 (TWD67/WGS84)
+
+### 🗺️ 動態風險分級
+- **CRITICAL**: 時雨量 > 80mm 影響範圍內的避難所
+- **URGENT**: 時雨量 > 40mm 且地形風險為 HIGH
+- **WARNING**: 時雨量 > 40mm 或地形風險為 HIGH  
+- **SAFE**: 其餘
+
+### 📊 互動視覺化
+- Folium 多圖層地圖 (雨量站、避難所、HeatMap)
+- 豐富的 Popup 資訊
+- 圖層控制功能
+
+## 檔案結構
+
+```
+Hw5/
+├── .env                          # 環境變數設定
+├── ARIA_v3.ipynb                 # 主要分析 Notebook
+├── ARIA_v3_Fungwong.html         # 輸出的互動地圖
+├── README.md                     # 本檔案
+├── data/
+│   ├── fungwong_202511.json      # 鳳凰颱風歷史快照
+│   ├── terrain_risk_audit.json   # Week 3-4 地形風險審計
+│   ├── 避難收容處所.csv          # 原始避難所資料
+│   └── ...                       # 其他資料檔案
+└── outputs/                      # 輸出檔案目錄
+```
+
+## 環境設定
+
+### 必要套件
+```bash
+pip install pandas geopandas folium requests python-dotenv
+```
+
+### 環境變數 (.env)
+```env
+APP_MODE=SIMULATION
+CWA_API_KEY=your-api-key-here
+SIMULATION_DATA=data/fungwong_202511.json
+TARGET_COUNTY=花蓮縣, 宜蘭縣
+CRITICAL_RAINFALL_MM=80
+URGENT_RAINFALL_MM=40
+BUFFER_RADIUS_KM=5
+```
+
+## 使用方法
+
+1. **環境設定**
+   ```bash
+   # 複製環境變數範本
+   cp .env.example .env
+   # 編輯 .env 檔案，設定 API Key 與參數
+   ```
+
+2. **執行分析**
+   ```bash
+   jupyter notebook ARIA_v3.ipynb
+   # 依序執行所有 cells
+   ```
+
+3. **查看結果**
+   - 開啟 `ARIA_v3_Fungwong.html` 查看互動地圖
+   - 在 Jupyter Notebook 中查看統計結果
 
 ## AI 診斷日誌
 
-### 🔧 問題解決記錄
+### 🔧 解決的技術問題
 
-#### 1. Folium 地圖經緯度填反問題
+#### 1. CWA API 與 CoLife 格式差異
+**問題**: CWA Live API 回傳兩組座標 (TWD67, WGS84)，CoLife 歷史資料只有一組 WGS84，且數值型態不同 (字串 vs 數字)。
 
-**問題描述**: 
-初始版本中 Folium Marker 使用錯誤的座標順序 `[longitude, latitude]`，導致地圖上所有點位都顯示在錯誤位置。
+**解決方案**: 
+- 實作 `normalize_cwa_json()` 函數自動偵測座標格式
+- 統一轉換為數字型態，取 WGS84 座標
+- 增加錯誤處理，跳過無效站點
 
-**診斷過程**:
-1. 發現避難所標記點全部集中在非洲西部，明顯不是台灣
-2. 檢查 Folium 文件確認座標順序應為 `[latitude, longitude]`
-3. 追蹤程式碼發現 Point 建立使用 `(lon, lat)` 但 Folium 需要 `(lat, lon)`
-
-**解決方案**:
-```python
-# 錯誤寫法
-folium.Marker(location=[lon, lat])  # 會跑到非洲
-
-# 正確寫法  
-lat = shelter.geometry.y
-lon = shelter.geometry.x
-folium.Marker(location=[lat, lon])  # 正確顯示在台灣
-```
-
-**學習重點**: 
-- GeoDataFrame 使用 (x, y) = (lon, lat)
-- Folium 需要 [lat, lon] 順序
-- 需要特別注意不同函式庫的座標慣例
-
-#### 2. CWA API -998 無資料值處理
-
-**問題描述**:
-CWA API 使用 `-998` 表示無效資料，若未過濾會導致地圖顏色異常（極大雨量假象）。
-
-**診斷過程**:
-1. 發現地圖上某些雨量站顯示為極大紅色圓圈
-2. 檢查原始資料發現這些站點的雨量值為 `-998`
-3. 查詢 CWA API 文件確認 `-998` 為無資料標記
+#### 2. CRS 坐標系統對齊
+**問題**: 雨量站 (EPSG:4326) 與避難所 (EPSG:3826) CRS 不同，導致 `sjoin()` 結果為空。
 
 **解決方案**:
-```python
-# 在 normalize_cwa_json() 中加入過濾
-rainfall_data = {
-    'Past1hr': float(rainfall_element.get('Past1hr', {}).get('Precipitation', 0)),
-    'Past24hr': float(rainfall_element.get('Past24hr', {}).get('Precipitation', 0))
-}
+- 在空間疊合前將雨量站轉換為 EPSG:3826
+- 加入 CRS 檢查斷言確保一致性
+- Folium 視覺化時轉回 EPSG:4326
 
-# 過濾 -998 無資料值
-if rainfall_data['Past1hr'] == -998 or rainfall_data['Past24hr'] == -998:
-    continue  # 跳過此站點
-```
-
-**學習重點**:
-- API 資料品質檢查的重要性
-- 無效資料的標準化處理流程
-- 資料清洗對視覺化的影響
-
-#### 3. CRS 未對齊導致 sjoin 結果為空
-
-**問題描述**:
-執行 spatial join 時結果為空，發現是雨量站與避難所的座標系統不一致。
-
-**診斷過程**:
-1. `gpd.sjoin()` 回傳空的 GeoDataFrame
-2. 檢查 CRS 發現雨量站為 EPSG:4326，避難所為 EPSG:3826
-3. 確認 buffer 分析需要投影座標系統
+#### 3. Folium 座標順序錯誤
+**問題**: Folium 需要 `[latitude, longitude]` 順序，但 GeoDataFrame 預設為 `[longitude, latitude]`。
 
 **解決方案**:
-```python
-# 統一轉換到 EPSG:3826 進行分析
-rainfall_gdf_3826 = rainfall_gdf.to_crs('EPSG:3826')
-shelters_gdf_3826 = shelters_gdf.to_crs('EPSG:3826')
+- 在建立 Marker 時明確提取 `lat, lon = shelter.geometry.y, shelter.geometry.x`
+- 確保所有 Folium 元素使用正確的座標順序
 
-# CRS 一致性檢查
-assert str(shelters_gdf_3826.crs) == str(buffer_gdf.crs), "CRS MISMATCH!"
+#### 4. -998 無效值處理
+**問題**: CWA API 使用 -998 表示無資料，直接繪製會導致地圖異常。
 
-# 執行 spatial join
-shelters_in_rainfall = gpd.sjoin(shelters_gdf_3826, buffer_gdf, 
-                                how='inner', predicate='intersects')
-```
+**解決方案**:
+- 在 `normalize_cwa_json()` 中過濾 -998 和負值
+- HeatMap 只包含有效雨量站點
 
-**學習重點**:
-- 空間分析前必須檢查 CRS 一致性
-- 投影座標系統 (EPSG:3826) 適合距離計算
-- 地理座標系統 (EPSG:4326) 適合視覺化
+#### 5. Buffer 單位混淆
+**問題**: EPSG:4326 下 buffer(5000) = 5000 度 ≈ 地球半圈，造成錯誤分析。
 
-## 使用說明
+**解決方案**:
+- 確保在 EPSG:3826 (TWD97) 下執行 buffer 操作
+- 5km = 5000 公尺在正確坐標系統下
 
-### 環境設定
-1. 複製 `.env.example` 為 `.env`
-2. 設定必要的環境變數
-3. 安裝所需套件：`pip install -r requirements.txt`
+### 🎯 系統優化
 
-### 執行分析
-```bash
-jupyter notebook ARIA_v3.ipynb
-```
+#### 效能提升
+- 使用 `gpd.sjoin()` 替代迴圈計算，大幅提升空間查詢效率
+- 預先計算 buffer，避免重複幾何運算
+- 批次處理 Folium 元素建立
 
-### 輸出檔案
-- `outputs/ARIA_v3_Fungwong.html`: 互動式風險地圖
-- 分析結果會顯示在 notebook 輸出中
+#### 韌性設計
+- API 呼叫加入 try/except 與 timeout
+- 自動 fallback 至本地快照
+- 完整的錯誤日誌記錄
 
-## 技術規格
+#### 使用者體驗
+- 豐富的 Popup 資訊顯示
+- 直觀的顏色編碼系統
+- 圖層控制讓使用者客製化顯示
 
-- **座標系統**: EPSG:3826 (分析) / EPSG:4326 (視覺化)
-- **緩衝距離**: 5km (可透過環境變數調整)
-- **風險閾值**: Critical 80mm/hr, Urgent 40mm/hr
-- **支援縣市**: 花蓮縣、宜蘭縣
+## 數據洞察
 
-## 系統限制
+### 鳳凰颱風情境分析
+- **時雨量巔峰**: 蘇澳站 130.5mm
+- **累積雨量**: 南澳站 1,062mm (多日總計)
+- **影響範圍**: 5km buffer 內的避難所動態風險評估
 
-- CWA API 可能會超時，系統會自動切換到模擬資料
-- HeatMap 在山區可能因測站分佈不均有盲區
-- 地形風險資料依賴 W4 的分析結果
+### 風險分佈模式
+- 地形風險與暴雨風險的疊加效應明顯
+- 河川附近的高坡度避難所風險顯著提升
+- 即時監測能及時識別新興風險點
 
-## 未來改進
+## 未來改進方向
 
-- 整合更多即時資料來源
-- 加入預警通知機制
-- 優化 HeatMap 插值演算法
-- 支援更多縣市的分析
+1. **預測功能**: 整合氣象預報資料
+2. **歷史分析**: 時序動態變化視覺化
+3. **AI 顧問**: Gemini SDK 整合提供指揮建議
+4. **警報系統**: 自動化風險通知機制
+5. **多災害整合**: 加入地震、洪水等其他災害風險
 
 ---
 
