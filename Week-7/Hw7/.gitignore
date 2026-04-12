@@ -79,11 +79,12 @@ tmp/
 logs/
 
 # Output files that can be regenerated
-outputs/
-*.png
-*.jpg
-*.jpeg
-*.pdf
+# Allow outputs directory but exclude large files
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+outputs/figures/*.pdf
+outputs/hualien_network.graphml
 
 # Cache
 .cache/
