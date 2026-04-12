@@ -1,0 +1,7 @@
+AI Strategy Report Generation Summary
+========================================
+Model: Gemini 2.5 Flash Lite
+Data used: Accessibility impact table with 5 facilities
+Key metrics: 76.5% avg 5-min shrinkage
+Report length: 8179 characters
+Generated at: 2026-04-12 13:25:05
