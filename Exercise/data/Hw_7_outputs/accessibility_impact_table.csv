@@ -1,0 +1,6 @@
+Facility,Node_ID,Pre_Disaster_5min_km2,Post_Disaster_5min_km2,Shrinkage_5min_%,Pre_Disaster_10min_km2,Post_Disaster_10min_km2,Shrinkage_10min_%
+Critical_Hub_1_Node_649286213,649286213,40.56,10.06,75.2%,64.79,36.10,44.3%
+Critical_Hub_2_Node_649286214,649286214,41.86,10.03,76.0%,64.79,36.09,44.3%
+Critical_Hub_3_Node_1061487893,1061487893,39.52,10.83,72.6%,64.79,36.34,43.9%
+Critical_Hub_4_Node_929963021,929963021,37.65,8.34,77.8%,64.79,29.89,53.9%
+Critical_Hub_5_Node_1074772659,1074772659,34.12,6.53,80.9%,64.79,27.25,57.9%

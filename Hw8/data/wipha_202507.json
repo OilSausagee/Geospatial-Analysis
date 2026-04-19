@@ -1,0 +1,80 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "O-A0002-001",
+    "fields": []
+  },
+  "records": {
+    "Station": [
+      {
+        "StationName": "Hualien Station",
+        "StationId": "C0R040",
+        "ObsTime": {
+          "DateTime": "2025-07-21T00:00:00+08:00"
+        },
+        "GeoInfo": {
+          "CountyName": "Hualien County",
+          "TownName": "Hualien City",
+          "Coordinates": [
+            {
+              "StationLatitude": 23.98333,
+              "StationLongitude": 121.61667,
+              "StationHeight": 18.0
+            }
+          ]
+        },
+        "WeatherElement": {
+          "Precipitation": 450.0,
+          "Max10MinPrecipitation": 85.0,
+          "HourlyPrecipitation": 120.0
+        }
+      },
+      {
+        "StationName": "Wanrong Station",
+        "StationId": "C0R050",
+        "ObsTime": {
+          "DateTime": "2025-07-21T00:00:00+08:00"
+        },
+        "GeoInfo": {
+          "CountyName": "Hualien County",
+          "TownName": "Wanrong Township",
+          "Coordinates": [
+            {
+              "StationLatitude": 23.65000,
+              "StationLongitude": 121.45000,
+              "StationHeight": 420.0
+            }
+          ]
+        },
+        "WeatherElement": {
+          "Precipitation": 680.0,
+          "Max10MinPrecipitation": 120.0,
+          "HourlyPrecipitation": 180.0
+        }
+      },
+      {
+        "StationName": "Guangfu Station",
+        "StationId": "C0R060",
+        "ObsTime": {
+          "DateTime": "2025-07-21T00:00:00+08:00"
+        },
+        "GeoInfo": {
+          "CountyName": "Hualien County",
+          "TownName": "Guangfu Township",
+          "Coordinates": [
+            {
+              "StationLatitude": 23.46667,
+              "StationLongitude": 121.36667,
+              "StationHeight": 85.0
+            }
+          ]
+        },
+        "WeatherElement": {
+          "Precipitation": 380.0,
+          "Max10MinPrecipitation": 65.0,
+          "HourlyPrecipitation": 95.0
+        }
+      }
+    ]
+  }
+}
