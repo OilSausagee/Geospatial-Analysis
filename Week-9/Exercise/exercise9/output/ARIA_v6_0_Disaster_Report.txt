@@ -1,0 +1,111 @@
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                     ARIA v6.0 VALIDATED DISASTER REPORT                      ║
+║              Remote Sensing Analysis & Validation Authority                  ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+CASE STUDY: Matai'an Barrier Lake (Typhoon Colo Response)
+Institution: National Taiwan University (NTU)
+Analyst: Remote Sensing Lab
+Report Date: 2025-10-12
+
+──────────────────────────────────────────────────────────────────────────────
+
+EXECUTIVE SUMMARY
+─────────────────
+A temporary barrier lake formed in Matai'an valley during Typhoon Colo.
+Using Sentinel-2 NDWI-based water detection, we mapped floodwater extent
+and validated results using instructor-corrected ground-truth points.
+
+NDWI performed better than NDVI for water detection, but recall remained low,
+indicating that threshold-based classification is conservative and may miss
+some true water pixels.
+
+VALIDATION RESULTS
+──────────────────
+Validation Points Analyzed: 60
+
+Ground Truth Classes:
+  Water     : 15
+  No-Water  : 45
+
+Confusion Matrix (Mid-event Water Detection):
+  True Negatives : 45
+  False Positives: 0
+  False Negatives: 12
+  True Positives : 3
+
+ACCURACY METRICS
+────────────────
+Producer's Accuracy (Recall):
+  0.200 (20.0%)
+
+User's Accuracy (Precision):
+  1.000 (100.0%)
+
+Overall Accuracy:
+  0.800 (80.0%)
+
+Cohen's Kappa:
+  0.273
+
+Interpretation:
+  Fair Agreement
+
+THRESHOLD OPTIMIZATION
+─────────────────────
+Optimal NDWI Threshold (F1-based):
+  0.060
+
+Interpretation:
+  Precision is high, but recall remains low.
+  This indicates conservative classification:
+  detected water is reliable, but many true water pixels are missed.
+
+CONFIDENCE ZONES
+────────────────
+High Confidence Water:
+  NDWI > 0.15
+
+Low Confidence Water:
+  0.05 < NDWI ≤ 0.15
+
+No Signal:
+  NDWI ≤ 0.05
+
+RECOMMENDATIONS
+───────────────
+1. High-confidence zones should be prioritized for evacuation planning
+
+2. Low-confidence zones require field verification or UAV inspection
+
+3. Threshold tuning should prioritize recall during emergency response
+
+4. Sentinel-2 is suitable for regional-scale barrier lake monitoring
+
+KEY FINDINGS
+────────────
+✓ NDWI is more reliable than NDVI for water detection
+
+✓ Validation confirms strong precision but weak recall
+
+✓ Threshold optimization improves operational reliability
+
+✓ Ground validation is essential for disaster-response decisions
+
+LIMITATIONS
+───────────
+• Mixed shoreline pixels reduce classification accuracy
+
+• Cloud contamination affects optical imagery
+
+• 10 m resolution may miss small isolated ponds
+
+• Limited validation points reduce statistical robustness
+
+──────────────────────────────────────────────────────────────────────────────
+
+ARIA v6.0 FINAL ASSESSMENT:
+✓ VALIDATED FOR DISASTER RESPONSE SUPPORT
+
+Generated at: 2026-04-21 16:00:24
