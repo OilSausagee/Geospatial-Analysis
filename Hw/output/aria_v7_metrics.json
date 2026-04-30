@@ -1,0 +1,57 @@
+{
+  "pre_date": "2025-10-12",
+  "post_date": "2025-11-29",
+  "orbit_state": "ascending",
+  "sar_threshold_db": -16.0,
+  "water_pixels": 46528,
+  "flood_area_km2": 4.653,
+  "flood_area_ha": 465.3,
+  "mean_backscatter_db": -18.049999237060547,
+  "ndwi_threshold": 0.0,
+  "cloud_cover_pct": 7.5,
+  "s2_date": "2025-11-30",
+  "classes": {
+    "No Detection": {
+      "pixels": 2325595,
+      "area_km2": 232.56,
+      "area_ha": 23256.0
+    },
+    "Optical Only": {
+      "pixels": 187323,
+      "area_km2": 18.732,
+      "area_ha": 1873.2
+    },
+    "SAR Only (Cloudy)": {
+      "pixels": 2740,
+      "area_km2": 0.274,
+      "area_ha": 27.4
+    },
+    "High Confidence": {
+      "pixels": 18562,
+      "area_km2": 1.856,
+      "area_ha": 185.6
+    }
+  },
+  "total_water_km2": 20.863,
+  "slope_threshold_deg": 25.0,
+  "false_positives_removed_px": 44595,
+  "false_positives_removed_km2": 4.4595,
+  "fp_25_35": 19164,
+  "fp_35_45": 15838,
+  "fp_gt_45": 9593,
+  "water_area_km2_pre_correction": 20.863,
+  "water_area_km2_post_correction": 16.403,
+  "aoi_bbox": [
+    121.2574,
+    23.6546,
+    121.4984,
+    23.7447
+  ],
+  "pixel_resolution_m": 10,
+  "event": "2025 鳳凰颱風 (Typhoon Fung-wong) — 馬太鞍溪堰塞湖溢流",
+  "townships_affected": [
+    "萬榮鄉 Wanrong",
+    "光復鄉 Guangfu",
+    "鳳林鎮 Fenglin"
+  ]
+}
