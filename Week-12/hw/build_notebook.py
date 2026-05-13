@@ -146,10 +146,12 @@ md(r"""
 code(r"""
 from pystac_client.exceptions import APIError
 
-catalog = pystac_client.Client.open(
-    'https://planetarycomputer.microsoft.com/api/stac/v1',
-    modifier=pc.sign_inplace,
-)
+# ── STAC catalog selection ─────────────────────────────────────────────
+# AWS Earth Search (public, no auth, fast) is tried first; Planetary
+# Computer is used as a fallback (better global coverage but currently
+# experiencing intermittent timeouts on its search endpoint).
+AWS_STAC = 'https://earth-search.aws.element84.com/v1'
+PC_STAC  = 'https://planetarycomputer.microsoft.com/api/stac/v1'
 
 search_configs = [
     (os.getenv('PHASE1_RANGE'), int(os.getenv('PHASE1_CC', 20)), 'Phase 1: 2 months post-quake, CC < 20%'),
@@ -157,55 +159,80 @@ search_configs = [
     (os.getenv('PHASE3_RANGE'), int(os.getenv('PHASE3_CC', 50)), 'Phase 3: full year post-quake, CC < 50%'),
 ]
 
-# Known-good fallback: confirmed via earlier smoke-test (cloud cover 8.4%).
-FALLBACK_ITEM_ID = 'S2A_MSIL2A_20240827T022531_R046_T51QUG_20240827T053853'
+# AWS Earth Search uses lowercase semantic asset names; PC uses Bn nm names.
+ASSET_ALIAS = {
+    'B02': ['B02', 'blue'],
+    'B03': ['B03', 'green'],
+    'B04': ['B04', 'red'],
+    'B08': ['B08', 'nir'],
+    'B11': ['B11', 'swir16'],
+    'B12': ['B12', 'swir22'],
+    'SCL': ['SCL', 'scl'],
+}
 
-def search_with_retry(dt_range, max_cc, max_tries=6):
+def resolve_assets(item, wanted):
+    # Map our band names (B02 etc.) to whatever this catalog calls them.
+    resolved = []
+    for w in wanted:
+        for cand in ASSET_ALIAS[w]:
+            if cand in item.assets:
+                resolved.append(cand)
+                break
+        else:
+            raise KeyError(f'Asset {w} not found in item {item.id}')
+    return resolved
+
+def stac_datetime(dt_range):
+    # Convert "2024-04-15/2024-05-31" to RFC3339 that AWS Earth Search accepts
+    start, end = dt_range.split('/')
+    return f'{start}T00:00:00Z/{end}T23:59:59Z'
+
+def search_with_retry(catalog, dt_range, max_cc, max_tries=3):
     last_err = None
     for attempt in range(1, max_tries + 1):
         try:
-            search = catalog.search(
+            return list(catalog.search(
                 collections=['sentinel-2-l2a'],
                 bbox=BBOX,
-                datetime=dt_range,
+                datetime=stac_datetime(dt_range),
                 query={'eo:cloud_cover': {'lt': max_cc}},
-                max_items=20,            # bound pagination so the call returns faster
-            )
-            return list(search.items())
+                max_items=20,
+            ).items())
         except APIError as e:
             last_err = e
-            wait = 10 + 10 * attempt   # 20, 30, 40, 50, 60, 70 s
-            print(f'  ⚠️  APIError attempt {attempt}/{max_tries}: {str(e)[:80]} '
+            wait = 5 + 5 * attempt
+            print(f'    APIError attempt {attempt}/{max_tries}: {str(e)[:60]} '
                   f'→ retry in {wait}s')
             time.sleep(wait)
-    print(f'  ❌  giving up after {max_tries} retries: {last_err}')
+    print(f'    ❌  search failed: {last_err}')
     return []
 
-items = []
-for dt_range, max_cc, desc in search_configs:
-    print(f'→ {desc}  range={dt_range}')
-    items = search_with_retry(dt_range, max_cc)
-    print(f'  found {len(items)} scenes')
-    if items:
-        break
-
-# Final fallback — fetch a single known-good scene by ID if all queries failed
-if not items:
-    print(f'⚠️  All progressive phases failed. Falling back to known-good item:'
-          f'\n    {FALLBACK_ITEM_ID}')
-    for attempt in range(1, 6):
-        try:
-            collection = catalog.get_collection('sentinel-2-l2a')
-            best_item = collection.get_item(FALLBACK_ITEM_ID)
-            items = [best_item]
+def try_catalog(url, modifier=None, label='catalog'):
+    print(f'\n=== Trying {label}: {url} ===')
+    try:
+        cat = pystac_client.Client.open(url, modifier=modifier)
+    except Exception as e:
+        print(f'  ⚠️  catalog open failed: {e}')
+        return None, []
+    items = []
+    for dt_range, max_cc, desc in search_configs:
+        print(f'  → {desc}  range={dt_range}')
+        items = search_with_retry(cat, dt_range, max_cc)
+        print(f'    found {len(items)} scenes')
+        if items:
             break
-        except APIError as e:
-            wait = 10 + 10 * attempt
-            print(f'    direct-fetch attempt {attempt}: {str(e)[:80]} → retry in {wait}s')
-            time.sleep(wait)
-    if not items:
-        raise RuntimeError('STAC fully unreachable — try again later when '
-                           'Planetary Computer status recovers.')
+    return cat, items
+
+# Try AWS first, then PC
+catalog, items = try_catalog(AWS_STAC, modifier=None, label='AWS Earth Search')
+USING_PC = False
+if not items:
+    catalog, items = try_catalog(PC_STAC, modifier=pc.sign_inplace, label='Planetary Computer')
+    USING_PC = bool(items)
+
+if not items:
+    raise RuntimeError('Both AWS Earth Search and Planetary Computer returned '
+                       'no usable scenes — try again later.')
 
 items_sorted = sorted(items, key=lambda x: x.properties['eo:cloud_cover'])
 print('\nTop 5 candidates (sorted by cloud cover):')
@@ -217,6 +244,7 @@ best_item = items_sorted[0]
 print(f"\n✅ Selected: {best_item.id}")
 print(f"   cloud_cover = {best_item.properties['eo:cloud_cover']:.1f}%")
 print(f"   datetime    = {best_item.datetime}")
+print(f"   catalog     = {'Planetary Computer' if USING_PC else 'AWS Earth Search'}")
 """)
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -242,16 +270,22 @@ BAND_LABELS = {
 }
 BANDS_ALL = BANDS + ['SCL']
 
+# Resolve each band to whatever name this catalog uses (AWS = lowercase semantic)
+asset_names = resolve_assets(best_item, BANDS_ALL)
+print(f'asset names used: {asset_names}')
+
 t0 = time.time()
 # Taiwan is in UTM zone 51N (EPSG:32651); resolution in METRES.
 cube = stackstac.stack(
     [best_item],
-    assets=BANDS_ALL,
+    assets=asset_names,
     bounds_latlon=BBOX,
     resolution=RESOLUTION,
     epsg=32651,
     chunksize=2048,
 )
+# Rename band coord back to our canonical Bnn names for downstream code
+cube = cube.assign_coords(band=BANDS_ALL)
 print(f'cube shape (raw)    : {cube.shape}   dims={cube.dims}')
 print(f'cube CRS            : EPSG:32651 (UTM zone 51N)')
 
@@ -270,18 +304,35 @@ def safe_compute(da, max_tries=3):
 img = safe_compute(cube.isel(time=0))
 print(f'image after compute : {img.shape}   in {time.time()-t0:.1f}s')
 
-# Surface reflectance (S2 L2A scale = 10000)
-img_refl = (img.sel(band=BANDS).astype('float32') / 10000.0)
-scl      = img.sel(band='SCL').astype('uint8')
+# Detect whether stackstac already applied scale/offset (AWS Earth Search
+# advertises raster:bands with scale=0.0001 so values come out as reflectance;
+# Planetary Computer doesn't, so values are uint16 0–10000 in float64).
+sample = float(img.sel(band='B04').isel(y=slice(0, 100), x=slice(0, 100)).max())
+already_scaled = sample < 10
+print(f'sample max(B04 top-left 100×100) = {sample:.4f}  → '
+      f'{"already reflectance ✅" if already_scaled else "raw DN, will divide by 10000"}')
+
+# Surface reflectance.  If the catalog already applied the scale (AWS),
+# values are already in reflectance; otherwise (PC) divide by 10000.
+scale = 1.0 if already_scaled else 10000.0
+img_refl = (img.sel(band=BANDS).astype('float32') / scale)
+# SCL is categorical (1–11) and should NOT be scaled even if other bands were.
+# AWS does not apply scale to SCL, so casting to uint8 is safe in both cases.
+scl_raw = img.sel(band='SCL').values
+scl = np.rint(scl_raw).astype('uint8')
 
 # Mask cloud / cloud-shadow / snow using SCL
 SCL_BAD = {0, 1, 3, 8, 9, 10, 11}   # NoData, saturated, shadow, cloud, thin-cirrus, snow
-bad_mask = np.isin(scl.values, list(SCL_BAD))
+bad_mask = np.isin(scl, list(SCL_BAD))
 print(f'SCL bad pixels      : {bad_mask.sum():,}  ({bad_mask.mean()*100:.1f}%)')
 
 img_refl = img_refl.where(~bad_mask)        # broadcast: same (y,x) shape → NaN on bad pixels
 
 print(f'reflectance shape   : {img_refl.shape}  (band,y,x)')
+print(f'reflectance stats   : '
+      f'min={float(img_refl.min().values):.3f}  '
+      f'max={float(img_refl.max().values):.3f}  '
+      f'mean={float(img_refl.mean().values):.3f}')
 """)
 
 code(r"""

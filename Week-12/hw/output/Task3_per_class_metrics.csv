@@ -1,0 +1,6 @@
+,precision,recall,f1,support
+Water,0.906,0.946,0.926,92
+Forest,0.826,0.938,0.879,81
+Cropland,0.902,0.925,0.914,40
+Bare/Landslide,0.865,0.653,0.744,49
+Built-up,0.792,0.679,0.731,28

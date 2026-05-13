@@ -1,0 +1,81 @@
+{
+  "scene_id": "S2A_51QUG_20240827_0_L2A",
+  "scene_date": "2024-08-27",
+  "cloud_cover_pct": 8.358254,
+  "bbox": [
+    121.4,
+    24.1,
+    121.8,
+    24.25
+  ],
+  "resolution_m": 20,
+  "rf": {
+    "n_estimators": 200,
+    "oob_score": 0.8217993079584776,
+    "test_acc": 0.8655172413793103,
+    "macro_f1": 0.8385360311702122,
+    "weighted_f1": 0.8613325201557506,
+    "feature_importance": {
+      "B02": 0.1908,
+      "B03": 0.1616,
+      "B04": 0.1331,
+      "B08": 0.1846,
+      "B11": 0.1989,
+      "B12": 0.131
+    }
+  },
+  "swcb": {
+    "tp": 1497,
+    "fn": 1812,
+    "fp": 261000,
+    "recall": 0.4524,
+    "precision": 0.0057,
+    "iou": 0.0057,
+    "f1": 0.0113,
+    "swcb_polygons_in_bbox": 207,
+    "swcb_pixels": 3309,
+    "rf_landslide_pixels": 262497
+  },
+  "class_stats": [
+    {
+      "class_id": 0,
+      "class": "Water",
+      "pixels": 473494,
+      "area_ha": 18939.76,
+      "area_km2": 189.398,
+      "pct_of_scene": 29.71
+    },
+    {
+      "class_id": 1,
+      "class": "Forest",
+      "pixels": 674394,
+      "area_ha": 26975.76,
+      "area_km2": 269.758,
+      "pct_of_scene": 42.31
+    },
+    {
+      "class_id": 2,
+      "class": "Cropland",
+      "pixels": 123159,
+      "area_ha": 4926.36,
+      "area_km2": 49.264,
+      "pct_of_scene": 7.73
+    },
+    {
+      "class_id": 3,
+      "class": "Bare/Landslide",
+      "pixels": 262497,
+      "area_ha": 10499.88,
+      "area_km2": 104.999,
+      "pct_of_scene": 16.47
+    },
+    {
+      "class_id": 4,
+      "class": "Built-up",
+      "pixels": 60336,
+      "area_ha": 2413.44,
+      "area_km2": 24.134,
+      "pct_of_scene": 3.79
+    }
+  ]
+}
