@@ -144,6 +144,8 @@ md(r"""
 """)
 
 code(r"""
+from pystac_client.exceptions import APIError
+
 catalog = pystac_client.Client.open(
     'https://planetarycomputer.microsoft.com/api/stac/v1',
     modifier=pc.sign_inplace,
@@ -155,19 +157,55 @@ search_configs = [
     (os.getenv('PHASE3_RANGE'), int(os.getenv('PHASE3_CC', 50)), 'Phase 3: full year post-quake, CC < 50%'),
 ]
 
+# Known-good fallback: confirmed via earlier smoke-test (cloud cover 8.4%).
+FALLBACK_ITEM_ID = 'S2A_MSIL2A_20240827T022531_R046_T51QUG_20240827T053853'
+
+def search_with_retry(dt_range, max_cc, max_tries=6):
+    last_err = None
+    for attempt in range(1, max_tries + 1):
+        try:
+            search = catalog.search(
+                collections=['sentinel-2-l2a'],
+                bbox=BBOX,
+                datetime=dt_range,
+                query={'eo:cloud_cover': {'lt': max_cc}},
+                max_items=20,            # bound pagination so the call returns faster
+            )
+            return list(search.items())
+        except APIError as e:
+            last_err = e
+            wait = 10 + 10 * attempt   # 20, 30, 40, 50, 60, 70 s
+            print(f'  ⚠️  APIError attempt {attempt}/{max_tries}: {str(e)[:80]} '
+                  f'→ retry in {wait}s')
+            time.sleep(wait)
+    print(f'  ❌  giving up after {max_tries} retries: {last_err}')
+    return []
+
 items = []
 for dt_range, max_cc, desc in search_configs:
     print(f'→ {desc}  range={dt_range}')
-    search = catalog.search(
-        collections=['sentinel-2-l2a'],
-        bbox=BBOX,
-        datetime=dt_range,
-        query={'eo:cloud_cover': {'lt': max_cc}},
-    )
-    items = list(search.items())
+    items = search_with_retry(dt_range, max_cc)
     print(f'  found {len(items)} scenes')
     if items:
         break
+
+# Final fallback — fetch a single known-good scene by ID if all queries failed
+if not items:
+    print(f'⚠️  All progressive phases failed. Falling back to known-good item:'
+          f'\n    {FALLBACK_ITEM_ID}')
+    for attempt in range(1, 6):
+        try:
+            collection = catalog.get_collection('sentinel-2-l2a')
+            best_item = collection.get_item(FALLBACK_ITEM_ID)
+            items = [best_item]
+            break
+        except APIError as e:
+            wait = 10 + 10 * attempt
+            print(f'    direct-fetch attempt {attempt}: {str(e)[:80]} → retry in {wait}s')
+            time.sleep(wait)
+    if not items:
+        raise RuntimeError('STAC fully unreachable — try again later when '
+                           'Planetary Computer status recovers.')
 
 items_sorted = sorted(items, key=lambda x: x.properties['eo:cloud_cover'])
 print('\nTop 5 candidates (sorted by cloud cover):')
@@ -217,7 +255,19 @@ cube = stackstac.stack(
 print(f'cube shape (raw)    : {cube.shape}   dims={cube.dims}')
 print(f'cube CRS            : EPSG:32651 (UTM zone 51N)')
 
-img = cube.isel(time=0).compute()
+def safe_compute(da, max_tries=3):
+    # Retry .compute() once per RasterioIOError / HTTP timeout.
+    for attempt in range(1, max_tries + 1):
+        try:
+            return da.compute()
+        except Exception as e:
+            msg = str(e)[:100]
+            print(f'  ⚠️  compute attempt {attempt}/{max_tries} failed: {msg}')
+            if attempt == max_tries:
+                raise
+            time.sleep(5 * attempt)
+
+img = safe_compute(cube.isel(time=0))
 print(f'image after compute : {img.shape}   in {time.time()-t0:.1f}s')
 
 # Surface reflectance (S2 L2A scale = 10000)
