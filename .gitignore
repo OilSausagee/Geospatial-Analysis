@@ -48,6 +48,18 @@ Thumbs.db
 # data/
 # outputs/
 
+# GIS/Remote Sensing data files
+*.tif
+*.tiff
+*.img
+*.hdr
+*.dem
+*.hgt
+*.nc
+*.hdf
+*.hdf5
+*.geotiff
+
 # Logs
 *.log
 logs/
